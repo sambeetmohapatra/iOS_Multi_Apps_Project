@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/TestData.xls]]>
+    </line>
+    <line>
+      <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_13_401 ***** Suite Execution Started ***** ]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_13_751 -  Waiting for : 10 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_23_758 Setting Desired Capabilities - iOS on : iPhone]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_23_760 Launching iOSDriver with capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone 7}]]]>
+    </line>
+    <line>
+      <![CDATA[********************* IOS.UI_CATALOG.SCRIPTS.TEST_03_UI_CATALOG_ACTIVITYINDICATORS *********************]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_35_956 -  Started Test : test_03_UI_Catalog_ActivityIndicators]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_36_252 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_36_527 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_36_789 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_37_062 -  Fetching the text : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_37_296 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_38_284 -  Clicked :  [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_38_656 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_38_928 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_39_351 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: GRAY]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_39_548 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: GRAY]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_39_939 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: TINTED]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_40_122 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: TINTED]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_40_567 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> xpath: //XCUIElementTypeActivityIndicator[1]]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_41_132 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_42_136 - Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_43_537 -  Go Back]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_43_538 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_44_686 -  Clicked :  [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_47_440 -  Single Tap On Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Back]]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_47_441 -  Test Passed :  test_03_UI_Catalog_ActivityIndicators]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_47_443    ***************** Execution Complete : TEST_03_UI_CATALOG_ACTIVITYINDICATORS ******************]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_47_939 - App Closed ]]>
+    </line>
+    <line>
+      <![CDATA[08_04_2017_03_23_48_404  *** iPhone |  ***** Suite Execution Completed *****]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11508" started-at="2017-08-03T21:53:35Z" finished-at="2017-08-03T21:53:47Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="11508" started-at="2017-08-03T21:53:35Z" finished-at="2017-08-03T21:53:47Z">
+      <class name="iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators">
+        <test-method status="PASS" signature="before_Suite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators@192b07fd]" name="before_Suite" is-config="true" duration-ms="22545" started-at="2017-08-04T03:23:13Z" finished-at="2017-08-04T03:23:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.apple-samplecode.UICatalog]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/App_Data_Objects/UI_Catalog/TestData.xls]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/TestData.xls]]>
+            </line>
+            <line>
+              <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_13_401 ***** Suite Execution Started ***** ]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_13_751 -  Waiting for : 10 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_23_758 Setting Desired Capabilities - iOS on : iPhone]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_23_760 Launching iOSDriver with capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone 7}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before_Suite -->
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators@192b07fd]" name="before_Method" is-config="true" duration-ms="2" started-at="2017-08-04T03:23:35Z" finished-at="2017-08-04T03:23:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[********************* IOS.UI_CATALOG.SCRIPTS.TEST_03_UI_CATALOG_ACTIVITYINDICATORS *********************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method status="PASS" signature="test_03_UI_Catalog_ActivityIndicators()[pri:0, instance:iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators@192b07fd]" name="test_03_UI_Catalog_ActivityIndicators" duration-ms="11485" started-at="2017-08-04T03:23:35Z" finished-at="2017-08-04T03:23:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[08_04_2017_03_23_35_956 -  Started Test : test_03_UI_Catalog_ActivityIndicators]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_36_252 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_36_527 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_36_789 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_37_062 -  Fetching the text : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_37_296 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_38_284 -  Clicked :  [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_38_656 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_38_928 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_39_351 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: GRAY]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_39_548 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: GRAY]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_39_939 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: TINTED]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_40_122 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: TINTED]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_40_567 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> xpath: //XCUIElementTypeActivityIndicator[1]]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_41_132 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_42_136 - Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_43_537 -  Go Back]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_43_538 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_44_686 -  Clicked :  [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_47_440 -  Single Tap On Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Back]]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_47_441 -  Test Passed :  test_03_UI_Catalog_ActivityIndicators]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_03_UI_Catalog_ActivityIndicators -->
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators@192b07fd]" name="after_Method" is-config="true" duration-ms="3" started-at="2017-08-04T03:23:47Z" finished-at="2017-08-04T03:23:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_03_UI_Catalog_ActivityIndicators status=SUCCESS method=Test_03_UI_Catalog_ActivityIndicators.test_03_UI_Catalog_ActivityIndicators()[pri:0, instance:iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators@192b07fd] output=08_04_2017_03_23_35_956 -  Started Test : test_03_UI_Catalog_ActivityIndicators]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[08_04_2017_03_23_47_443    ***************** Execution Complete : TEST_03_UI_CATALOG_ACTIVITYINDICATORS ******************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method status="PASS" signature="after_Suite()[pri:0, instance:iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators@192b07fd]" name="after_Suite" is-config="true" duration-ms="937" started-at="2017-08-04T03:23:47Z" finished-at="2017-08-04T03:23:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[08_04_2017_03_23_47_939 - App Closed ]]>
+            </line>
+            <line>
+              <![CDATA[08_04_2017_03_23_48_404  *** iPhone |  ***** Suite Execution Completed *****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after_Suite -->
+      </class> <!-- iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

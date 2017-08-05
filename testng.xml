@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2" parallel="none" preserve-order="true">
+
+<listeners>
+<listener class-name="iOS.Listeners.RetryListener"/>
+</listeners>
+
+
+ <!-- These parameters will be passed to every test in this suite and the parameters will be passed once only to the @BeforeSuite .
+  NOTE : If you change it to @BeforeClass in Base Class , then the parameters will run freshly on each Test .
+ -->
+ 
+<parameter name="bundleId" value="com.example.apple-samplecode.UICatalog"/>
+<parameter name="TestData_Sheet" value="/App_Data_Objects/UI_Catalog/TestData.xls"/>
+<parameter name="PageObjects_File" value="/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json"/>
+
+  <!-- <test name="Test1">
+    <classes>
+      	<class name="iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews"/>
+    </classes>
+  </test>  -->  
+  
+   <test name="Test2">
+    <classes>
+      	<class name="iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators"/>
+    </classes>
+  </test>   
+  
+  
+</suite> 

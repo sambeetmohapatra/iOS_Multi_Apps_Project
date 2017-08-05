@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="iOS_Multi_Apps_Project" default="main" basedir=".">
+
+	<!-- Variables used for test source directory -->
+	<property name="test.src" location="${basedir}/src" />
+
+	<!-- Variable used for test compiled output folder -->
+	<property name="build" location="${basedir}/build" />
+
+	<!-- Variables used for TestNG report directory -->
+	<property name="test.report.dir" location="test-report" />
+
+	<!-- Deletes the existing build, docs and dist directory -->
+	<target name="clean">
+		<delete dir="${build}" />
+		<delete dir="${test.report.dir}" />
+	</target>
+
+	<!-- Creates the build, docs and dist directory -->
+	<target name="makedir">
+		<mkdir dir="${build}" />
+		<mkdir dir="${test.report.dir}" />
+	</target>
+
+	<!-- Copy all the resource files to build directory -->
+	<target name="copy-resource-files">
+		<copy todir="${build}">
+			<fileset dir="${basedir}/src/test/resources"></fileset>
+			<fileset dir="${basedir}/App_Data_Objects"></fileset>
+		</copy>
+	</target>
+
+	<!-- Define the classpath which includes all jar for compiling -->
+	<path id="class.path">
+		<fileset dir="lib/">
+			<include name="**/**.jar" />
+		</fileset>
+	</path>
+
+	<!-- Compiles the java code (including the usage of library for JUnit -->
+	<target name="compile" depends="clean, makedir, copy-resource-files">
+		<javac includeantruntime="false" srcdir="${test.src}" destdir="${build}">
+			<classpath refid="class.path" />
+		</javac>
+	</target>
+
+	<!-- Run TestNG test cases -->
+	<target name="test">
+		<taskdef resource="testngtasks" classpath="lib/testng-6.10.jar" />
+		<testng outputDir="${test.report.dir}" haltOnfailure="true">
+			<classpath refid="class.path" />
+			<classpath>
+				<pathelement location="${build}" />
+			</classpath>
+			
+			<!-- WHILE RUNNING ANT BUILD , PLEASE RUN APPIUM SERVER GUI -->
+			
+			<xmlfileset dir="${basedir}/Suites" includes="Scripts_UI_Catalog.xml" />
+		</testng>
+	</target>
+
+	<!-- Entry point of this Ant file -->
+	<target name="main" depends="compile,test">
+		<description>Main target</description>
+	</target>
+
+</project>

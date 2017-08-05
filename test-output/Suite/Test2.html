@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>TestNG:  Test2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 04 03:23:35 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>11 seconds (11508 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators.test_03_UI_Catalog_ActivityIndicators()'><b>test_03_UI_Catalog_ActivityIndicators</b><br>Test class: iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators<br/>
+<a href="#Output-2143139988" onClick='toggleBox("Output-2143139988", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2143139988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2143139988">
+08_04_2017_03_23_35_956 -  Started Test : test_03_UI_Catalog_ActivityIndicators<br/>
+08_04_2017_03_23_36_252 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_36_527 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_36_789 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_37_062 -  Fetching the text : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_37_296 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_38_284 -  Clicked :  [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_38_656 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_38_928 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_39_351 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: GRAY]<br/>
+08_04_2017_03_23_39_548 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: GRAY]<br/>
+08_04_2017_03_23_39_939 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: TINTED]<br/>
+08_04_2017_03_23_40_122 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: TINTED]<br/>
+08_04_2017_03_23_40_567 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> xpath: //XCUIElementTypeActivityIndicator[1]]<br/>
+08_04_2017_03_23_41_132 -  Waiting for : 1 second(s)<br/>
+08_04_2017_03_23_42_136 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_04_2017_03_23_43_537 -  Go Back<br/>
+08_04_2017_03_23_43_538 -  Waiting For Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_44_686 -  Clicked :  [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Activity Indicators]<br/>
+08_04_2017_03_23_47_440 -  Single Tap On Element : [[IOSDriver:  on MAC (95145fac-b615-48d3-a4e5-f80932995fbb)] -> accessibility id: Back]<br/>
+08_04_2017_03_23_47_441 -  Test Passed :  test_03_UI_Catalog_ActivityIndicators<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators@192b07fd</td></tr>
+</table><p>
+</body>
+</html>

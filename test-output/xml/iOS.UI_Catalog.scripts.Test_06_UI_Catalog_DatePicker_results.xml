@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="0.000">
+  <properties />
+  
+            <testcase name="before_Method" time="0.0" classname="iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker">
+          <skipped />
+    </testcase>
+            <testcase name="after_Method" time="0.0" classname="iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker">
+          <skipped />
+    </testcase>
+            <testcase name="test_06_UI_Catalog_DatePicker" time="0.0" classname="iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
