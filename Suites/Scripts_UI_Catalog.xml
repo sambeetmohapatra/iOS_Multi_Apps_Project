@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" verbose="4" parallel="none" preserve-order="true">
+<suite name="UI_Catalog_Suite" verbose="4" parallel="none" preserve-order="true">
 
 <listeners>
 <listener class-name="iOS.Listeners.RetryListener"/>
@@ -9,17 +9,17 @@
 	<parameter name="TestData_Sheet" value="/App_Data_Objects/UI_Catalog/TestData.xls"/>
 	<parameter name="PageObjects_File" value="/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json"/>
 
-  <test name="Test">
-  	<!-- 
+  <test name="UI_Catalog_Test">
+  	
    <packages>
       <package name="iOS.UI_Catalog.scripts"/>
      
-    </packages> -->
+    </packages> 
     
     
-     <classes>
+     <!-- <classes>
       <class name="iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage"/>
-    </classes>
+    </classes> -->
     
   </test>   
 </suite> 
