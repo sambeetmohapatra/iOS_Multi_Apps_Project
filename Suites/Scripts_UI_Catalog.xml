@@ -10,10 +10,16 @@
 	<parameter name="PageObjects_File" value="/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json"/>
 
   <test name="Test">
-  	
+  	<!-- 
    <packages>
       <package name="iOS.UI_Catalog.scripts"/>
      
-    </packages>
+    </packages> -->
+    
+    
+     <classes>
+      <class name="iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage"/>
+    </classes>
+    
   </test>   
 </suite> 
