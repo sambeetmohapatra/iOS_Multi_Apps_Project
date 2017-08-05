@@ -1,0 +1,1082 @@
+<html>
+<head>
+<title>TestNG:  UI_Catalog_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UI_Catalog_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 05 19:46:52 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>753 seconds (753209 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage.test_01_Launch_UI_Catalog_HomePage()'><b>test_01_Launch_UI_Catalog_HomePage</b><br>Test class: iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage<br>Test method: Test UI Catalog APP -Smoke Test<br/>
+<a href="#Output-1097324923" onClick='toggleBox("Output-1097324923", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1097324923" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1097324923">
+08_05_2017_07_46_52_636 -  Started Test : test_01_Launch_UI_Catalog_HomePage<br/>
+08_05_2017_07_46_52_936 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_46_53_245 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_46_53_502 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_46_53_748 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_46_53_998 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_46_54_946 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_46_54_947 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_46_56_014 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_46_57_239 -  Go Back<br/>
+08_05_2017_07_46_57_240 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_46_57_550 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_46_57_881 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_46_58_986 -  Swiping Down to Element[[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_47_03_343 -  Swiping Down to Element[[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_47_10_178 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_47_10_408 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_47_10_577 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_47_11_644 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_47_12_979 -  Go Back<br/>
+08_05_2017_07_47_12_979 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_47_13_287 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_47_14_435 -  Swiping Down to Element[[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_19_024 -  Swiping Down to Element[[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_23_466 -  Test Passed :  test_01_Launch_UI_Catalog_HomePage<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@7c30a502</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets.test_02_UI_Catalog_ActionSheets()'><b>test_02_UI_Catalog_ActionSheets</b><br>Test class: iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets<br/>
+<a href="#Output-1350751778" onClick='toggleBox("Output-1350751778", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1350751778" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1350751778">
+08_05_2017_07_47_23_471 -  Started Test : test_02_UI_Catalog_ActionSheets<br/>
+08_05_2017_07_47_23_746 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_23_997 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_24_249 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_24_523 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_24_824 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_25_763 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_26_117 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_26_362 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_26_752 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Okay / Cancel]<br/>
+08_05_2017_07_47_26_931 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Okay / Cancel]<br/>
+08_05_2017_07_47_27_301 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_47_27_466 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_47_27_856 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Back]<br/>
+08_05_2017_07_47_28_017 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Back]<br/>
+08_05_2017_07_47_28_376 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: UICatalog]<br/>
+08_05_2017_07_47_28_554 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: UICatalog]<br/>
+08_05_2017_07_47_28_931 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Okay / Cancel]<br/>
+08_05_2017_07_47_29_638 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Okay / Cancel]<br/>
+08_05_2017_07_47_29_875 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: OK]<br/>
+08_05_2017_07_47_30_025 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: OK]<br/>
+08_05_2017_07_47_30_319 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_47_30_447 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_47_30_724 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: OK]<br/>
+08_05_2017_07_47_30_849 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: OK]<br/>
+08_05_2017_07_47_30_964 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_47_32_032 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_47_32_255 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: OK]<br/>
+08_05_2017_07_47_32_967 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: OK]<br/>
+08_05_2017_07_47_43_633 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_43_822 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_44_200 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Okay / Cancel]<br/>
+08_05_2017_07_47_44_968 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Okay / Cancel]<br/>
+08_05_2017_07_47_45_139 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_47_45_905 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_47_56_376 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_56_567 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_47_59_293 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_47_59_427 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Safe Choice]<br/>
+08_05_2017_07_47_59_543 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Safe Choice]<br/>
+08_05_2017_07_47_59_824 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Destructive Choice]<br/>
+08_05_2017_07_47_59_958 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Destructive Choice]<br/>
+08_05_2017_07_48_00_236 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Safe Choice]<br/>
+08_05_2017_07_48_00_355 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Safe Choice]<br/>
+08_05_2017_07_48_00_617 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Destructive Choice]<br/>
+08_05_2017_07_48_00_752 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Destructive Choice]<br/>
+08_05_2017_07_48_00_857 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_48_01_858 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_48_04_465 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Safe Choice]<br/>
+08_05_2017_07_48_07_059 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_48_09_496 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Destructive Choice]<br/>
+08_05_2017_07_48_10_615 -  Go Back<br/>
+08_05_2017_07_48_10_616 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_48_11_668 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Action Sheets]<br/>
+08_05_2017_07_48_14_505 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Back]<br/>
+08_05_2017_07_48_14_506 -  Test Passed :  test_02_UI_Catalog_ActionSheets<br/>
+</div>
+</td>
+<td></td>
+<td>51</td>
+<td>iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets@49e4cb85</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators.test_03_UI_Catalog_ActivityIndicators()'><b>test_03_UI_Catalog_ActivityIndicators</b><br>Test class: iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators<br/>
+<a href="#Output-1976752685" onClick='toggleBox("Output-1976752685", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1976752685" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1976752685">
+08_05_2017_07_48_14_507 -  Started Test : test_03_UI_Catalog_ActivityIndicators<br/>
+08_05_2017_07_48_14_808 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_15_090 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_15_415 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_15_690 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_15_952 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_16_911 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_17_335 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_17_641 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_18_097 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: GRAY]<br/>
+08_05_2017_07_48_18_313 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: GRAY]<br/>
+08_05_2017_07_48_18_710 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: TINTED]<br/>
+08_05_2017_07_48_18_898 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: TINTED]<br/>
+08_05_2017_07_48_19_887 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeActivityIndicator[1]]<br/>
+08_05_2017_07_48_20_824 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_48_21_877 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_48_23_655 -  Go Back<br/>
+08_05_2017_07_48_23_655 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_24_776 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Activity Indicators]<br/>
+08_05_2017_07_48_27_594 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Back]<br/>
+08_05_2017_07_48_27_595 -  Test Passed :  test_03_UI_Catalog_ActivityIndicators<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators@2133c8f8</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews.test_04_UI_Catalog_AlertViews()'><b>test_04_UI_Catalog_AlertViews</b><br>Test class: iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews<br>Parameters: {Script_name=Test_04_UI_Catalog_AlertViews, TestData_2=A message should be a short, complete sentence., TestData_1=A Short Title Is Best, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=Hello, Thank You , TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
+<a href="#Output-710623214" onClick='toggleBox("Output-710623214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-710623214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-710623214">
+08_05_2017_07_48_27_611 -  Started Test : test_04_UI_Catalog_AlertViews<br/>
+08_05_2017_07_48_27_891 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Alert Views]<br/>
+08_05_2017_07_48_28_156 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Alert Views]<br/>
+08_05_2017_07_48_28_446 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Alert Views]<br/>
+08_05_2017_07_48_28_746 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Alert Views]<br/>
+08_05_2017_07_48_29_010 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Alert Views]<br/>
+08_05_2017_07_48_29_979 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Alert Views]<br/>
+08_05_2017_07_48_30_370 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Alert Views]<br/>
+08_05_2017_07_48_30_651 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Alert Views]<br/>
+08_05_2017_07_48_31_123 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Simple]<br/>
+08_05_2017_07_48_31_311 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Simple]<br/>
+08_05_2017_07_48_31_732 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Okay / Cancel]<br/>
+08_05_2017_07_48_31_923 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Okay / Cancel]<br/>
+08_05_2017_07_48_32_327 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_48_32_539 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_48_32_967 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Entry]<br/>
+08_05_2017_07_48_33_174 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Entry]<br/>
+08_05_2017_07_48_33_595 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Secure Text Entry]<br/>
+08_05_2017_07_48_33_759 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Secure Text Entry]<br/>
+08_05_2017_07_48_34_158 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Simple]<br/>
+08_05_2017_07_48_34_886 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Simple]<br/>
+08_05_2017_07_48_34_887 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_48_35_378 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_48_36_450 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_48_36_741 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_36_871 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_37_003 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_37_152 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_37_286 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_37_407 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_37_699 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_37_820 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_37_947 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_38_084 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_38_219 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_38_341 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_38_629 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: OK]<br/>
+08_05_2017_07_48_38_777 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: OK]<br/>
+08_05_2017_07_48_40_055 -  Accepted Alert<br/>
+08_05_2017_07_48_41_102 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@name='Okay / Cancel']]<br/>
+08_05_2017_07_48_41_861 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@name='Okay / Cancel']]<br/>
+08_05_2017_07_48_41_861 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_48_42_429 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_48_43_484 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_48_43_573 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_43_710 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_43_859 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_44_027 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_44_150 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_44_291 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_45_762 -  Accepted Alert<br/>
+08_05_2017_07_48_46_598 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@name='Okay / Cancel']]<br/>
+08_05_2017_07_48_47_416 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@name='Okay / Cancel']]<br/>
+08_05_2017_07_48_47_417 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_48_49_285 -  Dismissed Alert<br/>
+08_05_2017_07_48_49_533 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_48_50_411 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_48_50_411 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_48_51_086 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_51_227 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_51_375 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_48_51_518 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_51_659 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_51_803 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_48_52_157 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Choice One]<br/>
+08_05_2017_07_48_52_290 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Choice One]<br/>
+08_05_2017_07_48_53_720 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@name='Choice Two']]<br/>
+08_05_2017_07_48_53_857 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@name='Choice Two']]<br/>
+08_05_2017_07_48_56_532 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Choice One]<br/>
+08_05_2017_07_48_56_745 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_48_57_524 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_48_57_525 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_48_58_243 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_48_59_318 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_49_04_118 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@name='Choice Two']]<br/>
+08_05_2017_07_49_04_363 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_49_05_213 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Other]<br/>
+08_05_2017_07_49_05_213 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_49_07_603 -  Dismissed Alert<br/>
+08_05_2017_07_49_08_100 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Entry]<br/>
+08_05_2017_07_49_08_944 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Entry]<br/>
+08_05_2017_07_49_08_945 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_49_10_705 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_49_10_938 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_49_11_213 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_49_11_512 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_49_14_633 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeAlert[@name='A Short Title Is Best']//XCUIElementTypeTextField]<br/>
+08_05_2017_07_49_14_817 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeAlert[@name='A Short Title Is Best']//XCUIElementTypeTextField]<br/>
+08_05_2017_07_49_18_819 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_49_19_876 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_49_23_480 -  Accepted Alert<br/>
+08_05_2017_07_49_23_703 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Entry]<br/>
+08_05_2017_07_49_24_638 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Entry]<br/>
+08_05_2017_07_49_24_639 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_49_31_869 -  Dismissed Alert<br/>
+08_05_2017_07_49_32_339 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Secure Text Entry]<br/>
+08_05_2017_07_49_33_397 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Secure Text Entry]<br/>
+08_05_2017_07_49_33_398 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_49_34_654 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_49_34_870 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A Short Title Is Best]<br/>
+08_05_2017_07_49_35_093 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_49_35_371 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: A message should be a short, complete sentence.]<br/>
+08_05_2017_07_49_37_907 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeAlert[@name='A Short Title Is Best']//XCUIElementTypeSecureTextField]<br/>
+08_05_2017_07_49_38_086 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeAlert[@name='A Short Title Is Best']//XCUIElementTypeSecureTextField]<br/>
+08_05_2017_07_49_42_279 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_49_43_334 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_49_45_524 -  Accepted Alert<br/>
+08_05_2017_07_49_45_958 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Secure Text Entry]<br/>
+08_05_2017_07_49_46_847 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Secure Text Entry]<br/>
+08_05_2017_07_49_46_847 -  Waiting For alert to be displayed <br/>
+08_05_2017_07_49_53_515 -  Dismissed Alert<br/>
+08_05_2017_07_49_54_973 -  Go Back<br/>
+08_05_2017_07_49_54_974 -  Test Passed :  test_04_UI_Catalog_AlertViews<br/>
+</div>
+</td>
+<td></td>
+<td>87</td>
+<td>iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews@43a25848</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons.test_05_UI_Catalog_Buttons()'><b>test_05_UI_Catalog_Buttons</b><br>Test class: iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons<br/>
+<a href="#Output-1110698130" onClick='toggleBox("Output-1110698130", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1110698130" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1110698130">
+08_05_2017_07_49_54_975 -  Started Test : test_05_UI_Catalog_Buttons<br/>
+08_05_2017_07_49_55_405 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Buttons]<br/>
+08_05_2017_07_49_55_727 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Buttons]<br/>
+08_05_2017_07_49_56_052 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Buttons]<br/>
+08_05_2017_07_49_56_331 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Buttons]<br/>
+08_05_2017_07_49_56_612 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Buttons]<br/>
+08_05_2017_07_49_57_581 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Buttons]<br/>
+08_05_2017_07_49_57_582 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_49_58_587 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_49_58_658 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Buttons]<br/>
+08_05_2017_07_50_00_002 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='SYSTEM (TEXT)']]<br/>
+08_05_2017_07_50_00_253 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='SYSTEM (TEXT)']]<br/>
+08_05_2017_07_50_01_710 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@name='Button']]<br/>
+08_05_2017_07_50_02_023 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@name='Button']]<br/>
+08_05_2017_07_50_03_318 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='SYSTEM (CONTACT ADD)']]<br/>
+08_05_2017_07_50_03_525 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='SYSTEM (CONTACT ADD)']]<br/>
+08_05_2017_07_50_04_032 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: SYSTEM (DETAIL DISCLOSURE)]<br/>
+08_05_2017_07_50_04_282 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: SYSTEM (DETAIL DISCLOSURE)]<br/>
+08_05_2017_07_50_04_802 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: More Info]<br/>
+08_05_2017_07_50_05_130 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: More Info]<br/>
+08_05_2017_07_50_05_732 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: X Button]<br/>
+08_05_2017_07_50_06_014 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: X Button]<br/>
+08_05_2017_07_50_06_554 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: IMAGE]<br/>
+08_05_2017_07_50_06_803 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: IMAGE]<br/>
+08_05_2017_07_50_07_456 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: ATTRIBUTED TEXT]<br/>
+08_05_2017_07_50_07_743 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: ATTRIBUTED TEXT]<br/>
+08_05_2017_07_50_08_184 -  Swiping Vertically Down <br/>
+08_05_2017_07_50_17_902 -  Go Back<br/>
+08_05_2017_07_50_17_902 -  Test Passed :  test_05_UI_Catalog_Buttons<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons@3ac3fd8b</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker.test_06_UI_Catalog_DatePicker()'><b>test_06_UI_Catalog_DatePicker</b><br>Test class: iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker<br/>
+<a href="#Output-89509666" onClick='toggleBox("Output-89509666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-89509666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-89509666">
+08_05_2017_07_50_17_904 -  Started Test : test_06_UI_Catalog_DatePicker<br/>
+08_05_2017_07_50_18_343 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Date Picker]<br/>
+08_05_2017_07_50_18_700 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Date Picker]<br/>
+08_05_2017_07_50_19_032 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Date Picker]<br/>
+08_05_2017_07_50_19_349 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Date Picker]<br/>
+08_05_2017_07_50_19_646 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Date Picker]<br/>
+08_05_2017_07_50_20_735 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Date Picker]<br/>
+08_05_2017_07_50_20_736 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_50_21_797 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_50_21_879 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Date Picker]<br/>
+08_05_2017_07_50_23_287 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[contains(@name,'2017')]]<br/>
+08_05_2017_07_50_23_456 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[contains(@name,'2017')]]<br/>
+08_05_2017_07_50_24_473 -  Waiting For Elements : [[[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel], [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel], [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel], [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]<br/>
+08_05_2017_07_50_25_603 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]<br/>
+08_05_2017_07_50_25_801 - Swiping <br/>
+08_05_2017_07_50_28_604 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]<br/>
+08_05_2017_07_50_28_775 - Swiping <br/>
+08_05_2017_07_50_31_528 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]<br/>
+08_05_2017_07_50_31_706 - Swiping <br/>
+08_05_2017_07_50_34_473 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]<br/>
+08_05_2017_07_50_34_647 - Swiping <br/>
+08_05_2017_07_50_37_891 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_50_38_966 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_50_40_279 -  Go Back<br/>
+08_05_2017_07_50_40_279 -  Test Passed :  test_06_UI_Catalog_DatePicker<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker@5594a1b5</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls.test_07_UI_Catalog_SegmentedControls()'><b>test_07_UI_Catalog_SegmentedControls</b><br>Test class: iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls<br>Parameters: {Script_name=Test_07_UI_Catalog_SegmentedControls, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Search, TestData_3=Check, TestData_6=CUSTOM SEGMENTS, TestData_5=Tools, TestData_8=Search, TestData_7=Done, TestData_9=Settings}<br/>
+<a href="#Output-1591916281" onClick='toggleBox("Output-1591916281", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1591916281" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1591916281">
+08_05_2017_07_50_40_290 -  Started Test : test_07_UI_Catalog_SegmentedControls<br/>
+08_05_2017_07_50_40_589 -  Swiping Vertically Down <br/>
+08_05_2017_07_50_45_159 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Segmented Controls]<br/>
+08_05_2017_07_50_45_436 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Segmented Controls]<br/>
+08_05_2017_07_50_45_757 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Segmented Controls]<br/>
+08_05_2017_07_50_46_053 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Segmented Controls]<br/>
+08_05_2017_07_50_46_394 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Segmented Controls]<br/>
+08_05_2017_07_50_47_417 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Segmented Controls]<br/>
+08_05_2017_07_50_47_417 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_50_48_492 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_50_48_573 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Segmented Controls]<br/>
+08_05_2017_07_50_50_096 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_50_50_372 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_50_51_873 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_50_52_126 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_50_52_396 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_50_52_622 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_50_53_563 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_50_54_790 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_50_55_053 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_50_55_312 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_50_55_549 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_50_56_507 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_50_57_798 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_50_58_059 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_50_58_318 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_50_58_535 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_50_59_425 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_00_666 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_51_00_914 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_51_02_412 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_02_656 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_02_901 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_03_159 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_04_053 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_05_281 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_05_526 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_05_788 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_06_018 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_06_928 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_06_928 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_51_08_002 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_51_09_371 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_09_605 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_09_883 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_10_130 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_11_093 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_12_388 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM SEGMENTS']]<br/>
+08_05_2017_07_51_12_638 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM SEGMENTS']]<br/>
+08_05_2017_07_51_14_097 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Done']]<br/>
+08_05_2017_07_51_14_342 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Done']]<br/>
+08_05_2017_07_51_14_584 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Done']]<br/>
+08_05_2017_07_51_14_814 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Done']]<br/>
+08_05_2017_07_51_15_742 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Done']]<br/>
+08_05_2017_07_51_16_933 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_17_183 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_17_467 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_17_695 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_18_609 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_19_912 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Settings']]<br/>
+08_05_2017_07_51_20_184 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Settings']]<br/>
+08_05_2017_07_51_20_436 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Settings']]<br/>
+08_05_2017_07_51_20_702 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Settings']]<br/>
+08_05_2017_07_51_21_598 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Settings']]<br/>
+08_05_2017_07_51_21_821 -  Swiping Vertically Down <br/>
+08_05_2017_07_51_27_288 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM SEGMENTS']/../following-sibling::XCUIElementTypeOther[1]]<br/>
+08_05_2017_07_51_28_768 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_29_039 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_29_285 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_29_505 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_30_385 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]<br/>
+08_05_2017_07_51_31_658 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_31_911 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_32_168 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_32_407 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_33_290 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]<br/>
+08_05_2017_07_51_34_549 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_34_815 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_35_087 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_35_319 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_36_241 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]<br/>
+08_05_2017_07_51_36_241 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_51_37_308 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_51_38_939 -  Go Back<br/>
+08_05_2017_07_51_38_941 -  Test Passed :  test_07_UI_Catalog_SegmentedControls<br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls@6a5fc7f7</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders.test_08_UI_Catalog_Sliders()'><b>test_08_UI_Catalog_Sliders</b><br>Test class: iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders<br/>
+<a href="#Output-1068945248" onClick='toggleBox("Output-1068945248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1068945248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1068945248">
+08_05_2017_07_51_38_942 -  Started Test : test_08_UI_Catalog_Sliders<br/>
+08_05_2017_07_51_39_309 -  Swiping Vertically Down <br/>
+08_05_2017_07_51_44_144 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Sliders]<br/>
+08_05_2017_07_51_44_421 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Sliders]<br/>
+08_05_2017_07_51_44_718 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Sliders]<br/>
+08_05_2017_07_51_45_040 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Sliders]<br/>
+08_05_2017_07_51_45_309 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Sliders]<br/>
+08_05_2017_07_51_46_300 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Sliders]<br/>
+08_05_2017_07_51_46_300 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_51_47_374 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_51_47_445 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Sliders]<br/>
+08_05_2017_07_51_48_517 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_48_758 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_49_939 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_50_188 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_51_288 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_51_509 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_51_743 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_51_940 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_52_168 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_52_391 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_52_588 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_52_788 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]<br/>
+08_05_2017_07_51_54_296 -  Go Back<br/>
+08_05_2017_07_51_54_297 -  Test Passed :  test_08_UI_Catalog_Sliders<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders@3b6eb2ec</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers.test_09_UI_Catalog_Steppers()'><b>test_09_UI_Catalog_Steppers</b><br>Test class: iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers<br>Parameters: {Script_name=Test_09_UI_Catalog_Steppers, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Decrement, TestData_3=CUSTOM, TestData_6=10, TestData_5=Increment, TestData_8=, TestData_7=, TestData_9=}<br/>
+<a href="#Output-1586151649" onClick='toggleBox("Output-1586151649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1586151649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1586151649">
+08_05_2017_07_51_54_303 -  Started Test : test_09_UI_Catalog_Steppers<br/>
+08_05_2017_07_51_54_621 -  Swiping Vertically Down <br/>
+08_05_2017_07_51_59_542 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Steppers]<br/>
+08_05_2017_07_51_59_821 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Steppers]<br/>
+08_05_2017_07_52_00_140 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Steppers]<br/>
+08_05_2017_07_52_00_417 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Steppers]<br/>
+08_05_2017_07_52_00_693 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Steppers]<br/>
+08_05_2017_07_52_01_702 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Steppers]<br/>
+08_05_2017_07_52_01_702 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Steppers]<br/>
+08_05_2017_07_52_02_108 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Steppers]<br/>
+08_05_2017_07_52_02_397 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Steppers]<br/>
+08_05_2017_07_52_03_643 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_52_03_867 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_52_04_108 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_52_04_341 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_52_05_559 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_52_05_791 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_52_06_016 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_52_06_264 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_52_07_505 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]<br/>
+08_05_2017_07_52_07_742 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]<br/>
+08_05_2017_07_52_07_961 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]<br/>
+08_05_2017_07_52_08_194 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]<br/>
+08_05_2017_07_52_08_410 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_52_08_623 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_52_08_849 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_52_09_066 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_52_09_291 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]<br/>
+08_05_2017_07_52_09_500 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]<br/>
+08_05_2017_07_52_10_664 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_10_908 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_12_143 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_12_371 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_13_544 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='DEFAULT']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_52_13_755 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='DEFAULT']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_52_14_944 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_15_168 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_16_463 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_16_670 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_17_853 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='TINTED']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_52_18_063 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='TINTED']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_52_19_346 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_19_594 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_20_869 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_21_098 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_22_294 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='CUSTOM']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_52_22_515 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='CUSTOM']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_52_23_746 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_23_999 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_25_820 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_26_070 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_26_297 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_26_510 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_26_747 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_26_965 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_30_067 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_32_061 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_34_015 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_35_973 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_37_905 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_39_810 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_41_706 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_43_665 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_45_617 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_47_551 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_47_551 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_52_47_745 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]<br/>
+Total Tap : Increment = 10<br/>
+08_05_2017_07_52_48_862 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='DEFAULT']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_52_49_093 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='DEFAULT']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_52_49_318 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='DEFAULT']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_52_49_553 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_52_50_628 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_52_53_608 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_55_507 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_57_444 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_52_59_324 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_01_210 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_03_143 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_05_020 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_06_912 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_08_811 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_08_811 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_09_005 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]<br/>
+Total Tap : Decrement = 9<br/>
+08_05_2017_07_53_10_207 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='DEFAULT']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_53_10_423 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='DEFAULT']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_53_10_656 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='DEFAULT']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_53_13_712 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_15_617 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_17_507 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_19_407 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_21_305 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_23_222 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_25_752 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_27_657 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_29_563 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_31_454 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_31_455 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_31_642 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]<br/>
+Total Tap : Increment = 10<br/>
+08_05_2017_07_53_32_798 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='TINTED']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_53_33_002 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='TINTED']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_53_33_241 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='TINTED']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_53_33_442 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_53_34_517 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_53_37_517 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_39_412 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_41_307 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_43_205 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_45_096 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_47_005 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_49_006 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_50_856 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_52_705 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_52_705 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_53_52_894 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]<br/>
+Total Tap : Decrement = 9<br/>
+08_05_2017_07_53_54_063 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='TINTED']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_53_54_270 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='TINTED']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_53_54_491 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='TINTED']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_53_57_653 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_53_59_526 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_01_406 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_03_268 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_05_157 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_07_028 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_08_907 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_10_755 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_12_659 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_14_510 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_14_510 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+08_05_2017_07_54_14_693 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]<br/>
+Total Tap : Increment = 10<br/>
+08_05_2017_07_54_15_822 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='CUSTOM']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_54_16_052 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='CUSTOM']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_54_16_261 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='CUSTOM']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_54_16_478 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_54_17_543 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_54_20_492 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_54_22_362 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_54_24_258 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_54_26_160 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_54_28_052 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_54_29_908 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_54_31_806 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_54_33_659 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_54_33_659 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+08_05_2017_07_54_33_843 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]<br/>
+Total Tap : Decrement = 8<br/>
+08_05_2017_07_54_34_954 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='CUSTOM']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_54_35_170 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='CUSTOM']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_54_35_393 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@label='CUSTOM']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
+08_05_2017_07_54_36_859 -  Go Back<br/>
+08_05_2017_07_54_36_859 -  Test Passed :  test_09_UI_Catalog_Steppers<br/>
+</div>
+</td>
+<td></td>
+<td>162</td>
+<td>iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers@1e643faf</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches.test_10_UI_Catalog_Switches()'><b>test_10_UI_Catalog_Switches</b><br>Test class: iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches<br>Parameters: {Script_name=Test_10_UI_Catalog_Switches, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
+<a href="#Output-727666004" onClick='toggleBox("Output-727666004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-727666004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-727666004">
+08_05_2017_07_54_36_869 -  Started Test : test_10_UI_Catalog_Switches<br/>
+08_05_2017_07_54_37_195 -  Swiping Vertically Down <br/>
+08_05_2017_07_54_42_046 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Switches]<br/>
+08_05_2017_07_54_42_308 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Switches]<br/>
+08_05_2017_07_54_42_564 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Switches]<br/>
+08_05_2017_07_54_42_821 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Switches]<br/>
+08_05_2017_07_54_43_095 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Switches]<br/>
+08_05_2017_07_54_44_064 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Switches]<br/>
+08_05_2017_07_54_44_064 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Switches]<br/>
+08_05_2017_07_54_44_444 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Switches]<br/>
+08_05_2017_07_54_44_720 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Switches]<br/>
+08_05_2017_07_54_45_670 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_54_45_849 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_54_46_044 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_54_47_044 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_54_47_247 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_54_47_443 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_54_47_644 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_54_47_844 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_54_48_045 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_54_48_244 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_54_49_258 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSwitch[2]]<br/>
+08_05_2017_07_54_49_467 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSwitch[2]]<br/>
+08_05_2017_07_54_51_709 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSwitch[2]]<br/>
+08_05_2017_07_54_51_709 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_54_52_850 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_54_54_922 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSwitch[2]]<br/>
+08_05_2017_07_54_55_759 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSwitch[2]]<br/>
+08_05_2017_07_54_55_972 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSwitch[2]]<br/>
+08_05_2017_07_54_58_271 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSwitch[2]]<br/>
+08_05_2017_07_54_58_271 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_54_59_414 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_55_01_505 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSwitch[2]]<br/>
+08_05_2017_07_55_02_794 -  Go Back<br/>
+08_05_2017_07_55_02_795 -  Test Passed :  test_10_UI_Catalog_Switches<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches@6e8dacdf</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields.test_11_UI_Catalog_TextFields()'><b>test_11_UI_Catalog_TextFields</b><br>Test class: iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields<br>Parameters: {Script_name=Test_11_UI_Catalog_TextFields, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=Specific_Text_DU, TestData_11=Custom Made Text &@, TestData_12=, TestData_13=, TestData_14=, TestData_4=SPECIFIC KEYBOARD, TestData_3=SECURE, TestData_6=Placeholder text, TestData_5=CUSTOM, TestData_8=Tinted_Text_Pin2, TestData_7=Default_Text_Sam1, TestData_9=Secure_TextP}<br/>
+<a href="#Output-975033189" onClick='toggleBox("Output-975033189", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-975033189" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-975033189">
+08_05_2017_07_55_02_808 -  Started Test : test_11_UI_Catalog_TextFields<br/>
+08_05_2017_07_55_03_102 -  Swiping Vertically Down <br/>
+08_05_2017_07_55_08_071 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Fields]<br/>
+08_05_2017_07_55_08_401 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Fields]<br/>
+08_05_2017_07_55_08_696 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Fields]<br/>
+08_05_2017_07_55_08_953 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Fields]<br/>
+08_05_2017_07_55_09_245 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Fields]<br/>
+08_05_2017_07_55_10_194 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Fields]<br/>
+08_05_2017_07_55_10_194 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Fields]<br/>
+08_05_2017_07_55_10_643 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Fields]<br/>
+08_05_2017_07_55_10_979 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text Fields]<br/>
+08_05_2017_07_55_12_244 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_55_12_479 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_55_12_720 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]<br/>
+08_05_2017_07_55_14_045 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_55_14_270 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_55_14_513 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]<br/>
+08_05_2017_07_55_15_773 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='SECURE']]<br/>
+08_05_2017_07_55_16_021 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='SECURE']]<br/>
+08_05_2017_07_55_16_264 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='SECURE']]<br/>
+08_05_2017_07_55_17_596 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='SPECIFIC KEYBOARD']]<br/>
+08_05_2017_07_55_17_850 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='SPECIFIC KEYBOARD']]<br/>
+08_05_2017_07_55_18_070 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='SPECIFIC KEYBOARD']]<br/>
+08_05_2017_07_55_19_361 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]<br/>
+08_05_2017_07_55_19_605 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]<br/>
+08_05_2017_07_55_19_830 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]<br/>
+08_05_2017_07_55_21_113 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_21_346 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_21_595 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_22_849 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_23_095 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_25_913 -  Send Keys :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_25_913 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_55_27_063 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_55_29_399 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_29_770 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_32_511 -  Send Keys :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_32_511 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_55_33_661 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_55_38_098 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSecureTextField]<br/>
+08_05_2017_07_55_38_350 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSecureTextField]<br/>
+08_05_2017_07_55_40_503 -  Send Keys :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSecureTextField]<br/>
+08_05_2017_07_55_40_503 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_55_41_649 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_55_46_008 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_46_250 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_48_553 -  Send Keys :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[4]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_48_553 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_55_49_701 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_55_55_011 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[5]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_55_266 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[5]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_57_721 -  Send Keys :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeCell[5]/XCUIElementTypeTextField]<br/>
+08_05_2017_07_55_57_721 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_55_58_794 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_56_12_959 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_56_14_033 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_56_15_755 -  Go Back<br/>
+08_05_2017_07_56_15_755 -  Test Passed :  test_11_UI_Catalog_TextFields<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields@7a79be86</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView.test_12_UI_Catalog_TextView()'><b>test_12_UI_Catalog_TextView</b><br>Test class: iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView<br/>
+<a href="#Output-1678709153" onClick='toggleBox("Output-1678709153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1678709153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1678709153">
+08_05_2017_07_56_15_756 -  Started Test : test_12_UI_Catalog_TextView<br/>
+08_05_2017_07_56_16_123 -  Swiping Vertically Down <br/>
+08_05_2017_07_56_27_068 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text View]<br/>
+08_05_2017_07_56_27_476 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text View]<br/>
+08_05_2017_07_56_27_819 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text View]<br/>
+08_05_2017_07_56_28_121 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text View]<br/>
+08_05_2017_07_56_28_580 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text View]<br/>
+08_05_2017_07_56_29_819 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text View]<br/>
+08_05_2017_07_56_29_819 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text View]<br/>
+08_05_2017_07_56_30_170 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text View]<br/>
+08_05_2017_07_56_30_481 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Text View]<br/>
+08_05_2017_07_56_30_870 -  Swiping Vertically Down <br/>
+08_05_2017_07_56_46_181 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther/XCUIElementTypeTextView]<br/>
+08_05_2017_07_56_46_623 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther/XCUIElementTypeTextView]<br/>
+08_05_2017_07_56_46_979 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeOther/XCUIElementTypeTextView]<br/>
+PROCESS ARGUMENTS
+/Users/sambeetmohapatra/Library/Developer/CoreSimulator/Devices/702C4E08-F609-4476-BE92-F21EECE76F33/data/Containers/Bundle/Application/69BC353B-64F9-43D6-A9B3-D96AD74B19C2/UICatalog.app/UICatalog
+
+ENVIRONMENT VARIABLES(From NSProcessInfo environment)
+SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT => /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay
+SIMULATOR_CAPABILITIES => /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 7.simdevicetype/Contents/Resources/capabilities.plist
+SIMULATOR_MAINSCREEN_WIDTH => 750
+SIMULATOR_DEVICE_NAME => iPhone 7
+SIMULATOR_RUNTIME_BUILD_VERSION => 14E8301
+SIMULATOR_PRODUCT_CLASS => D10
+SIMULATOR_MAINSCREEN_PITCH => 326.000000
+DYLD_FALLBACK_FRAMEWORK_PATH => /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks
+XPC_SERVICE_NAME => UIKitApplication:com.example.apple-samplecode.UICatalog[0x7a12][877]
+XPC_SIMULATOR_LAUNCHD_NAME => com.apple.CoreSimulator.SimDevice.702C4E08-F609-4476-BE92-F21EECE76F33.launchd_sim
+IPHONE_SIMULATOR_ROOT => /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+SIMULATOR_VERSION_INFO => CoreSimulator 375.21 - Device: iPhone 7 - Runtime: iOS 10.3 (14E8301) - DeviceType: iPhone 7
+SIMULATOR_SHARED_RESOURCES_DIRECTORY => /Users/sambeetmohapatra/Library/Developer/CoreSimulator/Devices/702C4E08-F609-4476-BE92-F21EECE76F33/data
+SIMULATOR_EXTENDED_DISPLAY_PROPERTIES => /Users/sambeetmohapatra/Library/Developer/CoreSimulator/Devices/702C4E08-F609-4476-BE92-F21EECE76F33/data/Library/Application Support/Simulator/extended_display.plist
+SIMULATOR_MAINSCREEN_SCALE => 2.000000
+IPHONE_SIMULATOR_CLASS => D10
+SIMULATOR_ROOT => /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+IPHONE_TVOUT_EXTENDED_PROPERTIES => /Users/sambeetmohapatra/Library/Developer/CoreSimulator/Devices/702C4E08-F609-4476-BE92-F21EECE76F33/data/Library/Application Support/Simulator/extended_display.plist
+SIMULATOR_LEGACY_ASSET_SUFFIX => iphone
+SIMULATOR_UDID => 702C4E08-F609-4476-BE92-F21EECE76F33
+SIMULATOR_HID_SYSTEM_MANAGER => /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/Resources/Platforms/iphoneos/SimulatorHID.framework
+HOME => /Users/sambeetmohapatra/Library/Developer/CoreSimulator/Devices/702C4E08-F609-4476-BE92-F21EECE76F33/data/Containers/Data/Application/2883AF7C-5E8B-4574-A221-A1608C77EC2A
+TMPDIR => /Users/sambeetmohapatra/Library/Developer/CoreSimulator/Devices/702C4E08-F609-4476-BE92-F21EECE76F33/data/Containers/Data/Application/2883AF7C-5E8B-4574-A221-A1608C77EC2A/tmp
+DYLD_SHARED_REGION => avoid
+SIMULATOR_LOG_ROOT => /Users/sambeetmohapatra/Library/Logs/CoreSimulator/702C4E08-F609-4476-BE92-F21EECE76F33
+PATH => /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applicatnnions/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin
+XPC_FLAGS => 0x0
+SIMULATOR_MAINSCREEN_HEIGHT => 1334
+DYLD_ROOT_PATH => /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+SIMULATOR_MODEL_IDENTIFIER => iPhone9,1
+SIMULATOR_HOST_HOME => /Users/sambeetmohapatra
+TESTMANAGERD_SIM_SOCK => /private/tmp/com.apple.launchd.tBmhojgTl0/com.apple.testmanagerd.unix-domain.socket
+SIMULATOR_MEMORY_WARNINGS => /Users/sambeetmohapatra/Library/Developer/CoreSimulator/Devices/702C4E08-F609-4476-BE92-F21EECE76F33/data/var/run/memory_warning_simulation
+CUPS_SERVER => /private/tmp/com.apple.launchd.deUWDVYPXn/Listeners
+CFFIXED_USER_HOME => /Users/sambeetmohapatra/Library/Developer/CoreSimulator/Devices/702C4E08-F609-4476-BE92-F21EECE76F33/data/Containers/Data/Application/2883AF7C-5E8B-4574-A221-A1608C77EC2A
+CLASSIC => 1
+DYLD_FALLBACK_LIBRARY_PATH => /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib
+IOS_SIMULATOR_SYSLOG_SOCKET => /private/tmp/com.apple.CoreSimulator.SimDevice.702C4E08-F609-4476-BE92-F21EECE76F33.launchd_sim/syslogsock
+IPHONE_SHARED_RESOURCES_DIRECTORY => /Users/sambeetmohapatra/Library/Developer/CoreSimulator/Devices/702C4E08-F609-4476-BE92-F21EECE76F33/data
+SIMULATOR_RUNTIME_VERSION => 10.3.1<br/>
+08_05_2017_07_56_47_285 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_56_48_352 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_56_50_424 -  Go Back<br/>
+08_05_2017_07_56_50_425 -  Test Passed :  test_12_UI_Catalog_TextView<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView@34ce8af7</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars.test_13_UI_Catalog_TextView()'><b>test_13_UI_Catalog_TextView</b><br>Test class: iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars<br>Parameters: {Script_name=Test_13_UI_Catalog_SearchBars, TestData_2=, TestData_1=Hello_There, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
+<a href="#Output-1688782916" onClick='toggleBox("Output-1688782916", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1688782916" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1688782916">
+08_05_2017_07_56_50_432 -  Started Test : test_13_UI_Catalog_TextView<br/>
+08_05_2017_07_56_51_074 -  Swiping Vertically Down <br/>
+08_05_2017_07_57_00_970 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Search Bars]<br/>
+08_05_2017_07_57_01_270 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Search Bars]<br/>
+08_05_2017_07_57_01_620 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Search Bars]<br/>
+08_05_2017_07_57_01_930 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Search Bars]<br/>
+08_05_2017_07_57_02_279 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Search Bars]<br/>
+08_05_2017_07_57_03_570 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Search Bars]<br/>
+08_05_2017_07_57_03_570 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Search Bars]<br/>
+08_05_2017_07_57_04_070 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Search Bars]<br/>
+08_05_2017_07_57_04_271 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Search Bars]<br/>
+08_05_2017_07_57_05_178 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Default']]<br/>
+08_05_2017_07_57_05_421 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Default']]<br/>
+08_05_2017_07_57_06_433 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Custom']]<br/>
+08_05_2017_07_57_06_675 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Custom']]<br/>
+08_05_2017_07_57_06_925 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_57_08_000 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_57_11_332 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Default']]<br/>
+08_05_2017_07_57_12_330 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSearchField]<br/>
+08_05_2017_07_57_12_621 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSearchField]<br/>
+08_05_2017_07_57_13_731 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSearchField]<br/>
+08_05_2017_07_57_15_722 -  Send Keys :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSearchField]<br/>
+08_05_2017_07_57_16_131 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_57_16_470 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_57_17_177 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_57_18_330 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_57_18_331 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_57_19_406 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_57_20_382 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSegmentedControl[@name='scopeBar']]<br/>
+08_05_2017_07_57_20_627 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSegmentedControl[@name='scopeBar']]<br/>
+08_05_2017_07_57_21_184 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Scope One]<br/>
+08_05_2017_07_57_21_482 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Scope One]<br/>
+08_05_2017_07_57_22_023 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Scope Two]<br/>
+08_05_2017_07_57_22_231 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Scope Two]<br/>
+08_05_2017_07_57_24_932 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Scope Two]<br/>
+08_05_2017_07_57_27_279 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Scope One]<br/>
+08_05_2017_07_57_30_070 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_57_31_140 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_57_33_278 -  Go Back<br/>
+08_05_2017_07_57_37_835 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Custom']]<br/>
+08_05_2017_07_57_38_669 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSearchField/XCUIElementTypeButton[@name='Bookmarks']]<br/>
+08_05_2017_07_57_38_876 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSearchField/XCUIElementTypeButton[@name='Bookmarks']]<br/>
+08_05_2017_07_57_39_320 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_57_39_514 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Cancel]<br/>
+08_05_2017_07_57_40_415 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSearchField/XCUIElementTypeButton[@name='Bookmarks']/..]<br/>
+08_05_2017_07_57_42_285 -  Send Keys :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeSearchField/XCUIElementTypeButton[@name='Bookmarks']/..]<br/>
+08_05_2017_07_57_42_285 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_57_43_358 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_57_45_234 -  Go Back<br/>
+08_05_2017_07_57_46_813 -  Go Back<br/>
+08_05_2017_07_57_46_813 -  Test Passed :  test_13_UI_Catalog_TextView<br/>
+</div>
+</td>
+<td></td>
+<td>56</td>
+<td>iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars@b684286</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars.test_14_UI_Catalog_ToolBars()'><b>test_14_UI_Catalog_ToolBars</b><br>Test class: iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars<br/>
+<a href="#Output-1214133948" onClick='toggleBox("Output-1214133948", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1214133948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1214133948">
+08_05_2017_07_57_46_815 -  Started Test : test_14_UI_Catalog_ToolBars<br/>
+08_05_2017_07_57_47_123 -  Swiping Vertically Down <br/>
+08_05_2017_07_58_00_978 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_58_01_269 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_58_01_663 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_58_01_979 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_58_02_312 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_58_03_318 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_58_03_318 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_58_03_685 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_58_03_968 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Toolbars]<br/>
+08_05_2017_07_58_04_935 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Default']]<br/>
+08_05_2017_07_58_05_216 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Default']]<br/>
+08_05_2017_07_58_06_228 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Tinted']]<br/>
+08_05_2017_07_58_06_465 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Tinted']]<br/>
+08_05_2017_07_58_07_586 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Custom']]<br/>
+08_05_2017_07_58_07_817 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Custom']]<br/>
+08_05_2017_07_58_08_784 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Default']]<br/>
+08_05_2017_07_58_09_669 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Default']]<br/>
+08_05_2017_07_58_09_669 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_58_10_742 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_58_11_616 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Delete']]<br/>
+08_05_2017_07_58_11_817 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Delete']]<br/>
+08_05_2017_07_58_12_820 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Action']]<br/>
+08_05_2017_07_58_13_020 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Action']]<br/>
+08_05_2017_07_58_16_315 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Action']]<br/>
+08_05_2017_07_58_19_315 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Delete']]<br/>
+08_05_2017_07_58_20_565 -  Go Back<br/>
+08_05_2017_07_58_21_476 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Tinted']]<br/>
+08_05_2017_07_58_22_218 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Tinted']]<br/>
+08_05_2017_07_58_22_218 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_58_23_289 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_58_24_082 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Refresh']]<br/>
+08_05_2017_07_58_24_316 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Refresh']]<br/>
+08_05_2017_07_58_25_131 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Share']]<br/>
+08_05_2017_07_58_25_370 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Share']]<br/>
+08_05_2017_07_58_29_283 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Refresh']]<br/>
+08_05_2017_07_58_32_375 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Share']]<br/>
+08_05_2017_07_58_33_529 -  Go Back<br/>
+08_05_2017_07_58_34_469 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Custom']]<br/>
+08_05_2017_07_58_35_266 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeStaticText[@label='Custom']]<br/>
+08_05_2017_07_58_35_266 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_58_36_341 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_58_37_220 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='tools icon']]<br/>
+08_05_2017_07_58_37_417 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='tools icon']]<br/>
+08_05_2017_07_58_38_317 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Button']]<br/>
+08_05_2017_07_58_38_525 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Button']]<br/>
+08_05_2017_07_58_41_817 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='tools icon']]<br/>
+08_05_2017_07_58_44_778 -  Single Tap On Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeButton[@label='Button']]<br/>
+08_05_2017_07_58_45_933 -  Go Back<br/>
+08_05_2017_07_58_47_322 -  Go Back<br/>
+08_05_2017_07_58_47_323 -  Test Passed :  test_14_UI_Catalog_ToolBars<br/>
+</div>
+</td>
+<td></td>
+<td>60</td>
+<td>iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars@880ec60</td></tr>
+<tr>
+<td title='iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView.test_15_UI_Catalog_WebView()'><b>test_15_UI_Catalog_WebView</b><br>Test class: iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView<br>Parameters: {Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
+<a href="#Output-1677568775" onClick='toggleBox("Output-1677568775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1677568775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1677568775">
+08_05_2017_07_58_47_331 -  Started Test : test_15_UI_Catalog_WebView<br/>
+08_05_2017_07_58_47_767 -  Swiping Vertically Down <br/>
+08_05_2017_07_58_52_770 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Web View]<br/>
+08_05_2017_07_58_53_070 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Web View]<br/>
+08_05_2017_07_58_53_369 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Web View]<br/>
+08_05_2017_07_58_53_638 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Web View]<br/>
+08_05_2017_07_58_53_928 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Web View]<br/>
+08_05_2017_07_58_54_970 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Web View]<br/>
+08_05_2017_07_58_54_970 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Web View]<br/>
+08_05_2017_07_58_56_422 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Web View]<br/>
+08_05_2017_07_58_56_669 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> accessibility id: Web View]<br/>
+08_05_2017_07_58_58_970 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeNavigationBar[@name='Web View']/following-sibling::XCUIElementTypeOther//XCUIElementTypeTextField[1]]<br/>
+08_05_2017_07_59_00_069 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeNavigationBar[@name='Web View']/following-sibling::XCUIElementTypeOther//XCUIElementTypeTextField[1]]<br/>
+08_05_2017_07_59_01_183 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //XCUIElementTypeNavigationBar[@name='Web View']/following-sibling::XCUIElementTypeOther//XCUIElementTypeTextField[1]]<br/>
+08_05_2017_07_59_10_769 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_59_11_843 - Fetch The App Context Handles - Hybrid App<br/>
+08_05_2017_07_59_14_579 - Switching to Web View for Hybrid App <br/>
+08_05_2017_07_59_14_776 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_59_15_851 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_59_16_021 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> id: search_query_top]<br/>
+08_05_2017_07_59_16_622 -  Send Keys :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> id: search_query_top]<br/>
+08_05_2017_07_59_16_834 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]<br/>
+08_05_2017_07_59_17_027 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]<br/>
+08_05_2017_07_59_17_170 -  Fetching the text : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]<br/>
+08_05_2017_07_59_17_320 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress']/../following-sibling::div/a[@title='Add to cart']]<br/>
+08_05_2017_07_59_17_624 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress']/../following-sibling::div/a[@title='Add to cart']]<br/>
+08_05_2017_07_59_17_729 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]<br/>
+08_05_2017_07_59_18_627 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]<br/>
+08_05_2017_07_59_18_977 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]<br/>
+08_05_2017_07_59_19_033 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_59_20_105 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_59_20_575 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //a[@title='View my shopping cart']]<br/>
+08_05_2017_07_59_20_869 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //a[@title='View my shopping cart']]<br/>
+08_05_2017_07_59_20_978 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //a[@title='View my shopping cart']]<br/>
+08_05_2017_07_59_21_174 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //a[@title='View my shopping cart']]<br/>
+08_05_2017_07_59_21_277 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //a[@id='button_order_cart']]<br/>
+08_05_2017_07_59_21_780 -  Clicked :  [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //a[@id='button_order_cart']]<br/>
+08_05_2017_07_59_21_824 -  Waiting For Element : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //h1[@id='cart_title']]<br/>
+08_05_2017_07_59_23_336 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9f462daf-40b9-4efb-99cb-ea7d38e166c0)] -> xpath: //h1[@id='cart_title']]<br/>
+08_05_2017_07_59_23_479 -  Web View : Scrolling Down : <br/>
+08_05_2017_07_59_23_538 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_59_24_595 -  Waiting for : 1 second(s)<br/>
+08_05_2017_07_59_25_670 - Capturing Screenshot and Adding to Extent Reports<br/>
+08_05_2017_07_59_25_829 -  Go Back<br/>
+08_05_2017_07_59_25_829 -  Test Passed :  test_15_UI_Catalog_WebView<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView@3f3afe78</td></tr>
+</table><p>
+</body>
+</html>
