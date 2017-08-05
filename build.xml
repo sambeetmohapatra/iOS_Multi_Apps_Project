@@ -52,10 +52,8 @@
 			<classpath>
 				<pathelement location="${build}" />
 			</classpath>
-			
 			<!-- WHILE RUNNING ANT BUILD , PLEASE RUN APPIUM SERVER GUI -->
-			
-			<xmlfileset dir="${basedir}/Suites" includes="Scripts_UI_Catalog.xml" />
+			<xmlfileset dir="${basedir}" includes="suite.xml" />
 		</testng>
 	</target>
 
