@@ -27,7 +27,7 @@ public abstract class Launch_Apps extends Utility implements iOSBase_Class {
 			try {
 				
 			//Set Desired Capabilities
-					Reporter.log(Utility.getFormatedDateTime()+" Setting Desired Capabilities - iOS on : "+iOSDevice,true);
+					Reporter.log(Utility.getFormatedDateTime()+" -  Setting Desired Capabilities - iOS on : "+iOSDevice,true);
 
 					caps = new DesiredCapabilities();
 					caps.setCapability("platformName", Utility.getProperty("platformName", PROPERTIES_FILE));
@@ -39,13 +39,13 @@ public abstract class Launch_Apps extends Utility implements iOSBase_Class {
 					caps.setCapability("bundleId",bundleId);
 					
 			// Launch iOSDriver
-					Reporter.log(Utility.getFormatedDateTime()+" Launching iOSDriver with capabilities : "+caps,true);
+					Reporter.log(Utility.getFormatedDateTime()+" -  Launching iOSDriver with Capabilities : "+caps,true);
 					
 					driver = new IOSDriver<WebElement>(new URL(APPIUM_SERVER_URL), caps);
 					driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
 			}
 			catch (Exception e) {
-					Reporter.log(" Please Open iPhone 7 Simulator or Start Appium Server"+e,true);
+					System.out.println(" Please Open iPhone 7 Simulator or Start Appium Server : "+e);
 			}
 			}
 		
@@ -54,6 +54,7 @@ public abstract class Launch_Apps extends Utility implements iOSBase_Class {
 	@Override
 	public void startServer() {
 		try {
+			
 		String[] command = { "/usr/bin/killall", "-9", "node" };
 		Runtime.getRuntime().exec(command);
 		String[] commandProxy = { "/usr/bin/killall", "-9", "ios_webkit_debug_proxy" };
@@ -64,22 +65,24 @@ public abstract class Launch_Apps extends Utility implements iOSBase_Class {
 		process = Runtime.getRuntime().exec(start_server);
 		Wait(start_Appium_Time);
 		/*
-			Reporter.log("Start Execution",true);
-			  process = Runtime.getRuntime().exec("/usr/bin/open -a /Applications/Utilities/Terminal.app /bin/bash /usr/local/bin/appium");
+				Reporter.log("Start Execution",true);
+			  	process = Runtime.getRuntime().exec("/usr/bin/open -a /Applications/Utilities/Terminal.app /bin/bash /usr/local/bin/appium");
 			    process.waitFor();	
-			    Wait(8);*/
+			    Wait(8);
+			    
+		*/
 		
 		if(process!=null)
-			System.out.println(getFormatedDateTime() +" Started Appium Server");
+			System.out.println(getFormatedDateTime() +" -  Started Appium Server");
 		else
-			System.out.println(getFormatedDateTime() +" Unable to launch Appium Server");
+			System.out.println(getFormatedDateTime() +" -  Unable to launch Appium Server");
 		
 		}
 		catch(Exception e) {
 			System.out.println(e);
 		}
 	}
-	//Stop Appium Server Method -Mac
+	//Stop Appium Server Method - MacBook
 	public void stopServer(){
 		
 		process.destroy();
@@ -87,7 +90,7 @@ public abstract class Launch_Apps extends Utility implements iOSBase_Class {
 		String[] command = { "/usr/bin/killall", "-9", "node" };
 		try {
 		Runtime.getRuntime().exec(command);
-		System.out.println(getFormatedDateTime() +"Appium server stopped.");
+		System.out.println(getFormatedDateTime() +" -  Appium server stopped.");
 		} catch (IOException e) {
 		e.printStackTrace();
 		}
@@ -95,7 +98,7 @@ public abstract class Launch_Apps extends Utility implements iOSBase_Class {
 		String[] commandProxy = { "/usr/bin/killall", "-9", "ios_webkit_debug_proxy" };
 		try {
 		Runtime.getRuntime().exec(commandProxy);
-		System.out.println(getFormatedDateTime() +"iOS Webkit proxy stopped");
+		System.out.println(getFormatedDateTime() +" -  iOS Webkit proxy stopped");
 		
 		} catch (IOException e) {
 			System.out.println(e);	

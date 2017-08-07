@@ -11,21 +11,29 @@
   NOTE : If you change it to @BeforeClass in Base Class , then the parameters will run freshly on each Test .
  -->
  
-<parameter name="bundleId" value="com.example.apple-samplecode.UICatalog"/>
-<parameter name="TestData_Sheet" value="/App_Data_Objects/UI_Catalog/TestData.xls"/>
-<parameter name="PageObjects_File" value="/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json"/>
 
-  <!-- <test name="Test1">
+
+  <test name="Test1">
+  
+  	<parameter name="bundleId" value="com.example.apple-samplecode.UICatalog"/>
+	<parameter name="TestData_Sheet" value="/App_Data_Objects/UI_Catalog/TestData.xls"/>
+	<parameter name="PageObjects_File" value="/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json"/>
     <classes>
       	<class name="iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews"/>
     </classes>
-  </test>  -->  
+  </test> 
   
-   <test name="Test2">
-    <classes>
-      	<class name="iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators"/>
-    </classes>
-  </test>   
-  
-  
+    
+
+  <test name="TestApp_Test">
+  	<parameter name="bundleId" value="io.appium.TestApp"/>
+	<parameter name="TestData_Sheet" value="/App_Data_Objects/TestApp/TestData.xls"/>
+	<parameter name="PageObjects_File" value="/App_Data_Objects/TestApp/PageObjects.xml"/>
+	
+   <packages>
+      <package name="iOS.TestApp.scripts"/>
+    </packages> 
+   </test> 
+
+ 
 </suite> 

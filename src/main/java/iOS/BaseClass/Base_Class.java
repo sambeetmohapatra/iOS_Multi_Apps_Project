@@ -19,7 +19,7 @@ import iOS.LaunchApps.Launch_Apps;
  * BASE CLASS 
  * Methods - @BeforeSuite(start server, launch app) @AfterSuite (quit app, stop server)@BeforeMethod and @AfterMethod( failure Screenshots) , @Parameters for @BeforeSuite ( bundleId, app)
  * Capture Screenshots method. 
- * Extent reports initialisation and configuration 
+ * Extent reports initialization and configuration 
  * @author sambeetmohapatra
  */
 public class Base_Class extends Launch_Apps {
@@ -31,13 +31,13 @@ public class Base_Class extends Launch_Apps {
 	@Override
 	@BeforeSuite
 	@Parameters({"bundleId","TestData_Sheet","PageObjects_File"})
-	public void before_Suite(String bundleId,String TestData_Sheet,String PageObjects_File){ //No @Optional Values are there
+	public void before_Suite(String bundleId,String TestData_Sheet,String PageObjects_File){ //No @Optional Values are present
 		Base_Class.TestData_Sheet =WORKSPACE_PATH+TestData_Sheet;
 		Base_Class.PageObjects_File = WORKSPACE_PATH+PageObjects_File;
 
 		Reporter.log("Worksheet for TestData :  " + Base_Class.TestData_Sheet ,true);
 		Reporter.log("Page Objects for Test :  " + Base_Class.PageObjects_File ,true);
-		Reporter.log(getFormatedDateTime()+" ***** Suite Execution Started ***** ",true);
+		Reporter.log(getFormatedDateTime()+"    ****** Suite Execution Started ****** ",true);
 		
 		report = new ExtentReports(REPORT_PATH+getFormatedDateTime()+".html");
 		report.loadConfig(new File(EXTENT_CONFIG_FILE));
@@ -48,7 +48,7 @@ public class Base_Class extends Launch_Apps {
 	@BeforeMethod
 	public void before_Method() {
 			logger=report.startTest(this.getClass().getSimpleName());
-			Reporter.log("********************* "+this.getClass().getName().trim().toUpperCase()+" *********************",true);
+			Reporter.log(getFormatedDateTime()+"    ***************** Execution Started : "+this.getClass().getName().trim().toUpperCase()+" *********************",true);
 			
 	}
 	@Override
@@ -96,8 +96,8 @@ public class Base_Class extends Launch_Apps {
 	//Take Screenshot and add it to Extent Reports
 	@Override
 	public void takeScreenshot(){
-		Wait(1); // Wait for a sec and take screenshot
-		Reporter.log(getFormatedDateTime()+" - Capturing Screenshot and Adding to Extent Reports",true);
+		Wait(1); // Wait for a second and take screenshot
+		Reporter.log(getFormatedDateTime()+" -  Capturing Screenshot and Adding to Extent Reports",true);
         logger.log(LogStatus.INFO, logger.addScreenCapture( new Screenshot().capture(this.getClass().getName())));
 	}
 	

@@ -34,7 +34,8 @@ public class Test_"%test case class name% "extends Base_Class {
 			
 //Step 1 : Verify App is launched Successfully and HomePage is displayed  
 	logger.log(LogStatus.INFO,"Step 1 : Verify App is launched Successfully an HomePage is displayed ");
-	
+	logger.log(LogStatus.INFO,"");
+	logger.log(LogStatus.PASS,"");
 	
 //Step 2 : Click on Switches label and Validate the Header Displayed
 	

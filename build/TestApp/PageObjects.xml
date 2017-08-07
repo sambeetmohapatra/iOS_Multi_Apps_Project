@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+********************************** FORMAT BELOW **********************************  -->
+<!-- 
+<class>
+<PageName name = " PageName">
+		<ElementName type = "xpath" platform ="iOS">">>>> XPATH GOES HERE <<<<"</ElementName>
+
+
+</PageName> 
+
+</class>
+
+-->
+
+<class>
+<Test_HomePage name = "Test_HomePage">
+		<IntegerA_txtbox type = "xpath" platform ="iOS">//XCUIElementTypeTextField[@name='IntegerA']</IntegerA_txtbox>
+		<IntegerB_txtbox type = "xpath" platform ="iOS">//XCUIElementTypeTextField[@name='IntegerB']</IntegerB_txtbox>
+		<Compute_Sum_btn type = "xpath" platform ="iOS">//XCUIElementTypeButton[@label='Compute Sum']</Compute_Sum_btn>
+		<Answer_label type = "xpath" platform ="iOS">//XCUIElementTypeStaticText[@name='Answer']</Answer_label>
+		
+
+
+
+
+</Test_HomePage>
+
+
+
+
+</class>

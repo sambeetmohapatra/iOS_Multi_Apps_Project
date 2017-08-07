@@ -22,7 +22,7 @@ import iOS.Listeners.MyListener;
 import io.appium.java_client.ios.IOSDriver;
 
 /**
- * Contains All Resuable Methods like ( Click , Clear , Type , Swipe , Alerts , Explicit Wait , Show Attribute , Text, JavaScript Scroll
+ * Contains All Reusable Methods like ( Click , Clear , Type , Swipe , Alerts , Explicit Wait , Show Attribute , Text, JavaScript Scroll
  * @author sambeetmohapatra
  *
  */
