@@ -98,7 +98,7 @@ public class Base_Class extends Launch_Apps {
 	public void takeScreenshot(){
 		Wait(1); // Wait for a second and take screenshot
 		Reporter.log(getFormatedDateTime()+" -  Capturing Screenshot and Adding to Extent Reports",true);
-        logger.log(LogStatus.INFO, logger.addScreenCapture( new Screenshot().capture(this.getClass().getName())));
+        logger.log(LogStatus.INFO, logger.addScreenCapture( new Screenshot().capture(this.getClass().getPackage().getName().toUpperCase()+"/"+this.getClass().getName())));
 	}
 	
 	

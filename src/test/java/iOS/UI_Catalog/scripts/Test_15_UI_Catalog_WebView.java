@@ -28,6 +28,7 @@ import iOS.POMLibrary.WebView_MyStore_POM;
  */
 public class Test_15_UI_Catalog_WebView extends Base_Class {
 
+	private WebView_MyStore_POM mystore;
 	@Test(dataProvider="dp_Test_15_UI_Catalog_WebView")
 	public void test_15_UI_Catalog_WebView(Map<String,String> data) throws Exception{
 		
@@ -53,40 +54,50 @@ public class Test_15_UI_Catalog_WebView extends Base_Class {
 	logger.log(LogStatus.INFO,"Step 3 : Enter the new URL and wait till the page is displayed ");
 	
 	WebElement URL = waitForElement(element.getElementByXpath("WebView_Url_input_xpath"));
-	System.out.println(showAttribute(URL, VALUE_ATTRIBUTE));
-	
-	//Opening the web page in web view
-	URL.clear();
-	URL.sendKeys(WebUrl+"\n");
-	Wait(1);
-	logger.log(LogStatus.PASS,"Step 4 : Entered the new URL and the page is displayed ");
+	do {
+		
+		try {
+			//Opening the web page in web view
+			URL.clear();
+			URL.sendKeys(WebUrl+"\n");
+			Wait(1);
+			logger.log(LogStatus.PASS,"Step 4 : Entered the new URL and the page is displayed ");
 
-//Step 4 : Switch to the Web View and Run a Test Script for Web View 
-	logger.log(LogStatus.INFO, "Step 4 : Switch to the Web View and Run a Test Script for Web View ");
-	//GET The App Context Handles 
-	Reporter.log(getFormatedDateTime()+" - Fetch The App Context Handles - Hybrid App",true);
-	Set<String> context = driver.getContextHandles();	
-	
-	//Switching to Web View for Hybrid App 
-	Reporter.log(getFormatedDateTime()+" - Switching to Web View for Hybrid App ",true);
+		//Step 4 : Switch to the Web View and Run a Test Script for Web View 
+			logger.log(LogStatus.INFO, "Step 4 : Switch to the Web View and Run a Test Script for Web View ");
+			//GET The App Context Handles 
+			Reporter.log(getFormatedDateTime()+" - Fetch The App Context Handles - Hybrid App",true);
+			Set<String> context = driver.getContextHandles();	
+			
+			//Switching to Web View for Hybrid App 
+			Reporter.log(getFormatedDateTime()+" - Switching to Web View for Hybrid App ",true);
 
-	for(String i:context) {
-		System.out.println(i);
-		if(i.contains(Web_App_View))
-			driver.context(i);
-	}
-	takeScreenshot();
-	logger.log(LogStatus.PASS, "Step 4 : Switched to the Web View URL is displayed as - "+WebUrl);
+			for(String i:context) {
+				System.out.println(i);
+				if(i.contains(Web_App_View))
+					driver.context(i);
+			}
+			takeScreenshot();
+			logger.log(LogStatus.PASS, "Step 4 : Switched to the Web View URL is displayed as - "+WebUrl);
+			
+			
+			// WEB VIEW ---- 
+			
+			 mystore = new WebView_MyStore_POM(driver);
+			
+		//Step 5 : Search for a Printed Dress in the Online My Store
+			logger.log(LogStatus.INFO, "Step 5 : Search for a Printed Dress in the Online My Store");
+			type(mystore.Search_txtbox,data.get("TestData_1")+"\n");
+			logger.log(LogStatus.PASS, "Step 5 : Search for a Printed Dress in the Online My Store");
+			break;
+		} catch (Exception e) {
+			URL.clear();
+			URL.sendKeys(WebUrl+"\n");
+			Wait(1);
+		}
+		
+	}while(true);
 	
-	try {
-	// WEB VIEW ---- 
-	
-	WebView_MyStore_POM mystore = new WebView_MyStore_POM(driver);
-	
-//Step 5 : Search for a Printed Dress in the Online My Store
-	logger.log(LogStatus.INFO, "Step 5 : Search for a Printed Dress in the Online My Store");
-	type(mystore.Search_txtbox,data.get("TestData_1")+"\n");
-	logger.log(LogStatus.PASS, "Step 5 : Search for a Printed Dress in the Online My Store");
 
 //Step 6 : Swipe down vertically and Add Chiffon Dress to cart and Validate 
 	logger.log(LogStatus.INFO, "Step 6 : Swipe down vertically and Add Chiffon Dress to cart");
@@ -109,18 +120,19 @@ public class Test_15_UI_Catalog_WebView extends Base_Class {
 	click(mystore.Checkout_Cart_Items_Btn);
 	
 	Assert.assertTrue(isElementDisplayed(waitForElement(mystore.Shopping_Screen_Header_label)));
-	WebView_ScrollDown(2);
 	Wait(1);
+	WebView_ScrollDown(2);
 	takeScreenshot();
+	
 	/*WebView_ScrollToBottom();
 	Wait(1);*/
 	logger.log(LogStatus.PASS, "Step 7 :Go To Shopping Cart Checkout Screen");
-	}
-	catch (Exception e) {
-		//Change the Context back to Native View 
-		
-		driver.context(Native_App_View)	;
-	}
+	
+	//Change the Context back to Native View 
+	logger.log(LogStatus.INFO, "Change the Context back to Native View ");
+
+	driver.context(Native_App_View);
+	
 //Step 8 : Go Back to Home Screen 
 	logger.log(LogStatus.INFO, "Step 8 : Go Back to Home Screen ");
 	goBack();

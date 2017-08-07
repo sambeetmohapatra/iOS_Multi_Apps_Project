@@ -2,475 +2,564 @@
 <testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/TestApp/TestData.xls]]>
+      <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/TestData.xls]]>
     </line>
     <line>
-      <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/TestApp/PageObjects.xml]]>
+      <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_07_758    ****** Suite Execution Started ****** ]]>
+      <![CDATA[08_08_2017_04_40_04_339    ****** Suite Execution Started ****** ]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_08_345 -  Waiting for : 10 second(s)]]>
+      <![CDATA[08_08_2017_04_40_04_882 -  Waiting for : 10 second(s)]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_18_350 -  Setting Desired Capabilities - iOS on : iPhone]]>
+      <![CDATA[08_08_2017_04_40_14_887 -  Setting Desired Capabilities - iOS on : iPhone]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_18_354 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=io.appium.TestApp, platformName=iOS, deviceName=iPhone 7}]]]>
+      <![CDATA[08_08_2017_04_40_14_890 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone 7}]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_31_980  ***************** Execution Started : IOS.TESTAPP.SCRIPTS.TEST_01_COMPUTE_SUM *********************]]>
+      <![CDATA[08_08_2017_04_40_31_705    ***************** Execution Started : IOS.UI_CATALOG.SCRIPTS.TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE *********************]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_31_982 -  Started Test : test_01_Compute_Sum]]>
+      <![CDATA[08_08_2017_04_40_31_706 -  Started Test : test_01_Launch_UI_Catalog_HomePage]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_32_285 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+      <![CDATA[08_08_2017_04_40_32_050 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_32_505 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+      <![CDATA[08_08_2017_04_40_32_364 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_32_688 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+      <![CDATA[08_08_2017_04_40_32_637 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_32_865 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+      <![CDATA[08_08_2017_04_40_32_914 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_33_326 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]]]>
+      <![CDATA[08_08_2017_04_40_33_171 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_33_510 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]]]>
+      <![CDATA[08_08_2017_04_40_34_173 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_34_027 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]]]>
+      <![CDATA[08_08_2017_04_40_34_174 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_34_222 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]]]>
+      <![CDATA[08_08_2017_04_40_35_178 -  Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_34_709 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]]]>
+      <![CDATA[08_08_2017_04_40_36_523 -  Go Back]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_37_234 -  Send Keys :  [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]]]>
+      <![CDATA[08_08_2017_04_40_36_523 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_37_740 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]]]>
+      <![CDATA[08_08_2017_04_40_36_919 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_40_433 -  Send Keys :  [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]]]>
+      <![CDATA[08_08_2017_04_40_37_260 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_40_433 -  Waiting for : 1 second(s)]]>
+      <![CDATA[08_08_2017_04_40_38_582 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_41_437 -  Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[08_08_2017_04_40_43_072 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_44_353 -  Single Tap On Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+      <![CDATA[08_08_2017_04_40_50_028 -  Single Tap On Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_44_353 -  Waiting for : 1 second(s)]]>
+      <![CDATA[08_08_2017_04_40_50_298 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_45_961 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]]]>
+      <![CDATA[08_08_2017_04_40_50_498 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_46_286 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]]]>
+      <![CDATA[08_08_2017_04_40_51_500 -  Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_46_564 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]]]>
+      <![CDATA[08_08_2017_04_40_52_969 -  Go Back]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_46_824 -  Waiting for : 1 second(s)]]>
+      <![CDATA[08_08_2017_04_40_52_970 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_47_828 -  Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[08_08_2017_04_40_53_393 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_49_928 -  Test Passed :  test_01_Compute_Sum]]>
+      <![CDATA[08_08_2017_04_40_54_716 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_49_931    ***************** Execution Complete : TEST_01_COMPUTE_SUM ******************]]>
+      <![CDATA[08_08_2017_04_40_59_190 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_49_945  ***************** Execution Started : IOS.TESTAPP.SCRIPTS.TEST_02_ALERTS_TESTAPP *********************]]>
+      <![CDATA[08_08_2017_04_41_03_777 -  Test Passed :  test_01_Launch_UI_Catalog_HomePage]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_49_946 -  Started Test : test_02_Alerts_TestApp]]>
+      <![CDATA[08_08_2017_04_41_03_779    ***************** Execution Complete : TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE ******************]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_50_515 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+      <![CDATA[08_08_2017_04_41_04_046    ***************** Execution Started : IOS.UI_CATALOG.SCRIPTS.TEST_15_UI_CATALOG_WEBVIEW *********************]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_50_725 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+      <![CDATA[08_08_2017_04_41_04_049 -  Started Test : test_15_UI_Catalog_WebView]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_50_915 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+      <![CDATA[08_08_2017_04_41_04_334 -  Swiping Vertically Down ]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_51_116 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+      <![CDATA[08_08_2017_04_41_08_580 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_51_700 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='show alert']]]]>
+      <![CDATA[08_08_2017_04_41_08_872 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_51_900 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='show alert']]]]>
+      <![CDATA[08_08_2017_04_41_09_156 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_54_747 -  Single Tap On Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='show alert']]]]>
+      <![CDATA[08_08_2017_04_41_09_447 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_54_747 -  Waiting For alert to be displayed ]]>
+      <![CDATA[08_08_2017_04_41_09_721 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_55_207 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]]]>
+      <![CDATA[08_08_2017_04_41_10_710 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_55_334 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]]]>
+      <![CDATA[08_08_2017_04_41_10_711 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_55_454 -  Fetching the text : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]]]>
+      <![CDATA[08_08_2017_04_41_11_748 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_55_568 -  Waiting for : 1 second(s)]]>
+      <![CDATA[08_08_2017_04_41_12_047 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_56_570 -  Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[08_08_2017_04_41_17_830 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //XCUIElementTypeNavigationBar[@name='Web View']/following-sibling::XCUIElementTypeOther//XCUIElementTypeTextField[1]]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_57_776 -  Dismissed Alert]]>
+      <![CDATA[08_08_2017_04_41_27_693 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_58_234 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]]]>
+      <![CDATA[08_08_2017_04_41_28_697 - Fetch The App Context Handles - Hybrid App]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_44_58_416 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]]]>
+      <![CDATA[08_08_2017_04_41_28_739 - Switching to Web View for Hybrid App ]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_01_272 -  Single Tap On Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]]]>
+      <![CDATA[08_08_2017_04_41_28_766 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_01_273 -  Waiting For alert to be displayed ]]>
+      <![CDATA[08_08_2017_04_41_29_770 -  Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_01_747 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]]]>
+      <![CDATA[08_08_2017_04_41_29_879 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> id: search_query_top]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_01_886 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]]]>
+      <![CDATA[08_08_2017_04_41_30_236 -  Send Keys :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> id: search_query_top]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_02_039 -  Fetching the text : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]]]>
+      <![CDATA[08_08_2017_04_41_30_354 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_02_180 -  Waiting for : 1 second(s)]]>
+      <![CDATA[08_08_2017_04_41_30_408 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_03_181 -  Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[08_08_2017_04_41_30_472 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_04_348 -  Dismissed Alert]]>
+      <![CDATA[08_08_2017_04_41_30_598 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress']/../following-sibling::div/a[@title='Add to cart']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_04_761 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]]]>
+      <![CDATA[08_08_2017_04_41_31_012 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress']/../following-sibling::div/a[@title='Add to cart']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_05_064 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]]]>
+      <![CDATA[08_08_2017_04_41_31_129 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_05_288 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]]]>
+      <![CDATA[08_08_2017_04_41_31_847 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_05_526 -  Test Passed :  test_02_Alerts_TestApp]]>
+      <![CDATA[08_08_2017_04_41_32_023 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_05_528    ***************** Execution Complete : TEST_02_ALERTS_TESTAPP ******************]]>
+      <![CDATA[08_08_2017_04_41_32_078 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_06_027 - App Closed ]]>
+      <![CDATA[08_08_2017_04_41_33_082 -  Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_03_45_06_427  *** iPhone |  ***** Suite Execution Completed *****]]>
+      <![CDATA[08_08_2017_04_41_33_387 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_33_471 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_33_530 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_33_677 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_33_718 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@id='button_order_cart']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_34_413 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@id='button_order_cart']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_34_430 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h1[@id='cart_title']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_36_183 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h1[@id='cart_title']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_36_224 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_37_228 -  Web View : Scrolling Down : ]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_37_256 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_38_259 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_41_856 -  Go Back]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_41_857 -  Test Passed :  test_15_UI_Catalog_WebView]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_41_859    ***************** Execution Complete : TEST_15_UI_CATALOG_WEBVIEW ******************]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_42_441 - App Closed ]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_04_41_42_873  *** iPhone |  ***** Suite Execution Completed *****]]>
     </line>
   </reporter-output>
-  <suite name="TestApp_Suite" duration-ms="33804" started-at="2017-08-07T22:14:31Z" finished-at="2017-08-07T22:15:05Z">
+  <suite name="Suite" duration-ms="70175" started-at="2017-08-07T23:10:31Z" finished-at="2017-08-07T23:11:41Z">
     <groups>
     </groups>
-    <test name="TestApp_Test" duration-ms="33804" started-at="2017-08-07T22:14:31Z" finished-at="2017-08-07T22:15:05Z">
-      <class name="iOS.TestApp.scripts.Test_02_Alerts_TestApp">
-        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.TestApp.scripts.Test_02_Alerts_TestApp@64bfbc86]" name="before_Method" is-config="true" duration-ms="1" started-at="2017-08-08T03:44:49Z" finished-at="2017-08-08T03:44:49Z">
+    <test name="Test1" duration-ms="70175" started-at="2017-08-07T23:10:31Z" finished-at="2017-08-07T23:11:41Z">
+      <class name="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView@148080bb]" name="before_Method" is-config="true" duration-ms="2" started-at="2017-08-08T04:41:04Z" finished-at="2017-08-08T04:41:04Z">
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_03_44_49_945  ***************** Execution Started : IOS.TESTAPP.SCRIPTS.TEST_02_ALERTS_TESTAPP *********************]]>
+              <![CDATA[08_08_2017_04_41_04_046    ***************** Execution Started : IOS.UI_CATALOG.SCRIPTS.TEST_15_UI_CATALOG_WEBVIEW *********************]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method status="PASS" signature="test_02_Alerts_TestApp(java.util.Map)[pri:0, instance:iOS.TestApp.scripts.Test_02_Alerts_TestApp@64bfbc86]" name="test_02_Alerts_TestApp" duration-ms="15580" started-at="2017-08-08T03:44:49Z" data-provider="dp_Test_02_Alerts_TestApp" finished-at="2017-08-08T03:45:05Z">
+        <test-method status="PASS" signature="test_15_UI_Catalog_WebView(java.util.Map)[pri:0, instance:iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView@148080bb]" name="test_15_UI_Catalog_WebView" duration-ms="37810" started-at="2017-08-08T04:41:04Z" data-provider="dp_Test_15_UI_Catalog_WebView" finished-at="2017-08-08T04:41:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Script_name=Test_02_Alerts_TestApp, TestData_2=Calendar Authorization Status, TestData_1=Cool title, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=50%, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}]]>
+                <![CDATA[{Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_03_44_49_946 -  Started Test : test_02_Alerts_TestApp]]>
+              <![CDATA[08_08_2017_04_41_04_049 -  Started Test : test_15_UI_Catalog_WebView]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_50_515 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+              <![CDATA[08_08_2017_04_41_04_334 -  Swiping Vertically Down ]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_50_725 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+              <![CDATA[08_08_2017_04_41_08_580 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_50_915 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+              <![CDATA[08_08_2017_04_41_08_872 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_51_116 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+              <![CDATA[08_08_2017_04_41_09_156 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_51_700 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='show alert']]]]>
+              <![CDATA[08_08_2017_04_41_09_447 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_51_900 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='show alert']]]]>
+              <![CDATA[08_08_2017_04_41_09_721 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_54_747 -  Single Tap On Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='show alert']]]]>
+              <![CDATA[08_08_2017_04_41_10_710 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_54_747 -  Waiting For alert to be displayed ]]>
+              <![CDATA[08_08_2017_04_41_10_711 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_55_207 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]]]>
+              <![CDATA[08_08_2017_04_41_11_748 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_55_334 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]]]>
+              <![CDATA[08_08_2017_04_41_12_047 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_55_454 -  Fetching the text : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]]]>
+              <![CDATA[08_08_2017_04_41_17_830 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //XCUIElementTypeNavigationBar[@name='Web View']/following-sibling::XCUIElementTypeOther//XCUIElementTypeTextField[1]]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_55_568 -  Waiting for : 1 second(s)]]>
+              <![CDATA[08_08_2017_04_41_27_693 -  Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_56_570 -  Capturing Screenshot and Adding to Extent Reports]]>
+              <![CDATA[08_08_2017_04_41_28_697 - Fetch The App Context Handles - Hybrid App]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_57_776 -  Dismissed Alert]]>
+              <![CDATA[08_08_2017_04_41_28_739 - Switching to Web View for Hybrid App ]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_58_234 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]]]>
+              <![CDATA[08_08_2017_04_41_28_766 -  Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_58_416 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]]]>
+              <![CDATA[08_08_2017_04_41_29_770 -  Capturing Screenshot and Adding to Extent Reports]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_01_272 -  Single Tap On Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]]]>
+              <![CDATA[08_08_2017_04_41_29_879 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> id: search_query_top]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_01_273 -  Waiting For alert to be displayed ]]>
+              <![CDATA[08_08_2017_04_41_30_236 -  Send Keys :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> id: search_query_top]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_01_747 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]]]>
+              <![CDATA[08_08_2017_04_41_30_354 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_01_886 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]]]>
+              <![CDATA[08_08_2017_04_41_30_408 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_02_039 -  Fetching the text : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]]]>
+              <![CDATA[08_08_2017_04_41_30_472 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_02_180 -  Waiting for : 1 second(s)]]>
+              <![CDATA[08_08_2017_04_41_30_598 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress']/../following-sibling::div/a[@title='Add to cart']]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_03_181 -  Capturing Screenshot and Adding to Extent Reports]]>
+              <![CDATA[08_08_2017_04_41_31_012 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress']/../following-sibling::div/a[@title='Add to cart']]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_04_348 -  Dismissed Alert]]>
+              <![CDATA[08_08_2017_04_41_31_129 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_04_761 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]]]>
+              <![CDATA[08_08_2017_04_41_31_847 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_05_064 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]]]>
+              <![CDATA[08_08_2017_04_41_32_023 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_05_288 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]]]>
+              <![CDATA[08_08_2017_04_41_32_078 -  Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_05_526 -  Test Passed :  test_02_Alerts_TestApp]]>
+              <![CDATA[08_08_2017_04_41_33_082 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_33_387 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_33_471 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_33_530 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_33_677 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_33_718 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@id='button_order_cart']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_34_413 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@id='button_order_cart']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_34_430 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h1[@id='cart_title']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_36_183 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h1[@id='cart_title']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_36_224 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_37_228 -  Web View : Scrolling Down : ]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_37_256 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_38_259 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_41_856 -  Go Back]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_41_857 -  Test Passed :  test_15_UI_Catalog_WebView]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test_02_Alerts_TestApp -->
-        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.TestApp.scripts.Test_02_Alerts_TestApp@64bfbc86]" name="after_Method" is-config="true" duration-ms="1" started-at="2017-08-08T03:45:05Z" finished-at="2017-08-08T03:45:05Z">
+        </test-method> <!-- test_15_UI_Catalog_WebView -->
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView@148080bb]" name="after_Method" is-config="true" duration-ms="1" started-at="2017-08-08T04:41:41Z" finished-at="2017-08-08T04:41:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_02_Alerts_TestApp status=SUCCESS method=Test_02_Alerts_TestApp.test_02_Alerts_TestApp(java.util.Map)[pri:0, instance:iOS.TestApp.scripts.Test_02_Alerts_TestApp@64bfbc86] output=08_08_2017_03_44_49_946 -  Started Test : test_02_Alerts_TestApp]]]>
+                <![CDATA[[TestResult name=test_15_UI_Catalog_WebView status=SUCCESS method=Test_15_UI_Catalog_WebView.test_15_UI_Catalog_WebView(java.util.Map)[pri:0, instance:iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView@148080bb] output=08_08_2017_04_41_04_049 -  Started Test : test_15_UI_Catalog_WebView]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_03_45_05_528    ***************** Execution Complete : TEST_02_ALERTS_TESTAPP ******************]]>
+              <![CDATA[08_08_2017_04_41_41_859    ***************** Execution Complete : TEST_15_UI_CATALOG_WEBVIEW ******************]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Method -->
-      </class> <!-- iOS.TestApp.scripts.Test_02_Alerts_TestApp -->
-      <class name="iOS.TestApp.scripts.Test_01_Compute_Sum">
-        <test-method status="PASS" signature="before_Suite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iOS.TestApp.scripts.Test_01_Compute_Sum@192b07fd]" name="before_Suite" is-config="true" duration-ms="23992" started-at="2017-08-08T03:44:07Z" finished-at="2017-08-08T03:44:31Z">
+      </class> <!-- iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView -->
+      <class name="iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage">
+        <test-method status="PASS" signature="before_Suite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@55d56113]" name="before_Suite" is-config="true" duration-ms="27358" started-at="2017-08-08T04:40:04Z" finished-at="2017-08-08T04:40:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[io.appium.TestApp]]>
+                <![CDATA[com.example.apple-samplecode.UICatalog]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[/App_Data_Objects/TestApp/TestData.xls]]>
+                <![CDATA[/App_Data_Objects/UI_Catalog/TestData.xls]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[/App_Data_Objects/TestApp/PageObjects.xml]]>
+                <![CDATA[/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/TestApp/TestData.xls]]>
+              <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/TestData.xls]]>
             </line>
             <line>
-              <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/TestApp/PageObjects.xml]]>
+              <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_07_758    ****** Suite Execution Started ****** ]]>
+              <![CDATA[08_08_2017_04_40_04_339    ****** Suite Execution Started ****** ]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_08_345 -  Waiting for : 10 second(s)]]>
+              <![CDATA[08_08_2017_04_40_04_882 -  Waiting for : 10 second(s)]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_18_350 -  Setting Desired Capabilities - iOS on : iPhone]]>
+              <![CDATA[08_08_2017_04_40_14_887 -  Setting Desired Capabilities - iOS on : iPhone]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_18_354 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=io.appium.TestApp, platformName=iOS, deviceName=iPhone 7}]]]>
+              <![CDATA[08_08_2017_04_40_14_890 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone 7}]]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Suite -->
-        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.TestApp.scripts.Test_01_Compute_Sum@192b07fd]" name="before_Method" is-config="true" duration-ms="4" started-at="2017-08-08T03:44:31Z" finished-at="2017-08-08T03:44:31Z">
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@55d56113]" name="before_Method" is-config="true" duration-ms="7" started-at="2017-08-08T04:40:31Z" finished-at="2017-08-08T04:40:31Z">
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_03_44_31_980  ***************** Execution Started : IOS.TESTAPP.SCRIPTS.TEST_01_COMPUTE_SUM *********************]]>
+              <![CDATA[08_08_2017_04_40_31_705    ***************** Execution Started : IOS.UI_CATALOG.SCRIPTS.TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE *********************]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method status="PASS" signature="test_01_Compute_Sum(java.util.Map)[pri:0, instance:iOS.TestApp.scripts.Test_01_Compute_Sum@192b07fd]" name="test_01_Compute_Sum" duration-ms="17948" started-at="2017-08-08T03:44:31Z" data-provider="dp_Test_01_Compute_Sum" finished-at="2017-08-08T03:44:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Script_name=Test_01_Compute_Sum, TestData_2=100, TestData_1=200, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=300, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="test_01_Launch_UI_Catalog_HomePage()[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@55d56113]" name="test_01_Launch_UI_Catalog_HomePage" duration-ms="32071" started-at="2017-08-08T04:40:31Z" description="Test UI Catalog APP -Smoke Test" finished-at="2017-08-08T04:41:03Z">
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_03_44_31_982 -  Started Test : test_01_Compute_Sum]]>
+              <![CDATA[08_08_2017_04_40_31_706 -  Started Test : test_01_Launch_UI_Catalog_HomePage]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_32_285 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+              <![CDATA[08_08_2017_04_40_32_050 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_32_505 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+              <![CDATA[08_08_2017_04_40_32_364 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_32_688 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+              <![CDATA[08_08_2017_04_40_32_637 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_32_865 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+              <![CDATA[08_08_2017_04_40_32_914 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_33_326 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]]]>
+              <![CDATA[08_08_2017_04_40_33_171 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_33_510 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]]]>
+              <![CDATA[08_08_2017_04_40_34_173 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_34_027 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]]]>
+              <![CDATA[08_08_2017_04_40_34_174 -  Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_34_222 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]]]>
+              <![CDATA[08_08_2017_04_40_35_178 -  Capturing Screenshot and Adding to Extent Reports]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_34_709 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]]]>
+              <![CDATA[08_08_2017_04_40_36_523 -  Go Back]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_37_234 -  Send Keys :  [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]]]>
+              <![CDATA[08_08_2017_04_40_36_523 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_37_740 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]]]>
+              <![CDATA[08_08_2017_04_40_36_919 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_40_433 -  Send Keys :  [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]]]>
+              <![CDATA[08_08_2017_04_40_37_260 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_40_433 -  Waiting for : 1 second(s)]]>
+              <![CDATA[08_08_2017_04_40_38_582 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_41_437 -  Capturing Screenshot and Adding to Extent Reports]]>
+              <![CDATA[08_08_2017_04_40_43_072 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_44_353 -  Single Tap On Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]]]>
+              <![CDATA[08_08_2017_04_40_50_028 -  Single Tap On Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_44_353 -  Waiting for : 1 second(s)]]>
+              <![CDATA[08_08_2017_04_40_50_298 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_45_961 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]]]>
+              <![CDATA[08_08_2017_04_40_50_498 -  Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_46_286 -  Waiting For Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]]]>
+              <![CDATA[08_08_2017_04_40_51_500 -  Capturing Screenshot and Adding to Extent Reports]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_46_564 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (1529253f-9ad6-424c-b8e8-818659c34730)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]]]>
+              <![CDATA[08_08_2017_04_40_52_969 -  Go Back]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_46_824 -  Waiting for : 1 second(s)]]>
+              <![CDATA[08_08_2017_04_40_52_970 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_47_828 -  Capturing Screenshot and Adding to Extent Reports]]>
+              <![CDATA[08_08_2017_04_40_53_393 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_44_49_928 -  Test Passed :  test_01_Compute_Sum]]>
+              <![CDATA[08_08_2017_04_40_54_716 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_40_59_190 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_04_41_03_777 -  Test Passed :  test_01_Launch_UI_Catalog_HomePage]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test_01_Compute_Sum -->
-        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.TestApp.scripts.Test_01_Compute_Sum@192b07fd]" name="after_Method" is-config="true" duration-ms="3" started-at="2017-08-08T03:44:49Z" finished-at="2017-08-08T03:44:49Z">
+        </test-method> <!-- test_01_Launch_UI_Catalog_HomePage -->
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@55d56113]" name="after_Method" is-config="true" duration-ms="3" started-at="2017-08-08T04:41:03Z" finished-at="2017-08-08T04:41:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_01_Compute_Sum status=SUCCESS method=Test_01_Compute_Sum.test_01_Compute_Sum(java.util.Map)[pri:0, instance:iOS.TestApp.scripts.Test_01_Compute_Sum@192b07fd] output=08_08_2017_03_44_31_982 -  Started Test : test_01_Compute_Sum]]]>
+                <![CDATA[[TestResult name=test_01_Launch_UI_Catalog_HomePage status=SUCCESS method=Test_01_Launch_UI_Catalog_HomePage.test_01_Launch_UI_Catalog_HomePage()[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@55d56113] output=08_08_2017_04_40_31_706 -  Started Test : test_01_Launch_UI_Catalog_HomePage]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_03_44_49_931    ***************** Execution Complete : TEST_01_COMPUTE_SUM ******************]]>
+              <![CDATA[08_08_2017_04_41_03_779    ***************** Execution Complete : TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE ******************]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method status="PASS" signature="after_Suite()[pri:0, instance:iOS.TestApp.scripts.Test_01_Compute_Sum@192b07fd]" name="after_Suite" is-config="true" duration-ms="879" started-at="2017-08-08T03:45:05Z" finished-at="2017-08-08T03:45:06Z">
+        <test-method status="PASS" signature="after_Suite()[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@55d56113]" name="after_Suite" is-config="true" duration-ms="979" started-at="2017-08-08T04:41:41Z" finished-at="2017-08-08T04:41:42Z">
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_03_45_06_027 - App Closed ]]>
+              <![CDATA[08_08_2017_04_41_42_441 - App Closed ]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_03_45_06_427  *** iPhone |  ***** Suite Execution Completed *****]]>
+              <![CDATA[08_08_2017_04_41_42_873  *** iPhone |  ***** Suite Execution Completed *****]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Suite -->
-      </class> <!-- iOS.TestApp.scripts.Test_01_Compute_Sum -->
-    </test> <!-- TestApp_Test -->
-  </suite> <!-- TestApp_Suite -->
+      </class> <!-- iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [TestApp_Suite]">
-  <parameter name="TestData_Sheet" value="/App_Data_Objects/TestApp/TestData.xls"/>
-  <parameter name="bundleId" value="io.appium.TestApp"/>
-  <parameter name="PageObjects_File" value="/App_Data_Objects/TestApp/PageObjects.xml"/>
-  <test name="TestApp_Test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="iOS.Listeners.RetryListener"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <parameter name="TestData_Sheet" value="/App_Data_Objects/UI_Catalog/TestData.xls"/>
+    <parameter name="bundleId" value="com.example.apple-samplecode.UICatalog"/>
+    <parameter name="PageObjects_File" value="/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json"/>
     <classes>
-      <class name="iOS.TestApp.scripts.Test_02_Alerts_TestApp">
+      <class name="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
         <methods>
-          <include name="test_02_Alerts_TestApp" invocation-numbers="0"/>
-          <include name="after_Method"/>
-          <include name="before_Method"/>
+          <include name="test_15_UI_Catalog_WebView"/>
         </methods>
-      </class> <!-- iOS.TestApp.scripts.Test_02_Alerts_TestApp -->
-      <class name="iOS.TestApp.scripts.Test_01_Compute_Sum">
-        <methods>
-          <include name="before_Suite"/>
-          <include name="after_Suite"/>
-        </methods>
-      </class> <!-- iOS.TestApp.scripts.Test_01_Compute_Sum -->
+      </class> <!-- iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView -->
     </classes>
-  </test> <!-- TestApp_Test(failed) -->
-</suite> <!-- Failed suite [TestApp_Suite] -->
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

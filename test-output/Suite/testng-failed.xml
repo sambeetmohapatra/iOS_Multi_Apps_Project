@@ -9,23 +9,11 @@
     <parameter name="bundleId" value="com.example.apple-samplecode.UICatalog"/>
     <parameter name="PageObjects_File" value="/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json"/>
     <classes>
-      <class name="iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews">
+      <class name="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
         <methods>
-          <include name="test_04_UI_Catalog_AlertViews"/>
+          <include name="test_15_UI_Catalog_WebView"/>
         </methods>
-      </class> <!-- iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews -->
+      </class> <!-- iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView -->
     </classes>
   </test> <!-- Test1(failed) -->
-  <test name="TestApp_Test(failed)">
-    <parameter name="TestData_Sheet" value="/App_Data_Objects/TestApp/TestData.xls"/>
-    <parameter name="bundleId" value="io.appium.TestApp"/>
-    <parameter name="PageObjects_File" value="/App_Data_Objects/TestApp/PageObjects.xml"/>
-    <classes>
-      <class name="iOS.TestApp.scripts.Test_01_Compute_Sum">
-        <methods>
-          <include name="test_01_Compute_Sum"/>
-        </methods>
-      </class> <!-- iOS.TestApp.scripts.Test_01_Compute_Sum -->
-    </classes>
-  </test> <!-- TestApp_Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
