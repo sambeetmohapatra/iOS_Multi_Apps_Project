@@ -3,9 +3,12 @@
 <suite name="All_Suites" verbose="3">
 
 <suite-files>
-<!--   <suite-file path="./Suites/Scripts_UI_Catalog.xml" />
- -->    <suite-file path="./Suites/Scripts_TestApp.xml" />
-    <suite-file path="./Suites/Scripts_Bhubaneswar.xml" />
+
+<suite-file path="./Suites/Scripts_UI_Catalog.xml" />
+<suite-file path="./Suites/Scripts_TestApp.xml" />
+<suite-file path="./Suites/Scripts_Bhubaneswar.xml" />
   
 </suite-files>
+
+
 </suite> <!-- Suite -->
