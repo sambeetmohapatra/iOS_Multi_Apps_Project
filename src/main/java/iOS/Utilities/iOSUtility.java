@@ -37,4 +37,6 @@ public interface iOSUtility {
 	public void WebView_ScrollDown(int noOfTimes); 
 	public void WebView_ScrollDown_ToElement(WebElement wb); 
 	public void WebView_ScrollToBottom(); 
+	public void Validate_Is_Displayed(WebElement wb);
+
 	}

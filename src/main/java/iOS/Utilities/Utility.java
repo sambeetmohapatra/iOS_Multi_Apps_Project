@@ -285,9 +285,14 @@ public class Utility implements iOSUtility,Constants{
 			}while(true);
 		}
 
-			
-		
 	}
+		
+	
+	public void Validate_Is_Displayed(WebElement wb) {
+		Reporter.log(getFormatedDateTime()+" -  Validating Element by Displayed " + wb,true);
+		Assert.assertTrue(isElementDisplayed(wb),wb+ "  : Element Not Displayed");		
+	}
+	
 	public void RotateApp(String Orientation){
 		
 		if(Orientation.equalsIgnoreCase("Potrait"))

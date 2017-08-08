@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BbsrApp_Suite" verbose="3" parallel="none" preserve-order="true">
+
+ <!-- <listeners>
+<listener class-name="iOS.Listeners.RetryListener"/>
+</listeners>  -->
+
+	<parameter name="bundleId" value="com.sam.Bhubaneswar"/>
+	<parameter name="TestData_Sheet" value="/App_Data_Objects/BbsrApp/TestData.xls"/>
+	<parameter name="PageObjects_File" value="/App_Data_Objects/BbsrApp/PageObjects.xml"/>
+
+	  <test name="BbsrApp_Test">
+	  	
+	   <packages>
+	      <package name="iOS.Bbsr.scripts"/>
+	    </packages> 
+	    
+   <!--  <classes>
+      <class name="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage"/>
+    </classes> -->
+    
+     <!-- <classes>
+      <class name=""/>
+    </classes> -->
+    
+  </test>   
+</suite> 

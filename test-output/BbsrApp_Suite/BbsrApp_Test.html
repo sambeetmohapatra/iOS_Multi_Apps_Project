@@ -1,48 +1,85 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-<title>iOS Multi Apps Project Automation Report</title>
+<title>TestNG:  BbsrApp_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
 <style type="text/css">
-table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
-td,th {border:1px solid #009;padding:.25em .5em}
-.result th {vertical-align:bottom}
-.param th {padding-left:1em;padding-right:1em}
-.param td {padding-left:.5em;padding-right:2em}
-.stripe td,.stripe th {background-color: #E6EBF9}
-.numi,.numi_attn {text-align:right}
-.total td {font-weight:bold}
-.passedodd td {background-color: #0A0}
-.passedeven td {background-color: #3F3}
-.skippedodd td {background-color: #CCC}
-.skippedodd td {background-color: #DDD}
-.failedodd td,.numi_attn {background-color: #F33}
-.failedeven td,.stripe .numi_attn {background-color: #D00}
-.stacktrace {white-space:pre;font-family:monospace}
-.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+.log { display: none;} 
+.stack-trace { display: none;} 
 </style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
 </head>
-<body bgcolor='#f3f1f4'>
-<table cellspacing="0" cellpadding="0" class="testOverview">
-<tr><th>Test Suites</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Start<br/>Time</th><th>End<br/>Time</th><th>Total Time Taken <br/> (hh:mm:ss)</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
-<tr><th colspan="10">BbsrApp_Suite</th></tr>
-<tr><td style="text-align:left;padding-right:2em"><a href="#t1"><b>BbsrApp_Test</b></a></td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">21:28:30</td></td>
-<td class="numi">21:29:44</td></td>
-<td class="numi">00:01:14</td><td class="numi"></td><td class="numi"></td></tr>
-</table>
-<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
-<tr><th>Class</th><th>Method</th><th>Exception</th><th>Start Time </th><th>Time Taken<br/>(hh:mm:ss)</th></tr>
-<tr><th colspan="5">BbsrApp_Suite</th></tr>
-<tr id="t1"><th colspan="5">BbsrApp_Test &#8212; passed</th></tr>
-<tr class="passedodd"><td>iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage</td><td><a href="#m1"><b>test_01_Bbsr_LaunchPage</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">21:28:30</td><td class="numi">00:00:17</td></tr>
-<tr class="passedeven"><td>iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage</td><td><a href="#m2"><b>test_02_Bbsr_SupportPage</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">21:28:47</td><td class="numi">00:00:57</td></tr>
-</table>
-<h1>BbsrApp_Test</h1>
-<h2 id="m1">iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage:test_01_Bbsr_LaunchPage</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Param.1</th></tr>
-<tr class="param stripe"><td>{Script_name=Test_01_Bbsr_LaunchPage, TestData_2=Images Of Bhubaneswar, TestData_1=BHUBANESWAR, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=Support, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}</td>
+<body>
+<h2 align='center'>BbsrApp_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 08 21:28:30 IST 2017</td>
 </tr>
-<tr><td>
+<tr><td>Total time:</td><td>74 seconds (74518 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage.test_01_Bbsr_LaunchPage()'><b>test_01_Bbsr_LaunchPage</b><br>Test class: iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage<br>Parameters: {Script_name=Test_01_Bbsr_LaunchPage, TestData_2=Images Of Bhubaneswar, TestData_1=BHUBANESWAR, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=Support, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
+<a href="#Output-243575009" onClick='toggleBox("Output-243575009", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-243575009" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-243575009">
 08_08_2017_09_28_30_695 -  Started Test : test_01_Bbsr_LaunchPage<br/>
 08_08_2017_09_28_31_269 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]<br/>
 08_08_2017_09_28_31_439 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]<br/>
@@ -81,15 +118,17 @@ td,th {border:1px solid #009;padding:.25em .5em}
 08_08_2017_09_28_44_388 -  Capturing Screenshot and Adding to Extent Reports<br/>
 08_08_2017_09_28_47_055 -  Single Tap On Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]<br/>
 08_08_2017_09_28_47_056 -  Test Passed :  test_01_Bbsr_LaunchPage<br/>
-</td></tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage:test_02_Bbsr_SupportPage</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Param.1</th></tr>
-<tr class="param stripe"><td>{Script_name=Test_02_Bbsr_SupportPage, TestData_2=Images Of Bhubaneswar, TestData_1=BHUBANESWAR, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Saved Your Query, Thanks !! , TestData_3=Support, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}</td>
-</tr>
-<tr><td>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage@1e127982</td></tr>
+<tr>
+<td title='iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage.test_02_Bbsr_SupportPage()'><b>test_02_Bbsr_SupportPage</b><br>Test class: iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage<br>Parameters: {Script_name=Test_02_Bbsr_SupportPage, TestData_2=Images Of Bhubaneswar, TestData_1=BHUBANESWAR, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Saved Your Query, Thanks !! , TestData_3=Support, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
+<a href="#Output-864138492" onClick='toggleBox("Output-864138492", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864138492" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864138492">
 08_08_2017_09_28_47_069 -  Started Test : test_02_Bbsr_SupportPage<br/>
 08_08_2017_09_28_47_621 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]<br/>
 08_08_2017_09_28_47_785 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]<br/>
@@ -166,8 +205,11 @@ td,th {border:1px solid #009;padding:.25em .5em}
 08_08_2017_09_29_44_175 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]<br/>
 08_08_2017_09_29_44_926 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]<br/>
 08_08_2017_09_29_44_927 -  Test Passed :  test_02_Bbsr_SupportPage<br/>
-</td></tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<center> iOS Automation Report </center>
-</body></html>
+</div>
+</td>
+<td></td>
+<td>57</td>
+<td>iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage@60c6f5b</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,267 +1,852 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/TestData.xls]]>
+      <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/BbsrApp/TestData.xls]]>
     </line>
     <line>
-      <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json]]>
+      <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/BbsrApp/PageObjects.xml]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_09_633    ****** Suite Execution Started ****** ]]>
+      <![CDATA[08_08_2017_09_28_04_589    ****** Suite Execution Started ****** ]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_10_392 -  Waiting for : 10 second(s)]]>
+      <![CDATA[08_08_2017_09_28_04_994 -  Waiting for : 10 second(s)]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_20_396 -  Setting Desired Capabilities - iOS on : iPhone]]>
+      <![CDATA[08_08_2017_09_28_14_996 -  Setting Desired Capabilities - iOS on : iPhone]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_20_401 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone 7}]]]>
+      <![CDATA[08_08_2017_09_28_15_001 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.sam.Bhubaneswar, platformName=iOS, deviceName=iPhone 7}]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_46_417    ***************** Execution Started : IOS.UI_CATALOG.SCRIPTS.TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE *********************]]>
+      <![CDATA[08_08_2017_09_28_30_649    ***************** Execution Started : IOS.BBSR.SCRIPTS.TEST_01_BBSR_LAUNCHPAGE *********************]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_46_418 -  Started Test : test_01_Launch_UI_Catalog_HomePage]]>
+      <![CDATA[08_08_2017_09_28_30_695 -  Started Test : test_01_Bbsr_LaunchPage]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_46_880 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_31_269 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_47_272 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_31_439 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_47_624 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_31_439 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_47_971 -  Fetching the text : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_31_674 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_48_272 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_31_829 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_49_321 -  Clicked :  [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_32_064 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_49_321 -  Waiting for : 1 second(s)]]>
+      <![CDATA[08_08_2017_09_28_33_069 -  Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_50_326 -  Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[08_08_2017_09_28_33_789 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_51_921 -  Go Back]]>
+      <![CDATA[08_08_2017_09_28_33_789 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_51_921 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_34_571 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_52_320 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_35_260 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_52_679 -  Fetching the text : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_35_957 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_54_024 -  Swiping Down to Element[[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
+      <![CDATA[08_08_2017_09_28_36_140 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_55_58_622 -  Swiping Down to Element[[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
+      <![CDATA[08_08_2017_09_28_36_141 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_05_724 -  Single Tap On Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
+      <![CDATA[08_08_2017_09_28_36_366 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_06_024 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
+      <![CDATA[08_08_2017_09_28_36_584 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_06_241 -  Waiting for : 1 second(s)]]>
+      <![CDATA[08_08_2017_09_28_37_439 -  Waiting For Elements : [[[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_07_246 -  Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[08_08_2017_09_28_38_150 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_08_775 -  Go Back]]>
+      <![CDATA[08_08_2017_09_28_38_150 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_08_776 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
+      <![CDATA[08_08_2017_09_28_38_324 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_09_130 -  Fetching the text : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
+      <![CDATA[08_08_2017_09_28_38_324 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_10_424 -  Swiping Down to Element[[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_38_521 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_14_923 -  Swiping Down to Element[[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[08_08_2017_09_28_38_521 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_19_639 -  Test Passed :  test_01_Launch_UI_Catalog_HomePage]]>
+      <![CDATA[08_08_2017_09_28_38_688 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_19_641    ***************** Execution Complete : TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE ******************]]>
+      <![CDATA[08_08_2017_09_28_38_688 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_20_238 - App Closed ]]>
+      <![CDATA[08_08_2017_09_28_38_871 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[08_08_2017_06_56_21_031  *** iPhone |  ***** Suite Execution Completed *****]]>
+      <![CDATA[08_08_2017_09_28_39_876 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_40_923 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_40_924 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_41_720 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_42_479 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_43_180 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_43_180 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_43_386 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_44_388 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_47_055 -  Single Tap On Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_47_056 -  Test Passed :  test_01_Bbsr_LaunchPage]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_47_058    ***************** Execution Complete : TEST_01_BBSR_LAUNCHPAGE ******************]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_47_069    ***************** Execution Started : IOS.BBSR.SCRIPTS.TEST_02_BBSR_SUPPORTPAGE *********************]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_47_069 -  Started Test : test_02_Bbsr_SupportPage]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_47_621 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_47_785 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_47_785 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_48_062 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_48_251 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_48_411 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_49_416 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_50_057 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_50_057 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_50_753 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_51_455 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_52_130 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_52_324 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_52_325 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_52_538 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_52_759 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_53_731 -  Waiting For Elements : [[[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_54_485 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_54_485 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_54_657 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_54_657 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_54_894 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_54_894 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_55_055 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_55_055 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_55_277 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_56_282 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_57_192 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_57_192 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_58_038 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_58_773 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_59_418 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_59_418 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_28_59_645 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_00_647 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_03_269 -  Single Tap On Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_03_851 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_04_566 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_05_319 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_05_319 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_06_255 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_06_255 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_07_176 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_07_176 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_08_117 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_08_118 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_09_052 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_09_052 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_09_954 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_09_954 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_10_872 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_10_872 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_11_756 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_13_834 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_15_630 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_17_801 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_19_155 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_21_458 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_23_254 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_26_054 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_29_870 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_32_978 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_37_512 -  Single Tap On Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_38_206 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_38_957 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_38_957 -  Waiting For alert to be displayed ]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_40_489 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[2]]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_40_606 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[2]]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_40_732 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[2]]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_40_870 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_41_876 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_43_198 -  Accepted Alert]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_44_175 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_44_926 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_44_927 -  Test Passed :  test_02_Bbsr_SupportPage]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_44_929    ***************** Execution Complete : TEST_02_BBSR_SUPPORTPAGE ******************]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_45_597 - App Closed ]]>
+    </line>
+    <line>
+      <![CDATA[08_08_2017_09_29_45_994  *** iPhone |  ***** Suite Execution Completed *****]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="33257" started-at="2017-08-08T01:25:46Z" finished-at="2017-08-08T01:26:19Z">
+  <suite name="BbsrApp_Suite" duration-ms="74518" started-at="2017-08-08T15:58:30Z" finished-at="2017-08-08T15:59:44Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="33257" started-at="2017-08-08T01:25:46Z" finished-at="2017-08-08T01:26:19Z">
-      <class name="iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage">
-        <test-method status="PASS" signature="before_Suite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@192b07fd]" name="before_Suite" is-config="true" duration-ms="36776" started-at="2017-08-08T06:55:09Z" finished-at="2017-08-08T06:55:46Z">
+    <test name="BbsrApp_Test" duration-ms="74518" started-at="2017-08-08T15:58:30Z" finished-at="2017-08-08T15:59:44Z">
+      <class name="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage">
+        <test-method status="PASS" signature="before_Suite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage@1e127982]" name="before_Suite" is-config="true" duration-ms="25834" started-at="2017-08-08T21:28:04Z" finished-at="2017-08-08T21:28:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.example.apple-samplecode.UICatalog]]>
+                <![CDATA[com.sam.Bhubaneswar]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[/App_Data_Objects/UI_Catalog/TestData.xls]]>
+                <![CDATA[/App_Data_Objects/BbsrApp/TestData.xls]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json]]>
+                <![CDATA[/App_Data_Objects/BbsrApp/PageObjects.xml]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/TestData.xls]]>
+              <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/BbsrApp/TestData.xls]]>
             </line>
             <line>
-              <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json]]>
+              <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/BbsrApp/PageObjects.xml]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_06_55_09_633    ****** Suite Execution Started ****** ]]>
+              <![CDATA[08_08_2017_09_28_04_589    ****** Suite Execution Started ****** ]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_06_55_10_392 -  Waiting for : 10 second(s)]]>
+              <![CDATA[08_08_2017_09_28_04_994 -  Waiting for : 10 second(s)]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_06_55_20_396 -  Setting Desired Capabilities - iOS on : iPhone]]>
+              <![CDATA[08_08_2017_09_28_14_996 -  Setting Desired Capabilities - iOS on : iPhone]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_06_55_20_401 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone 7}]]]>
+              <![CDATA[08_08_2017_09_28_15_001 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.sam.Bhubaneswar, platformName=iOS, deviceName=iPhone 7}]]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Suite -->
-        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@192b07fd]" name="before_Method" is-config="true" duration-ms="7" started-at="2017-08-08T06:55:46Z" finished-at="2017-08-08T06:55:46Z">
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage@1e127982]" name="before_Method" is-config="true" duration-ms="4" started-at="2017-08-08T21:28:30Z" finished-at="2017-08-08T21:28:30Z">
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_06_55_46_417    ***************** Execution Started : IOS.UI_CATALOG.SCRIPTS.TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE *********************]]>
+              <![CDATA[08_08_2017_09_28_30_649    ***************** Execution Started : IOS.BBSR.SCRIPTS.TEST_01_BBSR_LAUNCHPAGE *********************]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method status="PASS" signature="test_01_Launch_UI_Catalog_HomePage()[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@192b07fd]" name="test_01_Launch_UI_Catalog_HomePage" duration-ms="33220" started-at="2017-08-08T06:55:46Z" description="Test UI Catalog APP -Smoke Test" finished-at="2017-08-08T06:56:19Z">
-          <reporter-output>
-            <line>
-              <![CDATA[08_08_2017_06_55_46_418 -  Started Test : test_01_Launch_UI_Catalog_HomePage]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_46_880 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_47_272 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_47_624 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_47_971 -  Fetching the text : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_48_272 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_49_321 -  Clicked :  [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_49_321 -  Waiting for : 1 second(s)]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_50_326 -  Capturing Screenshot and Adding to Extent Reports]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_51_921 -  Go Back]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_51_921 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_52_320 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_52_679 -  Fetching the text : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_54_024 -  Swiping Down to Element[[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_55_58_622 -  Swiping Down to Element[[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_05_724 -  Single Tap On Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_06_024 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_06_241 -  Waiting for : 1 second(s)]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_07_246 -  Capturing Screenshot and Adding to Extent Reports]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_08_775 -  Go Back]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_08_776 -  Waiting For Element : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_09_130 -  Fetching the text : [[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_10_424 -  Swiping Down to Element[[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_14_923 -  Swiping Down to Element[[IOSDriver:  on MAC (ae72ee5e-b2c2-4771-a2c6-f2f37bf7675d)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[08_08_2017_06_56_19_639 -  Test Passed :  test_01_Launch_UI_Catalog_HomePage]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test_01_Launch_UI_Catalog_HomePage -->
-        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@192b07fd]" name="after_Method" is-config="true" duration-ms="3" started-at="2017-08-08T06:56:19Z" finished-at="2017-08-08T06:56:19Z">
+        <test-method status="PASS" signature="test_01_Bbsr_LaunchPage(java.util.Map)[pri:0, instance:iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage@1e127982]" name="test_01_Bbsr_LaunchPage" duration-ms="16405" started-at="2017-08-08T21:28:30Z" data-provider="dp_Test_01_Bbsr_LaunchPage" finished-at="2017-08-08T21:28:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_01_Launch_UI_Catalog_HomePage status=SUCCESS method=Test_01_Launch_UI_Catalog_HomePage.test_01_Launch_UI_Catalog_HomePage()[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@192b07fd] output=08_08_2017_06_55_46_418 -  Started Test : test_01_Launch_UI_Catalog_HomePage]]]>
+                <![CDATA[{Script_name=Test_01_Bbsr_LaunchPage, TestData_2=Images Of Bhubaneswar, TestData_1=BHUBANESWAR, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=Support, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_06_56_19_641    ***************** Execution Complete : TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE ******************]]>
+              <![CDATA[08_08_2017_09_28_30_695 -  Started Test : test_01_Bbsr_LaunchPage]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_31_269 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_31_439 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_31_439 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_31_674 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_31_829 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_32_064 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_33_069 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_33_789 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_33_789 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_34_571 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_35_260 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_35_957 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_36_140 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_36_141 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_36_366 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_36_584 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_37_439 -  Waiting For Elements : [[[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_38_150 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_38_150 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_38_324 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_38_324 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_38_521 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_38_521 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_38_688 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_38_688 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_38_871 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_39_876 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_40_923 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_40_924 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_41_720 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_42_479 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_43_180 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_43_180 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_43_386 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_44_388 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_47_055 -  Single Tap On Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_47_056 -  Test Passed :  test_01_Bbsr_LaunchPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_01_Bbsr_LaunchPage -->
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage@1e127982]" name="after_Method" is-config="true" duration-ms="4" started-at="2017-08-08T21:28:47Z" finished-at="2017-08-08T21:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_01_Bbsr_LaunchPage status=SUCCESS method=Test_01_Bbsr_LaunchPage.test_01_Bbsr_LaunchPage(java.util.Map)[pri:0, instance:iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage@1e127982] output=08_08_2017_09_28_30_695 -  Started Test : test_01_Bbsr_LaunchPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[08_08_2017_09_28_47_058    ***************** Execution Complete : TEST_01_BBSR_LAUNCHPAGE ******************]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method status="PASS" signature="after_Suite()[pri:0, instance:iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@192b07fd]" name="after_Suite" is-config="true" duration-ms="1369" started-at="2017-08-08T06:56:19Z" finished-at="2017-08-08T06:56:21Z">
+        <test-method status="PASS" signature="after_Suite()[pri:0, instance:iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage@1e127982]" name="after_Suite" is-config="true" duration-ms="910" started-at="2017-08-08T21:29:45Z" finished-at="2017-08-08T21:29:45Z">
           <reporter-output>
             <line>
-              <![CDATA[08_08_2017_06_56_20_238 - App Closed ]]>
+              <![CDATA[08_08_2017_09_29_45_597 - App Closed ]]>
             </line>
             <line>
-              <![CDATA[08_08_2017_06_56_21_031  *** iPhone |  ***** Suite Execution Completed *****]]>
+              <![CDATA[08_08_2017_09_29_45_994  *** iPhone |  ***** Suite Execution Completed *****]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Suite -->
-      </class> <!-- iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+      </class> <!-- iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage -->
+      <class name="iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage">
+        <test-method status="PASS" signature="beforeTest_Config()[pri:0, instance:iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage@60c6f5b]" name="beforeTest_Config" is-config="true" duration-ms="1" started-at="2017-08-08T21:28:30Z" finished-at="2017-08-08T21:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest_Config -->
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage@60c6f5b]" name="before_Method" is-config="true" duration-ms="1" started-at="2017-08-08T21:28:47Z" finished-at="2017-08-08T21:28:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[08_08_2017_09_28_47_069    ***************** Execution Started : IOS.BBSR.SCRIPTS.TEST_02_BBSR_SUPPORTPAGE *********************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method status="PASS" signature="test_02_Bbsr_SupportPage(java.util.Map)[pri:0, instance:iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage@60c6f5b]" name="test_02_Bbsr_SupportPage" duration-ms="57858" started-at="2017-08-08T21:28:47Z" data-provider="dp_Test_02_Bbsr_SupportPage" finished-at="2017-08-08T21:29:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Script_name=Test_02_Bbsr_SupportPage, TestData_2=Images Of Bhubaneswar, TestData_1=BHUBANESWAR, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Saved Your Query, Thanks !! , TestData_3=Support, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[08_08_2017_09_28_47_069 -  Started Test : test_02_Bbsr_SupportPage]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_47_621 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_47_785 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_47_785 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_48_062 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_48_251 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_48_411 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_49_416 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_50_057 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_50_057 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_50_753 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_51_455 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_52_130 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_52_324 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_52_325 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_52_538 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_52_759 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_53_731 -  Waiting For Elements : [[[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage], [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_54_485 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_54_485 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_54_657 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_54_657 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_54_894 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_54_894 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_55_055 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_55_055 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@name='Images Of Bhubaneswar']/following-sibling::XCUIElementTypeImage]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_55_277 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_56_282 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_57_192 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_57_192 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_58_038 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_58_773 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_59_418 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_59_418 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_28_59_645 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_00_647 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_03_269 -  Single Tap On Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_03_851 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_04_566 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_05_319 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_05_319 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_06_255 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_06_255 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_07_176 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_07_176 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_08_117 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_08_118 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_09_052 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_09_052 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_09_954 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_09_954 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_10_872 -  Validating Element by Displayed [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_10_872 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_11_756 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_13_834 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_15_630 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_17_801 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_19_155 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_21_458 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_23_254 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_26_054 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_29_870 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_32_978 -  Send Keys :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_37_512 -  Single Tap On Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_38_206 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_38_957 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_38_957 -  Waiting For alert to be displayed ]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_40_489 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[2]]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_40_606 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[2]]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_40_732 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[2]]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_40_870 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_41_876 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_43_198 -  Accepted Alert]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_44_175 -  Waiting For Element : [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_44_926 -  Clicked :  [[IOSDriver:  on MAC (737ed448-b0b6-475e-80de-a4d83fbab410)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+            </line>
+            <line>
+              <![CDATA[08_08_2017_09_29_44_927 -  Test Passed :  test_02_Bbsr_SupportPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_02_Bbsr_SupportPage -->
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage@60c6f5b]" name="after_Method" is-config="true" duration-ms="1" started-at="2017-08-08T21:29:44Z" finished-at="2017-08-08T21:29:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_02_Bbsr_SupportPage status=SUCCESS method=Test_02_Bbsr_SupportPage.test_02_Bbsr_SupportPage(java.util.Map)[pri:0, instance:iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage@60c6f5b] output=08_08_2017_09_28_47_069 -  Started Test : test_02_Bbsr_SupportPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[08_08_2017_09_29_44_929    ***************** Execution Complete : TEST_02_BBSR_SUPPORTPAGE ******************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+      </class> <!-- iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage -->
+    </test> <!-- BbsrApp_Test -->
+  </suite> <!-- BbsrApp_Suite -->
 </testng-results>
