@@ -1,85 +1,43 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>TestNG:  Test1</title>
-<link href="../testng.css" rel="stylesheet" type="text/css" />
-<link href="../my-testng.css" rel="stylesheet" type="text/css" />
-
+<title>TestNG Report</title>
 <style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
 </style>
-<script type="text/javascript">
-<!--
-function flip(e) {
-  current = e.style.display;
-  if (current == 'block') {
-    e.style.display = 'none';
-    return 0;
-  }
-  else {
-    e.style.display = 'block';
-    return 1;
-  }
-}
-
-function toggleBox(szDivId, elem, msg1, msg2)
-{
-  var res = -1;  if (document.getElementById) {
-    res = flip(document.getElementById(szDivId));
-  }
-  else if (document.all) {
-    // this is the way old msie versions work
-    res = flip(document.all[szDivId]);
-  }
-  if(elem) {
-    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
-  }
-
-}
-
-function toggleAllBoxes() {
-  if (document.getElementsByTagName) {
-    d = document.getElementsByTagName('div');
-    for (i = 0; i < d.length; i++) {
-      if (d[i].className == 'log') {
-        flip(d[i]);
-      }
-    }
-  }
-}
-
-// -->
-</script>
-
 </head>
 <body>
-<h2 align='center'>Test1</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
-</tr><tr>
-<td>Started on:</td><td>Tue Aug 08 05:32:51 IST 2017</td>
-</tr>
-<tr><td>Total time:</td><td>33 seconds (33201 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage.test_01_Launch_UI_Catalog_HomePage()'><b>test_01_Launch_UI_Catalog_HomePage</b><br>Test class: iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage<br>Test method: Test UI Catalog APP -Smoke Test<br/>
-<a href="#Output-813823788" onClick='toggleBox("Output-813823788", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-813823788" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-813823788">
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th># passed</th><th># skipped</th><th># failed</th><th>Start<br/>Time</th><th>End<br/>Time</th><th>Total<br/>Time(hh:mm:ss)</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><th colspan="10">Suite</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1"><b>Test1</b></a></td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">05:32:51</td></td>
+<td class="numi">05:33:25</td></td>
+<td class="numi">00:00:33</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Exception & screenshot</th><th>Start Time </th><th>Time<br/>(hh:mm:ss)</th></tr>
+<tr><th colspan="5">Suite</th></tr>
+<tr id="t1"><th colspan="5">Test1 &#8212; passed</th></tr>
+<tr class="passedodd"><td>iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage</td><td><a href="#m1"><b>test_01_Launch_UI_Catalog_HomePage</b>  ("Test UI Catalog APP -Smoke Test")</a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">05:32:52</td><td class="numi">00:00:33</td></tr>
+</table>
+<h1>Test1</h1>
+<h2 id="m1">iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage:test_01_Launch_UI_Catalog_HomePage</h2>
+<div>
 08_08_2017_05_32_52_004 -  Started Test : test_01_Launch_UI_Catalog_HomePage<br/>
 08_08_2017_05_32_52_388 -  Waiting For Element : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]<br/>
 08_08_2017_05_32_52_700 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]<br/>
@@ -106,10 +64,6 @@ function toggleAllBoxes() {
 08_08_2017_05_33_20_680 -  Swiping Down to Element[[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]<br/>
 08_08_2017_05_33_25_177 -  Test Passed :  test_01_Launch_UI_Catalog_HomePage<br/>
 </div>
-</td>
-<td></td>
-<td>33</td>
-<td>iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@64bfbc86</td></tr>
-</table><p>
-</body>
-</html>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<center> Report customized </center>
+</body></html>

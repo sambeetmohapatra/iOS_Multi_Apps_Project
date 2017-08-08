@@ -10,7 +10,11 @@ import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.ScreenOrientation;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -18,7 +22,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 
 import iOS.Constants.Constants;
-import iOS.Listeners.MyListener;
+import iOS.Listeners.*;
 import io.appium.java_client.ios.IOSDriver;
 
 /**
@@ -26,7 +30,7 @@ import io.appium.java_client.ios.IOSDriver;
  * @author sambeetmohapatra
  *
  */
-@Listeners({org.uncommons.reportng.HTMLReporter.class,org.uncommons.reportng.JUnitXMLReporter.class,MyListener.class})
+@Listeners({org.uncommons.reportng.HTMLReporter.class,org.uncommons.reportng.JUnitXMLReporter.class,TestNG_Report_CustomListener.class,MyListener.class})
 public class Utility implements iOSUtility,Constants{
 
 	public static IOSDriver<WebElement> driver;

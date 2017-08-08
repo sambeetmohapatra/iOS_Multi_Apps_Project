@@ -23,7 +23,6 @@
   	
     <classes>
           <class name="iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage"/>
-      	<class name="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView"/>
     </classes>
   </test> 
   

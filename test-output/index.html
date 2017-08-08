@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,11 +103,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage" hash-for-method="test_01_Launch_UI_Catalog_HomePage">test_01_Launch_UI_Catalog_HomePage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView" hash-for-method="test_15_UI_Catalog_WebView({Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress,...)">test_15_UI_Catalog_WebView({Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress,...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -139,22 +134,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_15_UI_Catalog_WebView({Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress,...)">
-                  </a> <!-- test_15_UI_Catalog_WebView({Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress,...) -->
-                  <span class="method-name">test_15_UI_Catalog_WebView</span>
-                  <span class="parameters">({Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -170,11 +149,11 @@
   &lt;parameter name=&quot;PageObjects_File&quot; value=&quot;/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;iOS.Listeners.RetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;iOS.Listeners.TestNG_Report_CustomListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage&quot;/&gt;
-      &lt;class name=&quot;iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -188,7 +167,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test1 (2 classes)</span>
+                <span class="test-name">Test1 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,20 +193,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_15_UI_Catalog_WebView')
-data.setCell(0, 2, 'iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView')
-data.setCell(0, 3, 37810);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_01_Launch_UI_Catalog_HomePage')
-data.setCell(1, 2, 'iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage')
-data.setCell(1, 3, 32071);
+data.setCell(0, 1, 'test_01_Launch_UI_Catalog_HomePage')
+data.setCell(0, 2, 'iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage')
+data.setCell(0, 3, 33173);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -241,97 +216,40 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">test_01_Launch_UI_Catalog_HomePage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">08_08_2017_04_40_31_706 -  Started Test : test_01_Launch_UI_Catalog_HomePage</span>
-                <span class="reporter-method-output">08_08_2017_04_40_32_050 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_32_364 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_32_637 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_32_914 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_33_171 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_34_173 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_34_174 -  Waiting for : 1 second(s)</span>
-                <span class="reporter-method-output">08_08_2017_04_40_35_178 -  Capturing Screenshot and Adding to Extent Reports</span>
-                <span class="reporter-method-output">08_08_2017_04_40_36_523 -  Go Back</span>
-                <span class="reporter-method-output">08_08_2017_04_40_36_523 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_36_919 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_37_260 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_38_582 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_43_072 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_50_028 -  Single Tap On Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_50_298 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_50_498 -  Waiting for : 1 second(s)</span>
-                <span class="reporter-method-output">08_08_2017_04_40_51_500 -  Capturing Screenshot and Adding to Extent Reports</span>
-                <span class="reporter-method-output">08_08_2017_04_40_52_969 -  Go Back</span>
-                <span class="reporter-method-output">08_08_2017_04_40_52_970 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_53_393 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Toolbars]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_54_716 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_40_59_190 -  Swiping Down to Element[[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Action Sheets]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_03_777 -  Test Passed :  test_01_Launch_UI_Catalog_HomePage</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_15_UI_Catalog_WebView({Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress,...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">08_08_2017_04_41_04_049 -  Started Test : test_15_UI_Catalog_WebView</span>
-                <span class="reporter-method-output">08_08_2017_04_41_04_334 -  Swiping Vertically Down </span>
-                <span class="reporter-method-output">08_08_2017_04_41_08_580 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_08_872 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_09_156 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_09_447 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_09_721 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_10_710 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_10_711 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_11_748 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_12_047 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> accessibility id: Web View]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_17_830 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //XCUIElementTypeNavigationBar[@name='Web View']/following-sibling::XCUIElementTypeOther//XCUIElementTypeTextField[1]]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_27_693 -  Waiting for : 1 second(s)</span>
-                <span class="reporter-method-output">08_08_2017_04_41_28_697 - Fetch The App Context Handles - Hybrid App</span>
-                <span class="reporter-method-output">08_08_2017_04_41_28_739 - Switching to Web View for Hybrid App </span>
-                <span class="reporter-method-output">08_08_2017_04_41_28_766 -  Waiting for : 1 second(s)</span>
-                <span class="reporter-method-output">08_08_2017_04_41_29_770 -  Capturing Screenshot and Adding to Extent Reports</span>
-                <span class="reporter-method-output">08_08_2017_04_41_29_879 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> id: search_query_top]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_30_236 -  Send Keys :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> id: search_query_top]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_30_354 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_30_408 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_30_472 -  Fetching the text : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress'][@class='product-name']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_30_598 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress']/../following-sibling::div/a[@title='Add to cart']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_31_012 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h5[@itemprop='name']//a[normalize-space()='Printed Chiffon Dress']/../following-sibling::div/a[@title='Add to cart']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_31_129 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_31_847 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_32_023 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //div[@id='layer_cart']//span[@title='Close window']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_32_078 -  Waiting for : 1 second(s)</span>
-                <span class="reporter-method-output">08_08_2017_04_41_33_082 -  Capturing Screenshot and Adding to Extent Reports</span>
-                <span class="reporter-method-output">08_08_2017_04_41_33_387 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_33_471 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_33_530 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_33_677 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@title='View my shopping cart']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_33_718 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@id='button_order_cart']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_34_413 -  Clicked :  [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //a[@id='button_order_cart']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_34_430 -  Waiting For Element : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h1[@id='cart_title']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_36_183 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b74e8170-df75-4d1d-8450-528735d57396)] -> xpath: //h1[@id='cart_title']]</span>
-                <span class="reporter-method-output">08_08_2017_04_41_36_224 -  Waiting for : 1 second(s)</span>
-                <span class="reporter-method-output">08_08_2017_04_41_37_228 -  Web View : Scrolling Down : </span>
-                <span class="reporter-method-output">08_08_2017_04_41_37_256 -  Waiting for : 1 second(s)</span>
-                <span class="reporter-method-output">08_08_2017_04_41_38_259 -  Capturing Screenshot and Adding to Extent Reports</span>
-                <span class="reporter-method-output">08_08_2017_04_41_41_856 -  Go Back</span>
-                <span class="reporter-method-output">08_08_2017_04_41_41_857 -  Test Passed :  test_15_UI_Catalog_WebView</span>
+                <span class="reporter-method-output">08_08_2017_05_32_52_004 -  Started Test : test_01_Launch_UI_Catalog_HomePage</span>
+                <span class="reporter-method-output">08_08_2017_05_32_52_388 -  Waiting For Element : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_32_52_700 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_32_53_010 -  Waiting For Element : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_32_53_290 -  Fetching the text : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_32_53_556 -  Waiting For Element : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_32_54_568 -  Clicked :  [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_32_54_568 -  Waiting for : 1 second(s)</span>
+                <span class="reporter-method-output">08_08_2017_05_32_55_569 -  Capturing Screenshot and Adding to Extent Reports</span>
+                <span class="reporter-method-output">08_08_2017_05_32_56_943 -  Go Back</span>
+                <span class="reporter-method-output">08_08_2017_05_32_56_943 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_32_57_334 -  Waiting For Element : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_32_57_674 -  Fetching the text : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_32_58_843 -  Swiping Down to Element[[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Toolbars]</span>
+                <span class="reporter-method-output">08_08_2017_05_33_03_395 -  Swiping Down to Element[[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Toolbars]</span>
+                <span class="reporter-method-output">08_08_2017_05_33_10_445 -  Single Tap On Element : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Toolbars]</span>
+                <span class="reporter-method-output">08_08_2017_05_33_10_725 -  Waiting For Element : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Toolbars]</span>
+                <span class="reporter-method-output">08_08_2017_05_33_10_930 -  Waiting for : 1 second(s)</span>
+                <span class="reporter-method-output">08_08_2017_05_33_11_936 -  Capturing Screenshot and Adding to Extent Reports</span>
+                <span class="reporter-method-output">08_08_2017_05_33_13_654 -  Go Back</span>
+                <span class="reporter-method-output">08_08_2017_05_33_13_654 -  Waiting For Element : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Toolbars]</span>
+                <span class="reporter-method-output">08_08_2017_05_33_14_153 -  Fetching the text : [[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Toolbars]</span>
+                <span class="reporter-method-output">08_08_2017_05_33_16_138 -  Swiping Down to Element[[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_33_20_680 -  Swiping Down to Element[[IOSDriver:  on MAC (9c182ce3-dd33-40a5-a4db-413a03fbbedb)] -> accessibility id: Action Sheets]</span>
+                <span class="reporter-method-output">08_08_2017_05_33_25_177 -  Test Passed :  test_01_Launch_UI_Catalog_HomePage</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">before_Suite</span>
-                <br/>
-                <span class="ignored-method-name">after_Suite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -347,37 +265,19 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">before_Method</span>
-                <span class="method-start">27373 ms</span>
+                <span class="method-start">32625 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test_01_Launch_UI_Catalog_HomePage</span>
-                <span class="method-start">27380 ms</span>
+                <span class="method-start">32633 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">after_Method([TestResult name=test_01_Launch_UI_Catalog_HomePage status=SUCCESS method=Test_01_Launch_UI_Catalog_...)</span>
-                <span class="method-start">59453 ms</span>
+                <span class="method-start">65808 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">before_Method</span>
-                <span class="method-start">59719 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">test_15_UI_Catalog_WebView({Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress,...)</span>
-                <span class="method-start">59721 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">after_Method([TestResult name=test_15_UI_Catalog_WebView status=SUCCESS method=Test_15_UI_Catalog_WebView.test_15...)</span>
-                <span class="method-start">97532 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">after_Suite</span>
-                <span class="method-start">97569 ms</span>
+                <span class="method-start">65830 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
