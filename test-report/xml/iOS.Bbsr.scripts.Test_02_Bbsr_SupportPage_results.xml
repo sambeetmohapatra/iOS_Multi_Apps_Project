@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BbsrApp_Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="64.093">
+  <properties />
+  
+  
+            <testcase name="test_02_Bbsr_SupportPage" time="64.093" classname="iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage" />
+      
+</testsuite>
