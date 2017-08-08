@@ -261,7 +261,7 @@ public class TestNG_Report_CustomListener implements IReporter {
     private void startResultSummaryTable(String style) {
         tableStart(style, "summary");
         out.println("<tr><th>Class</th>"
-                + "<th>Method</th><th>Exception & screenshot</th><th>Start Time </th><th>Time<br/>(hh:mm:ss)</th></tr>");
+                + "<th>Method</th><th>Exception</th><th>Start Time </th><th>Time Taken<br/>(hh:mm:ss)</th></tr>");
         row = 0;
     }
 
@@ -447,16 +447,16 @@ public class TestNG_Report_CustomListener implements IReporter {
     public void generateSuiteSummaryReport(List<ISuite> suites) {
         tableStart("testOverview", null);
         out.print("<tr>");
-        tableColumnStart("Test");
-        tableColumnStart("# passed");
+        tableColumnStart("Test Suites");
+        tableColumnStart("# Passed");
         //tableColumnStart("Scenarios<br/>Passed");
-        tableColumnStart("# skipped");
-        tableColumnStart("# failed");
+        tableColumnStart("# Skipped");
+        tableColumnStart("# Failed");
         //tableColumnStart("Error messages");
         //tableColumnStart("Parameters");
         tableColumnStart("Start<br/>Time");
         tableColumnStart("End<br/>Time");
-        tableColumnStart("Total<br/>Time(hh:mm:ss)");
+        tableColumnStart("Total Time Taken <br/> (hh:mm:ss)");
         tableColumnStart("Included<br/>Groups");
         tableColumnStart("Excluded<br/>Groups");
 
@@ -591,7 +591,7 @@ public class TestNG_Report_CustomListener implements IReporter {
         out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
         out.println("<html xmlns=\"http://www.w3.org/1999/xhtml\">");
         out.println("<head>");
-        out.println("<title>TestNG Report</title>");
+        out.println("<title>iOS Multi Apps Project Automation Report</title>");
         out.println("<style type=\"text/css\">");
         out.println("table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}");
         out.println("td,th {border:1px solid #009;padding:.25em .5em}");
@@ -611,12 +611,12 @@ public class TestNG_Report_CustomListener implements IReporter {
         out.println(".totop {font-size:85%;text-align:center;border-bottom:2px solid #000}");
         out.println("</style>");
         out.println("</head>");
-        out.println("<body>");
+        out.println("<body bgcolor='#f3f1f4'>"); 
     }
 
     /** Finishes HTML stream */
     protected void endHtml(PrintWriter out) {
-        out.println("<center> Report customized </center>");
+        out.println("<center> iOS Automation Report </center>");
         out.println("</body></html>");
     }
 

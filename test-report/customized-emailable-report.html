@@ -1,85 +1,140 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>TestNG:  UI_Catalog_Test</title>
-<link href="../testng.css" rel="stylesheet" type="text/css" />
-<link href="../my-testng.css" rel="stylesheet" type="text/css" />
-
+<title>TestNG Report</title>
 <style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
 </style>
-<script type="text/javascript">
-<!--
-function flip(e) {
-  current = e.style.display;
-  if (current == 'block') {
-    e.style.display = 'none';
-    return 0;
-  }
-  else {
-    e.style.display = 'block';
-    return 1;
-  }
-}
-
-function toggleBox(szDivId, elem, msg1, msg2)
-{
-  var res = -1;  if (document.getElementById) {
-    res = flip(document.getElementById(szDivId));
-  }
-  else if (document.all) {
-    // this is the way old msie versions work
-    res = flip(document.all[szDivId]);
-  }
-  if(elem) {
-    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
-  }
-
-}
-
-function toggleAllBoxes() {
-  if (document.getElementsByTagName) {
-    d = document.getElementsByTagName('div');
-    for (i = 0; i < d.length; i++) {
-      if (d[i].className == 'log') {
-        flip(d[i]);
-      }
-    }
-  }
-}
-
-// -->
-</script>
-
 </head>
 <body>
-<h2 align='center'>UI_Catalog_Test</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
-</tr><tr>
-<td>Started on:</td><td>Tue Aug 08 06:12:49 IST 2017</td>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th># passed</th><th># skipped</th><th># failed</th><th>Start<br/>Time</th><th>End<br/>Time</th><th>Total<br/>Time(hh:mm:ss)</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><th colspan="10">TestApp_Suite</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1"><b>TestApp_Test</b></a></td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">06:26:13</td></td>
+<td class="numi">06:27:01</td></td>
+<td class="numi">00:00:48</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="10">UI_Catalog_Suite</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t2"><b>UI_Catalog_Test</b></a></td><td class="numi">15</td><td class="numi">0</td><td class="numi">0</td><td class="numi">06:12:49</td></td>
+<td class="numi">06:25:39</td></td>
+<td class="numi">00:12:50</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="10">AllSuites</th></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">17</td><td class="numi">0</td><td class="numi">0</td><td class="numi"> </td><td class="numi"> </td><td class="numi">00:14:12</td><td colspan="3">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Exception & screenshot</th><th>Start Time </th><th>Time<br/>(hh:mm:ss)</th></tr>
+<tr><th colspan="5">TestApp_Suite</th></tr>
+<tr id="t1"><th colspan="5">TestApp_Test &#8212; passed</th></tr>
+<tr class="passedodd"><td>iOS.TestApp.scripts.Test_01_Compute_Sum</td><td><a href="#m1"><b>test_01_Compute_Sum</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:26:13</td><td class="numi">00:00:22</td></tr>
+<tr class="passedeven"><td>iOS.TestApp.scripts.Test_02_Alerts_TestApp</td><td><a href="#m2"><b>test_02_Alerts_TestApp</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:26:35</td><td class="numi">00:00:26</td></tr>
+<tr><th colspan="5">UI_Catalog_Suite</th></tr>
+<tr id="t2"><th colspan="5">UI_Catalog_Test &#8212; passed</th></tr>
+<tr class="passedodd"><td>iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage</td><td><a href="#m3"><b>test_01_Launch_UI_Catalog_HomePage</b>  ("Test UI Catalog APP -Smoke Test")</a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:12:49</td><td class="numi">00:00:35</td></tr>
+<tr class="passedeven"><td>iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets</td><td><a href="#m4"><b>test_02_UI_Catalog_ActionSheets</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:13:24</td><td class="numi">00:00:35</td></tr>
+<tr class="passedodd"><td>iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators</td><td><a href="#m5"><b>test_03_UI_Catalog_ActivityIndicators</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:13:59</td><td class="numi">00:00:13</td></tr>
+<tr class="passedeven"><td>iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews</td><td><a href="#m6"><b>test_04_UI_Catalog_AlertViews</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:14:12</td><td class="numi">00:01:27</td></tr>
+<tr class="passedodd"><td>iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons</td><td><a href="#m7"><b>test_05_UI_Catalog_Buttons</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:15:39</td><td class="numi">00:00:23</td></tr>
+<tr class="passedeven"><td>iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker</td><td><a href="#m8"><b>test_06_UI_Catalog_DatePicker</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:16:02</td><td class="numi">00:00:23</td></tr>
+<tr class="passedodd"><td>iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls</td><td><a href="#m9"><b>test_07_UI_Catalog_SegmentedControls</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:16:25</td><td class="numi">00:01:08</td></tr>
+<tr class="passedeven"><td>iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders</td><td><a href="#m10"><b>test_08_UI_Catalog_Sliders</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:17:33</td><td class="numi">00:00:18</td></tr>
+<tr class="passedodd"><td>iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers</td><td><a href="#m11"><b>test_09_UI_Catalog_Steppers</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:17:51</td><td class="numi">00:02:57</td></tr>
+<tr class="passedeven"><td>iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches</td><td><a href="#m12"><b>test_10_UI_Catalog_Switches</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:20:48</td><td class="numi">00:00:27</td></tr>
+<tr class="passedodd"><td>iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields</td><td><a href="#m13"><b>test_11_UI_Catalog_TextFields</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:21:15</td><td class="numi">00:01:13</td></tr>
+<tr class="passedeven"><td>iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView</td><td><a href="#m14"><b>test_12_UI_Catalog_TextView</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:22:28</td><td class="numi">00:00:33</td></tr>
+<tr class="passedodd"><td>iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars</td><td><a href="#m15"><b>test_13_UI_Catalog_TextView</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:23:01</td><td class="numi">00:00:57</td></tr>
+<tr class="passedeven"><td>iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars</td><td><a href="#m16"><b>test_14_UI_Catalog_ToolBars</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:23:58</td><td class="numi">00:01:02</td></tr>
+<tr class="passedodd"><td>iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView</td><td><a href="#m17"><b>test_15_UI_Catalog_WebView</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">06:25:00</td><td class="numi">00:00:39</td></tr>
+<tr><th colspan="5">AllSuites</th></tr>
+</table>
+<h1>TestApp_Test</h1>
+<h2 id="m1">iOS.TestApp.scripts.Test_01_Compute_Sum:test_01_Compute_Sum</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{Script_name=Test_01_Compute_Sum, TestData_2=100, TestData_1=200, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=300, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}</td>
 </tr>
-<tr><td>Total time:</td><td>770 seconds (770489 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
+<tr><td>
+08_08_2017_06_26_13_071 -  Started Test : test_01_Compute_Sum<br/>
+08_08_2017_06_26_13_966 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_08_2017_06_26_14_176 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_08_2017_06_26_14_415 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_08_2017_06_26_14_615 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_08_2017_06_26_15_565 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]<br/>
+08_08_2017_06_26_15_779 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]<br/>
+08_08_2017_06_26_16_781 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]<br/>
+08_08_2017_06_26_17_029 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]<br/>
+08_08_2017_06_26_18_071 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]<br/>
+08_08_2017_06_26_20_066 -  Send Keys :  [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]<br/>
+08_08_2017_06_26_21_928 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]<br/>
+08_08_2017_06_26_24_166 -  Send Keys :  [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]<br/>
+08_08_2017_06_26_24_167 -  Waiting for : 1 second(s)<br/>
+08_08_2017_06_26_25_240 -  Capturing Screenshot and Adding to Extent Reports<br/>
+08_08_2017_06_26_28_165 -  Single Tap On Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_08_2017_06_26_28_165 -  Waiting for : 1 second(s)<br/>
+08_08_2017_06_26_31_167 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]<br/>
+08_08_2017_06_26_31_565 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]<br/>
+08_08_2017_06_26_31_917 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]<br/>
+08_08_2017_06_26_32_268 -  Waiting for : 1 second(s)<br/>
+08_08_2017_06_26_33_340 -  Capturing Screenshot and Adding to Extent Reports<br/>
+08_08_2017_06_26_35_629 -  Test Passed :  test_01_Compute_Sum<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">iOS.TestApp.scripts.Test_02_Alerts_TestApp:test_02_Alerts_TestApp</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{Script_name=Test_02_Alerts_TestApp, TestData_2=Calendar Authorization Status, TestData_1=Cool title, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=50%, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}</td>
 </tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage.test_01_Launch_UI_Catalog_HomePage()'><b>test_01_Launch_UI_Catalog_HomePage</b><br>Test class: iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage<br>Test method: Test UI Catalog APP -Smoke Test<br/>
-<a href="#Output-519492428" onClick='toggleBox("Output-519492428", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-519492428" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-519492428">
+<tr><td>
+08_08_2017_06_26_35_634 -  Started Test : test_02_Alerts_TestApp<br/>
+08_08_2017_06_26_37_729 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_08_2017_06_26_38_017 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_08_2017_06_26_38_267 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_08_2017_06_26_38_523 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_08_2017_06_26_39_524 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='show alert']]<br/>
+08_08_2017_06_26_39_724 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='show alert']]<br/>
+08_08_2017_06_26_44_034 -  Single Tap On Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='show alert']]<br/>
+08_08_2017_06_26_44_034 -  Waiting For alert to be displayed <br/>
+08_08_2017_06_26_46_018 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]<br/>
+08_08_2017_06_26_46_167 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]<br/>
+08_08_2017_06_26_46_331 -  Fetching the text : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]<br/>
+08_08_2017_06_26_46_519 -  Waiting for : 1 second(s)<br/>
+08_08_2017_06_26_47_591 -  Capturing Screenshot and Adding to Extent Reports<br/>
+08_08_2017_06_26_49_219 -  Dismissed Alert<br/>
+08_08_2017_06_26_50_217 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]<br/>
+08_08_2017_06_26_50_474 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]<br/>
+08_08_2017_06_26_54_035 -  Single Tap On Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]<br/>
+08_08_2017_06_26_54_035 -  Waiting For alert to be displayed <br/>
+08_08_2017_06_26_56_218 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]<br/>
+08_08_2017_06_26_56_367 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]<br/>
+08_08_2017_06_26_56_518 -  Fetching the text : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]<br/>
+08_08_2017_06_26_56_667 -  Waiting for : 1 second(s)<br/>
+08_08_2017_06_26_57_742 -  Capturing Screenshot and Adding to Extent Reports<br/>
+08_08_2017_06_26_59_466 -  Dismissed Alert<br/>
+08_08_2017_06_27_00_417 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]<br/>
+08_08_2017_06_27_00_675 -  Waiting For Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]<br/>
+08_08_2017_06_27_00_968 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (15306d98-eec8-4100-b251-818c8375e4bb)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]<br/>
+08_08_2017_06_27_01_218 -  Test Passed :  test_02_Alerts_TestApp<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>UI_Catalog_Test</h1>
+<h2 id="m3">iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage:test_01_Launch_UI_Catalog_HomePage</h2>
+<div>
 08_08_2017_06_12_49_070 -  Started Test : test_01_Launch_UI_Catalog_HomePage<br/>
 08_08_2017_06_12_49_489 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Action Sheets]<br/>
 08_08_2017_06_12_49_907 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Action Sheets]<br/>
@@ -106,16 +161,9 @@ function toggleAllBoxes() {
 08_08_2017_06_13_20_391 -  Swiping Down to Element[[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Action Sheets]<br/>
 08_08_2017_06_13_24_906 -  Test Passed :  test_01_Launch_UI_Catalog_HomePage<br/>
 </div>
-</td>
-<td></td>
-<td>35</td>
-<td>iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage@3ac3fd8b</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets.test_02_UI_Catalog_ActionSheets()'><b>test_02_UI_Catalog_ActionSheets</b><br>Test class: iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets<br/>
-<a href="#Output-2106165633" onClick='toggleBox("Output-2106165633", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2106165633" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2106165633">
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets:test_02_UI_Catalog_ActionSheets</h2>
+<div>
 08_08_2017_06_13_24_911 -  Started Test : test_02_UI_Catalog_ActionSheets<br/>
 08_08_2017_06_13_25_246 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Action Sheets]<br/>
 08_08_2017_06_13_25_536 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Action Sheets]<br/>
@@ -173,16 +221,9 @@ function toggleAllBoxes() {
 08_08_2017_06_13_59_525 -  Single Tap On Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Back]<br/>
 08_08_2017_06_13_59_525 -  Test Passed :  test_02_UI_Catalog_ActionSheets<br/>
 </div>
-</td>
-<td></td>
-<td>34</td>
-<td>iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets@5594a1b5</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators.test_03_UI_Catalog_ActivityIndicators()'><b>test_03_UI_Catalog_ActivityIndicators</b><br>Test class: iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators<br/>
-<a href="#Output-351877391" onClick='toggleBox("Output-351877391", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-351877391" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-351877391">
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators:test_03_UI_Catalog_ActivityIndicators</h2>
+<div>
 08_08_2017_06_13_59_527 -  Started Test : test_03_UI_Catalog_ActivityIndicators<br/>
 08_08_2017_06_13_59_867 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Activity Indicators]<br/>
 08_08_2017_06_14_00_173 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Activity Indicators]<br/>
@@ -205,16 +246,13 @@ function toggleAllBoxes() {
 08_08_2017_06_14_12_728 -  Single Tap On Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Back]<br/>
 08_08_2017_06_14_12_729 -  Test Passed :  test_03_UI_Catalog_ActivityIndicators<br/>
 </div>
-</td>
-<td></td>
-<td>13</td>
-<td>iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators@6a5fc7f7</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews.test_04_UI_Catalog_AlertViews()'><b>test_04_UI_Catalog_AlertViews</b><br>Test class: iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews<br>Parameters: {Script_name=Test_04_UI_Catalog_AlertViews, TestData_2=A message should be a short, complete sentence., TestData_1=A Short Title Is Best, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=Hello, Thank You , TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
-<a href="#Output-872522004" onClick='toggleBox("Output-872522004", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-872522004" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-872522004">
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews:test_04_UI_Catalog_AlertViews</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{Script_name=Test_04_UI_Catalog_AlertViews, TestData_2=A message should be a short, complete sentence., TestData_1=A Short Title Is Best, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=Hello, Thank You , TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}</td>
+</tr>
+<tr><td>
 08_08_2017_06_14_12_751 -  Started Test : test_04_UI_Catalog_AlertViews<br/>
 08_08_2017_06_14_13_127 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Alert Views]<br/>
 08_08_2017_06_14_13_430 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Alert Views]<br/>
@@ -328,17 +366,11 @@ function toggleAllBoxes() {
 08_08_2017_06_15_37_982 -  Dismissed Alert<br/>
 08_08_2017_06_15_39_547 -  Go Back<br/>
 08_08_2017_06_15_39_548 -  Test Passed :  test_04_UI_Catalog_AlertViews<br/>
-</div>
-</td>
-<td></td>
-<td>86</td>
-<td>iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews@3b6eb2ec</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons.test_05_UI_Catalog_Buttons()'><b>test_05_UI_Catalog_Buttons</b><br>Test class: iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons<br/>
-<a href="#Output-896138248" onClick='toggleBox("Output-896138248", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-896138248" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-896138248">
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons:test_05_UI_Catalog_Buttons</h2>
+<div>
 08_08_2017_06_15_39_549 -  Started Test : test_05_UI_Catalog_Buttons<br/>
 08_08_2017_06_15_40_037 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Buttons]<br/>
 08_08_2017_06_15_40_358 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Buttons]<br/>
@@ -369,16 +401,9 @@ function toggleAllBoxes() {
 08_08_2017_06_16_02_935 -  Go Back<br/>
 08_08_2017_06_16_02_935 -  Test Passed :  test_05_UI_Catalog_Buttons<br/>
 </div>
-</td>
-<td></td>
-<td>23</td>
-<td>iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons@1e643faf</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker.test_06_UI_Catalog_DatePicker()'><b>test_06_UI_Catalog_DatePicker</b><br>Test class: iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker<br/>
-<a href="#Output-1420196421" onClick='toggleBox("Output-1420196421", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1420196421" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1420196421">
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker:test_06_UI_Catalog_DatePicker</h2>
+<div>
 08_08_2017_06_16_02_936 -  Started Test : test_06_UI_Catalog_DatePicker<br/>
 08_08_2017_06_16_03_346 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Date Picker]<br/>
 08_08_2017_06_16_03_735 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Date Picker]<br/>
@@ -405,16 +430,13 @@ function toggleAllBoxes() {
 08_08_2017_06_16_25_244 -  Go Back<br/>
 08_08_2017_06_16_25_244 -  Test Passed :  test_06_UI_Catalog_DatePicker<br/>
 </div>
-</td>
-<td></td>
-<td>22</td>
-<td>iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker@6e8dacdf</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls.test_07_UI_Catalog_SegmentedControls()'><b>test_07_UI_Catalog_SegmentedControls</b><br>Test class: iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls<br>Parameters: {Script_name=Test_07_UI_Catalog_SegmentedControls, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Search, TestData_3=Check, TestData_6=CUSTOM SEGMENTS, TestData_5=Tools, TestData_8=Search, TestData_7=Done, TestData_9=Settings}<br/>
-<a href="#Output-414225167" onClick='toggleBox("Output-414225167", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-414225167" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-414225167">
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls:test_07_UI_Catalog_SegmentedControls</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{Script_name=Test_07_UI_Catalog_SegmentedControls, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Search, TestData_3=Check, TestData_6=CUSTOM SEGMENTS, TestData_5=Tools, TestData_8=Search, TestData_7=Done, TestData_9=Settings}</td>
+</tr>
+<tr><td>
 08_08_2017_06_16_25_299 -  Started Test : test_07_UI_Catalog_SegmentedControls<br/>
 08_08_2017_06_16_25_686 -  Swiping Vertically Down <br/>
 08_08_2017_06_16_30_399 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Segmented Controls]<br/>
@@ -500,17 +522,11 @@ function toggleAllBoxes() {
 08_08_2017_06_17_31_927 -  Capturing Screenshot and Adding to Extent Reports<br/>
 08_08_2017_06_17_33_763 -  Go Back<br/>
 08_08_2017_06_17_33_763 -  Test Passed :  test_07_UI_Catalog_SegmentedControls<br/>
-</div>
-</td>
-<td></td>
-<td>68</td>
-<td>iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls@7a79be86</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders.test_08_UI_Catalog_Sliders()'><b>test_08_UI_Catalog_Sliders</b><br>Test class: iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders<br/>
-<a href="#Output-109069556" onClick='toggleBox("Output-109069556", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-109069556" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-109069556">
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders:test_08_UI_Catalog_Sliders</h2>
+<div>
 08_08_2017_06_17_33_765 -  Started Test : test_08_UI_Catalog_Sliders<br/>
 08_08_2017_06_17_34_158 -  Swiping Vertically Down <br/>
 08_08_2017_06_17_40_353 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Sliders]<br/>
@@ -537,16 +553,13 @@ function toggleAllBoxes() {
 08_08_2017_06_17_51_199 -  Go Back<br/>
 08_08_2017_06_17_51_199 -  Test Passed :  test_08_UI_Catalog_Sliders<br/>
 </div>
-</td>
-<td></td>
-<td>17</td>
-<td>iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders@34ce8af7</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers.test_09_UI_Catalog_Steppers()'><b>test_09_UI_Catalog_Steppers</b><br>Test class: iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers<br>Parameters: {Script_name=Test_09_UI_Catalog_Steppers, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Decrement, TestData_3=CUSTOM, TestData_6=10, TestData_5=Increment, TestData_8=, TestData_7=, TestData_9=}<br/>
-<a href="#Output-788905599" onClick='toggleBox("Output-788905599", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-788905599" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-788905599">
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers:test_09_UI_Catalog_Steppers</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{Script_name=Test_09_UI_Catalog_Steppers, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Decrement, TestData_3=CUSTOM, TestData_6=10, TestData_5=Increment, TestData_8=, TestData_7=, TestData_9=}</td>
+</tr>
+<tr><td>
 08_08_2017_06_17_51_206 -  Started Test : test_09_UI_Catalog_Steppers<br/>
 08_08_2017_06_17_51_518 -  Swiping Vertically Down <br/>
 08_08_2017_06_17_56_657 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Steppers]<br/>
@@ -702,17 +715,15 @@ Total Tap : Decrement = 8<br/>
 08_08_2017_06_20_47_148 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> xpath: //XCUIElementTypeOther[@label='CUSTOM']/../following-sibling::XCUIElementTypeCell[1]/XCUIElementTypeStaticText]<br/>
 08_08_2017_06_20_48_799 -  Go Back<br/>
 08_08_2017_06_20_48_800 -  Test Passed :  test_09_UI_Catalog_Steppers<br/>
-</div>
-</td>
-<td></td>
-<td>177</td>
-<td>iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers@b684286</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches.test_10_UI_Catalog_Switches()'><b>test_10_UI_Catalog_Switches</b><br>Test class: iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches<br>Parameters: {Script_name=Test_10_UI_Catalog_Switches, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
-<a href="#Output-2016828666" onClick='toggleBox("Output-2016828666", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2016828666" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2016828666">
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches:test_10_UI_Catalog_Switches</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{Script_name=Test_10_UI_Catalog_Switches, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}</td>
+</tr>
+<tr><td>
 08_08_2017_06_20_48_812 -  Started Test : test_10_UI_Catalog_Switches<br/>
 08_08_2017_06_20_49_197 -  Swiping Vertically Down <br/>
 08_08_2017_06_20_54_118 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Switches]<br/>
@@ -748,17 +759,15 @@ Total Tap : Decrement = 8<br/>
 08_08_2017_06_21_14_017 -  Single Tap On Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSwitch[2]]<br/>
 08_08_2017_06_21_15_552 -  Go Back<br/>
 08_08_2017_06_21_15_552 -  Test Passed :  test_10_UI_Catalog_Switches<br/>
-</div>
-</td>
-<td></td>
-<td>26</td>
-<td>iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches@880ec60</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields.test_11_UI_Catalog_TextFields()'><b>test_11_UI_Catalog_TextFields</b><br>Test class: iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields<br>Parameters: {Script_name=Test_11_UI_Catalog_TextFields, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=Specific_Text_DU, TestData_11=Custom Made Text &@, TestData_12=, TestData_13=, TestData_14=, TestData_4=SPECIFIC KEYBOARD, TestData_3=SECURE, TestData_6=Placeholder text, TestData_5=CUSTOM, TestData_8=Tinted_Text_Pin2, TestData_7=Default_Text_Sam1, TestData_9=Secure_TextP}<br/>
-<a href="#Output-415565467" onClick='toggleBox("Output-415565467", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-415565467" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-415565467">
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields:test_11_UI_Catalog_TextFields</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{Script_name=Test_11_UI_Catalog_TextFields, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=Specific_Text_DU, TestData_11=Custom Made Text &amp;@, TestData_12=, TestData_13=, TestData_14=, TestData_4=SPECIFIC KEYBOARD, TestData_3=SECURE, TestData_6=Placeholder text, TestData_5=CUSTOM, TestData_8=Tinted_Text_Pin2, TestData_7=Default_Text_Sam1, TestData_9=Secure_TextP}</td>
+</tr>
+<tr><td>
 08_08_2017_06_21_15_560 -  Started Test : test_11_UI_Catalog_TextFields<br/>
 08_08_2017_06_21_16_000 -  Swiping Vertically Down <br/>
 08_08_2017_06_21_20_950 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Text Fields]<br/>
@@ -817,17 +826,11 @@ Total Tap : Decrement = 8<br/>
 08_08_2017_06_22_27_229 -  Capturing Screenshot and Adding to Extent Reports<br/>
 08_08_2017_06_22_28_905 -  Go Back<br/>
 08_08_2017_06_22_28_905 -  Test Passed :  test_11_UI_Catalog_TextFields<br/>
-</div>
-</td>
-<td></td>
-<td>73</td>
-<td>iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields@3f3afe78</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView.test_12_UI_Catalog_TextView()'><b>test_12_UI_Catalog_TextView</b><br>Test class: iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView<br/>
-<a href="#Output-1936550492" onClick='toggleBox("Output-1936550492", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1936550492" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1936550492">
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView:test_12_UI_Catalog_TextView</h2>
+<div>
 08_08_2017_06_22_28_906 -  Started Test : test_12_UI_Catalog_TextView<br/>
 08_08_2017_06_22_29_269 -  Swiping Vertically Down <br/>
 08_08_2017_06_22_38_556 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Text View]<br/>
@@ -892,16 +895,13 @@ SIMULATOR_RUNTIME_VERSION => 10.3.1<br/>
 08_08_2017_06_23_01_861 -  Go Back<br/>
 08_08_2017_06_23_01_861 -  Test Passed :  test_12_UI_Catalog_TextView<br/>
 </div>
-</td>
-<td></td>
-<td>32</td>
-<td>iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView@7f63425a</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars.test_13_UI_Catalog_TextView()'><b>test_13_UI_Catalog_TextView</b><br>Test class: iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars<br>Parameters: {Script_name=Test_13_UI_Catalog_SearchBars, TestData_2=, TestData_1=Hello_There, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
-<a href="#Output-2069500590" onClick='toggleBox("Output-2069500590", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2069500590" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2069500590">
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars:test_13_UI_Catalog_TextView</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{Script_name=Test_13_UI_Catalog_SearchBars, TestData_2=, TestData_1=Hello_There, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}</td>
+</tr>
+<tr><td>
 08_08_2017_06_23_01_866 -  Started Test : test_13_UI_Catalog_TextView<br/>
 08_08_2017_06_23_02_406 -  Swiping Vertically Down <br/>
 08_08_2017_06_23_11_676 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Search Bars]<br/>
@@ -953,17 +953,11 @@ SIMULATOR_RUNTIME_VERSION => 10.3.1<br/>
 08_08_2017_06_23_56_628 -  Go Back<br/>
 08_08_2017_06_23_58_323 -  Go Back<br/>
 08_08_2017_06_23_58_323 -  Test Passed :  test_13_UI_Catalog_TextView<br/>
-</div>
-</td>
-<td></td>
-<td>56</td>
-<td>iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars@36d64342</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars.test_14_UI_Catalog_ToolBars()'><b>test_14_UI_Catalog_ToolBars</b><br>Test class: iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars<br/>
-<a href="#Output-1514214932" onClick='toggleBox("Output-1514214932", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1514214932" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1514214932">
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars:test_14_UI_Catalog_ToolBars</h2>
+<div>
 08_08_2017_06_23_58_325 -  Started Test : test_14_UI_Catalog_ToolBars<br/>
 08_08_2017_06_23_58_660 -  Swiping Vertically Down <br/>
 08_08_2017_06_24_12_229 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Toolbars]<br/>
@@ -1017,16 +1011,13 @@ SIMULATOR_RUNTIME_VERSION => 10.3.1<br/>
 08_08_2017_06_25_00_015 -  Go Back<br/>
 08_08_2017_06_25_00_015 -  Test Passed :  test_14_UI_Catalog_ToolBars<br/>
 </div>
-</td>
-<td></td>
-<td>61</td>
-<td>iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars@39ba5a14</td></tr>
-<tr>
-<td title='iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView.test_15_UI_Catalog_WebView()'><b>test_15_UI_Catalog_WebView</b><br>Test class: iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView<br>Parameters: {Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
-<a href="#Output-1852661033" onClick='toggleBox("Output-1852661033", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1852661033" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1852661033">
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView:test_15_UI_Catalog_WebView</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{Script_name=Test_15_UI_Catalog_WebView, TestData_2=Printed Chiffon Dress, TestData_1=Printed Dress, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}</td>
+</tr>
+<tr><td>
 08_08_2017_06_25_00_030 -  Started Test : test_15_UI_Catalog_WebView<br/>
 08_08_2017_06_25_00_375 -  Swiping Vertically Down <br/>
 08_08_2017_06_25_05_326 -  Waiting For Element : [[IOSDriver:  on MAC (ad38eaf9-931b-40bf-aba3-ed8503a094f3)] -> accessibility id: Web View]<br/>
@@ -1070,11 +1061,8 @@ SIMULATOR_RUNTIME_VERSION => 10.3.1<br/>
 08_08_2017_06_25_36_183 -  Capturing Screenshot and Adding to Extent Reports<br/>
 08_08_2017_06_25_39_532 -  Go Back<br/>
 08_08_2017_06_25_39_532 -  Test Passed :  test_15_UI_Catalog_WebView<br/>
-</div>
-</td>
-<td></td>
-<td>39</td>
-<td>iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView@511baa65</td></tr>
-</table><p>
-</body>
-</html>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<center> Report customized </center>
+</body></html>
