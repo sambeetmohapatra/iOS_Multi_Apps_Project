@@ -12,17 +12,15 @@
 
 	  <test name="BbsrApp_Test">
 	  	
-	   <packages>
+	   <!-- <packages>
 	      <package name="iOS.Bbsr.scripts"/>
-	    </packages> 
+	    </packages>  -->
 	    
-   <!--  <classes>
+	    
+	<classes>
+      <class name="iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage"/>
       <class name="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage"/>
-    </classes> -->
-    
-     <!-- <classes>
-      <class name=""/>
-    </classes> -->
+    </classes>
     
   </test>   
 </suite> 

@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [BbsrApp_Suite]">
-  <parameter name="TestData_Sheet" value="/App_Data_Objects/BbsrApp/TestData.xls"/>
-  <parameter name="bundleId" value="com.sam.Bhubaneswar"/>
-  <parameter name="PageObjects_File" value="/App_Data_Objects/BbsrApp/PageObjects.xml"/>
-  <test name="BbsrApp_Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage">
+      <class name="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
         <methods>
-          <include name="test_02_Bbsr_SupportPage" invocation-numbers="0"/>
-          <include name="after_Method"/>
-          <include name="before_Method"/>
-          <include name="beforeTest_Config"/>
+          <include name="test_15_UI_Catalog_WebView"/>
         </methods>
-      </class> <!-- iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage -->
-      <class name="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage">
-        <methods>
-          <include name="before_Suite"/>
-          <include name="after_Method"/>
-          <include name="before_Method"/>
-          <include name="after_Suite"/>
-        </methods>
-      </class> <!-- iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage -->
+      </class> <!-- iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView -->
     </classes>
-  </test> <!-- BbsrApp_Test(failed) -->
-</suite> <!-- Failed suite [BbsrApp_Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

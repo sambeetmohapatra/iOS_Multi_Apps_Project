@@ -13,14 +13,16 @@
 
 	  <test name="TestApp_Test">
 	  	
-	   <packages>
+	   <!-- <packages>
 	      <package name="iOS.TestApp.scripts"/>
-	    </packages> 
+	    </packages>  -->
 	    
     
-     <!-- <classes>
-      <class name=""/>
-    </classes> -->
+     <classes>
+      <class name="iOS.TestApp.scripts.Test_01_Compute_Sum"/>
+      <class name="iOS.TestApp.scripts.Test_02_Alerts_TestApp"/>
+
+    </classes> 
     
   </test>   
 </suite> 

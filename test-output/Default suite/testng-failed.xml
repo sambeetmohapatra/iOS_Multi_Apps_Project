@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="iOS.TestApp.scripts.Test_02_Alerts_TestApp">
+      <class name="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
         <methods>
-          <include name="test_02_Alerts_TestApp"/>
+          <include name="test_15_UI_Catalog_WebView"/>
         </methods>
-      </class> <!-- iOS.TestApp.scripts.Test_02_Alerts_TestApp -->
+      </class> <!-- iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
