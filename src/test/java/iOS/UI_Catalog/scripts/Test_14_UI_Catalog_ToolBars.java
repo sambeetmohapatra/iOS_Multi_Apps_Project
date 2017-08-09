@@ -97,7 +97,6 @@ public class Test_14_UI_Catalog_ToolBars extends Base_Class {
 //Step 9 : Go Back to Home Screen 
 	logger.log(LogStatus.INFO, "Step 9 : Go Back to Home Screen ");
 	goBack();
-	goBack();
 
 	}
 

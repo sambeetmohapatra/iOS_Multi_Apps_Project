@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ShoppingCart_Suite" verbose="3" parallel="none" preserve-order="true">
+
+ <!-- <listeners>
+<listener class-name="iOS.Listeners.RetryListener"/>
+</listeners>  -->
+
+	<parameter name="bundleId" value="Test.shoppingCartIOS"/>
+	<parameter name="TestData_Sheet" value="/App_Data_Objects/ShoppingCart/TestData.xls"/>
+	<parameter name="PageObjects_File" value="/App_Data_Objects/ShoppingCart/PageObjects.xml"/>
+
+	  <test name="ShoppingCart_Test">
+	  	
+	   <!-- <packages>
+	      <package name="iOS.Bbsr.scripts"/>
+	    </packages>  -->
+	    
+	    
+	<classes>
+	  <class name="iOS.ShoppingCart.Test_01_Validate_HomePage_Add_Items"/>
+      <class name="iOS.ShoppingCart.Test_02_Validate_PlaceOrder_Add_Items"/>
+    </classes>
+    
+  </test>   
+</suite> 

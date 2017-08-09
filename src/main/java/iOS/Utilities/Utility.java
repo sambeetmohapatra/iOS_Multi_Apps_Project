@@ -83,7 +83,13 @@ public class Utility implements iOSUtility,Constants{
 		else 
 			return false;
 	}
-	
+	public boolean isButtonEnabled(WebElement wb){
+		Reporter.log(getFormatedDateTime()+" - "+" Is the Button Enabled on Screen : "+wb,true);
+		if(wb.isEnabled())
+			return true;
+		else 
+			return false;
+	}
 
 	public void click(WebElement wb){
 		

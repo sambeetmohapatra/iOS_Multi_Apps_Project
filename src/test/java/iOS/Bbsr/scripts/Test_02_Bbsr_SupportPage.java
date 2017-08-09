@@ -115,13 +115,7 @@ public class Test_02_Bbsr_SupportPage extends Base_Class {
 	acceptAlert();
 	logger.log(LogStatus.PASS,"Step 8 : Wait for and verify the alert is displayed");
 	
-//Step 9 : Navigate to Home Screen 
-	logger.log(LogStatus.INFO,"Step 9 : Navigate to Home Screen ");
-	click(object.getElementByXpath("common_elements/nav_bar_featured"));
-	logger.log(LogStatus.PASS,"Step 9 : Navigate to Home Screen ");
-
-	}
-	
+	}	
 	@BeforeTest
 	private void beforeTest_Config() {
 		testdata = new HashMap<String, String>();

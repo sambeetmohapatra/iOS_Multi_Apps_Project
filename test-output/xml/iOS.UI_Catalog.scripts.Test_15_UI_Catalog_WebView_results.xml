@@ -1,47 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Default test"
-           tests="3"
-           failures="1"
+<testsuite name="UI_Catalog_Test"
+           tests="1"
+           failures="0"
            errors="0"
-           skipped="2"
-           time="0.000">
+           skipped="0"
+           time="40.878">
   <properties />
-            <testcase name="before_Suite" time="0.000" classname="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
-                <failure type="org.testng.TestNGException"
-                  message="
-Parameter &apos;bundleId&apos; is required by BeforeSuite on method before_Suite but has not been marked @Optional or defined
-in /private/var/folders/sx/jlcqw9hx2kd43y05t3twmkz00000gn/T/testng-eclipse--39513831/testng-customsuite.xml"
-              >
-<![CDATA[org.testng.TestNGException: 
-Parameter 'bundleId' is required by BeforeSuite on method before_Suite but has not been marked @Optional or defined
-in /private/var/folders/sx/jlcqw9hx2kd43y05t3twmkz00000gn/T/testng-eclipse--39513831/testng-customsuite.xml
-  org.testng.internal.Parameters.createParameters(Parameters.java:199)
-  org.testng.internal.Parameters.createParameters(Parameters.java:443)
-  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
-  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
-  org.testng.SuiteRunner.run(SuiteRunner.java:289)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-  org.testng.TestNG.runSuites(TestNG.java:1133)
-  org.testng.TestNG.run(TestNG.java:1104)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-      </failure>
-
-          </testcase>
-  
-            <testcase name="after_Suite" time="0.0" classname="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
-          <skipped />
-    </testcase>
-            <testcase name="test_15_UI_Catalog_WebView" time="0.0" classname="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
-          <skipped />
-    </testcase>
   
   
+            <testcase name="test_15_UI_Catalog_WebView" time="40.878" classname="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView" />
+      
 </testsuite>

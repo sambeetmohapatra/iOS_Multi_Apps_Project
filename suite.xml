@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All_Suites" verbose="3">
+<suite name="All_Suites" preserve-order="true">
 
-<suite-files>
+<suite-files >
 
 <suite-file path="./Suites/Scripts_UI_Catalog.xml" />
 <suite-file path="./Suites/Scripts_TestApp.xml" />
 <suite-file path="./Suites/Scripts_Bhubaneswar.xml" />
+<suite-file path="./Suites/Scripts_ShoppingCart.xml" />
+
   
 </suite-files>
-
 
 </suite> <!-- Suite -->

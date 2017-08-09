@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
+      <class name="iOS.ShoppingCart.Test_02_Validate_PlaceOrder_Add_Items">
         <methods>
-          <include name="test_15_UI_Catalog_WebView"/>
+          <include name="test_02_Validate_PlaceOrder_Add_Items"/>
         </methods>
-      </class> <!-- iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView -->
+      </class> <!-- iOS.ShoppingCart.Test_02_Validate_PlaceOrder_Add_Items -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

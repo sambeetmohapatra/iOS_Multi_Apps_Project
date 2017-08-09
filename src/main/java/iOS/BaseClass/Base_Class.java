@@ -27,14 +27,15 @@ public class Base_Class extends Launch_Apps {
 
 	public static String TestData_Sheet;
 	public static String PageObjects_File;
-	
+	public static String bundleId;
 	@Override
 	@BeforeSuite
 	@Parameters({"bundleId","TestData_Sheet","PageObjects_File"})
 	public void before_Suite(String bundleId,String TestData_Sheet,String PageObjects_File){ //No @Optional Values are present
 		Base_Class.TestData_Sheet =WORKSPACE_PATH+TestData_Sheet;
 		Base_Class.PageObjects_File = WORKSPACE_PATH+PageObjects_File;
-
+		Base_Class.bundleId=bundleId;
+		
 		Reporter.log("Worksheet for TestData :  " + Base_Class.TestData_Sheet ,true);
 		Reporter.log("Page Objects for Test :  " + Base_Class.PageObjects_File ,true);
 		Reporter.log(getFormatedDateTime()+"    ****** Suite Execution Started ****** ",true);
@@ -42,7 +43,14 @@ public class Base_Class extends Launch_Apps {
 		report = new ExtentReports(REPORT_PATH+getFormatedDateTime()+".html");
 		report.loadConfig(new File(EXTENT_CONFIG_FILE));
 		startServer();
-		Launch_iOS_Application(bundleId); // Launch the App on iPhone 7 with the Bundle ID since the app is already installed on the phone
+	}
+	@BeforeClass
+	public void before_Class() {
+		// Launch the App on iPhone 7 with the Bundle ID since the app is already installed on the phone
+		Reporter.log("Bundle Id for the Application :  " + Base_Class.PageObjects_File ,true);
+
+		Launch_iOS_Application(bundleId); 
+
 	}
 	@Override
 	@BeforeMethod

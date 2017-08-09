@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+
+		<!-- type ="xpath" platform="iOS" --> 
+
+<cart_homepage name ="cart_homepage">
+  		<cart_header type ="xpath" platform="iOS">//XCUIElementTypeNavigationBar[@name='Cart']</cart_header>
+  		
+  		<apple_watch_img type ="xpath" platform="iOS">//XCUIElementTypeImage[@name='img_watch']</apple_watch_img>
+  		<apple_watch_txt type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Apple Watch']</apple_watch_txt>
+  		<apple_watch_price type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='399.99']</apple_watch_price>
+  		<apple_watch_increment type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Apple Watch']/following-sibling::XCUIElementTypeStepper[1]/XCUIElementTypeButton[@label='Increment']</apple_watch_increment>
+  		<apple_watch_decrement type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Apple Watch']/following-sibling::XCUIElementTypeStepper[1]/XCUIElementTypeButton[@label='Decrement']</apple_watch_decrement>
+
+		<apple_ipad_img type ="xpath" platform="iOS">//XCUIElementTypeImage[@name='img_ipad']</apple_ipad_img>
+  		<apple_ipad_txt type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Ipad Mini']</apple_ipad_txt>
+  		<apple_ipad_price type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='420.99']</apple_ipad_price>
+  		<apple_ipad_increment type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Ipad Mini']/following-sibling::XCUIElementTypeStepper[1]/XCUIElementTypeButton[@label='Increment']</apple_ipad_increment>
+  		<apple_ipad_decrement type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Ipad Mini']/following-sibling::XCUIElementTypeStepper[1]/XCUIElementTypeButton[@label='Decrement']</apple_ipad_decrement>
+		
+		<apple_tv_img type ="xpath" platform="iOS">//XCUIElementTypeImage[@name='img_tv']</apple_tv_img>
+  		<apple_tv_txt type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Apple TV']</apple_tv_txt>
+  		<apple_tv_price type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='209.99']</apple_tv_price>
+  		<apple_tv_increment type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Apple TV']/following-sibling::XCUIElementTypeStepper[1]/XCUIElementTypeButton[@label='Increment']</apple_tv_increment>
+  		<apple_tv_decrement type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Apple TV']/following-sibling::XCUIElementTypeStepper[1]/XCUIElementTypeButton[@label='Decrement']</apple_tv_decrement>
+		
+		<cart_total_txt type ="xpath" platform="iOS" >//XCUIElementTypeStaticText[@name='Total']</cart_total_txt>
+		<cart_total_amt type ="xpath" platform="iOS" >//XCUIElementTypeStaticText[@name='Total']</cart_total_amt>
+		<cart_total_amt_value type ="xpath" platform="iOS" >//XCUIElementTypeStaticText[@name='Total']/following-sibling::XCUIElementTypeStaticText[1]</cart_total_amt_value>
+		
+		<cart_disclaimer type ="xpath" platform="iOS" >//XCUIElementTypeStaticText[contains(@name,'Select the items you want to purchase')]</cart_disclaimer>
+		<cart_place_order_btn type ="xpath" platform="iOS" >//XCUIElementTypeButton[@label='Place Order ->']</cart_place_order_btn>
+</cart_homepage>
+
+<cart_checkoutpage name ="cart_checkoutpage">
+		<checkout_header type ="xpath" platform="iOS">//XCUIElementTypeNavigationBar[@name='shoppingCartIOS.ShoppingOrder']</checkout_header>
+		
+		<checkout_total_txt type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='total Including taxes']</checkout_total_txt>
+		<checkout_total_amount type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='total Including taxes']/preceding-sibling::XCUIElementTypeStaticText[1]</checkout_total_amount>
+	
+		<checkout_standard_option type ="xpath" platform="iOS">//XCUIElementTypeButton[@name='icon standard']</checkout_standard_option>
+		<checkout_standard_option_txt type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Free']</checkout_standard_option_txt>
+		
+		<checkout_express_option type ="xpath" platform="iOS">//XCUIElementTypeButton[@name='icon express']</checkout_express_option>
+		<checkout_express_option_txt type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Free']/following-sibling::XCUIElementTypeStaticText[1]</checkout_express_option_txt>
+
+
+
+
+
+
+</cart_checkoutpage>
+
+</class>

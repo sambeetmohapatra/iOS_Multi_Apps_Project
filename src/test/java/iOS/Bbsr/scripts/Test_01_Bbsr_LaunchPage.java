@@ -65,7 +65,6 @@ public class Test_01_Bbsr_LaunchPage extends Base_Class {
 		takeScreenshot();
 		logger.log(LogStatus.PASS,"Step 3 : Click on More button in Nav bar");
 		
-		
 //Step 4 : Return To Main Page
 		logger.log(LogStatus.INFO,"Step 4 : Return To Main Page");
 		Tap_on_element(object.getElementByXpath("common_elements/nav_bar_featured"));
