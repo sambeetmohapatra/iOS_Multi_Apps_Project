@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UI_Catalog_Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="33.417">
+  <properties />
+  
+  
+            <testcase name="test_02_UI_Catalog_ActionSheets" time="33.417" classname="iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets" />
+      
+</testsuite>
