@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="BbsrApp_Suite" verbose="3" parallel="none" preserve-order="true">
 
- <!-- <listeners>
+<listeners>
 <listener class-name="iOS.Listeners.RetryListener"/>
-</listeners>  -->
+</listeners> 
 
 	<parameter name="bundleId" value="com.sam.Bhubaneswar"/>
 	<parameter name="TestData_Sheet" value="/App_Data_Objects/BbsrApp/TestData.xls"/>
@@ -18,8 +18,8 @@
 	    
 	    
 	<classes>
+	  <class name="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage"/>
       <class name="iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage"/>
-      <class name="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage"/>
     </classes>
     
   </test>   

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package iOS.ShoppingCart;
+package iOS.ShoppingCart.scripts;
 
 import org.testng.annotations.Test;
 import org.testng.Assert;

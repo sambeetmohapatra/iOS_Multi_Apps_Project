@@ -1,7 +1,7 @@
 /**
  * 
  */
-package iOS.ShoppingCart;
+package iOS.ShoppingCart.scripts;
 
 import java.util.Iterator;
 import java.util.Map;
