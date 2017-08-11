@@ -45,9 +45,14 @@
 		<checkout_express_option type ="xpath" platform="iOS">//XCUIElementTypeButton[@name='icon express']</checkout_express_option>
 		<checkout_express_option_txt type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@name='Free']/following-sibling::XCUIElementTypeStaticText[1]</checkout_express_option_txt>
 
-
-
-
+		<checkout_confirm_alert_header type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='Confirm Order']</checkout_confirm_alert_header>
+		<checkout_confirm_alert_message type ="xpath" platform="iOS">//XCUIElementTypeStaticText[contains(@label,'Please confirm your order for')]</checkout_confirm_alert_message>
+				
+		<checkout_confirm_succes_header type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='Thank you']</checkout_confirm_succes_header>
+		<checkout_confirm_succes_message type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='Thank you']/following-sibling::XCUIElementTypeStaticText[1]</checkout_confirm_succes_message>
+		<checkout_confirm_continue_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='Continue Shopping']</checkout_confirm_continue_btn>
+		
+	
 
 
 </cart_checkoutpage>

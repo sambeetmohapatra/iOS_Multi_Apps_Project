@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ShoppingCart_Suite" verbose="3" parallel="none" preserve-order="true">
+<suite name="ShoppingCart_Suite" verbose="2" parallel="none" preserve-order="true">
 
  <!-- <listeners>
 <listener class-name="iOS.Listeners.RetryListener"/>
@@ -18,8 +18,10 @@
 	    
 	    
 	<classes>
-	  <class name="iOS.ShoppingCart.Test_01_Validate_HomePage_Add_Items"/>
+	   <class name="iOS.ShoppingCart.Test_01_Validate_HomePage_Add_Items"/>
       <class name="iOS.ShoppingCart.Test_02_Validate_PlaceOrder_Add_Items"/>
+      <class name="iOS.ShoppingCart.Test_03_Validate_Purchase_Items_ContinueShopping"/>
+      
     </classes>
     
   </test>   
