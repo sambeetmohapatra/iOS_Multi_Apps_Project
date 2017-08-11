@@ -34,7 +34,6 @@ public class Test_03_Validate_Purchase_Items_ContinueShopping extends Base_Class
 		WebElement cart_header = waitForElement(object.getElementByXpath("cart_homepage/cart_header"));
 		Assert.assertTrue(isElementDisplayed(cart_header));
 		Assert.assertEquals(showAttribute(cart_header, NAME_ATTRIBUTE), data.get("TestData_1"));
-		takeScreenshot();
 		logger.log(LogStatus.PASS,"Step 1 : Validate the cart header is displayed ");
 		
 //Step 2 : Add Items from every Category and Validate the Place Order Button is enabled upon addition 
@@ -129,7 +128,8 @@ public class Test_03_Validate_Purchase_Items_ContinueShopping extends Base_Class
 		WebElement checkout_confirm_alert_header = waitForElement(object.getElementByXpath("cart_checkoutpage/checkout_confirm_alert_header"));
 		Assert.assertTrue(isElementDisplayed(checkout_confirm_alert_header));
 		Assert.assertEquals(showAttribute(checkout_confirm_alert_header, NAME_ATTRIBUTE), data.get("TestData_5"));
-		
+		takeScreenshot();
+
 		WebElement checkout_confirm_alert_message = waitForElement(object.getElementByXpath("cart_checkoutpage/checkout_confirm_alert_message"));
 		Assert.assertTrue(isElementDisplayed(checkout_confirm_alert_message));
 		Assert.assertTrue(showAttribute(checkout_confirm_alert_message, LABEL_ATTRIBUTE).contains(total_amount_value+""));
@@ -152,7 +152,7 @@ public class Test_03_Validate_Purchase_Items_ContinueShopping extends Base_Class
 		logger.log(LogStatus.PASS, "Step 9 : Click on Place Order Button and Confirm the Order ");
 		
 //Step 10 : Validate the Success Confirmation message
-				logger.log(LogStatus.INFO, "Step 10 : Validate the Success Confirmation message");
+		logger.log(LogStatus.INFO, "Step 10 : Validate the Success Confirmation message");
 		WebElement checkout_confirm_succes_header = waitForElement(object.getElementByXpath("cart_checkoutpage/checkout_confirm_succes_header"));
 		Assert.assertTrue(isElementDisplayed(checkout_confirm_succes_header));
 		Assert.assertEquals(showAttribute(checkout_confirm_alert_header, LABEL_ATTRIBUTE), data.get("TestData_6"));
@@ -161,7 +161,7 @@ public class Test_03_Validate_Purchase_Items_ContinueShopping extends Base_Class
 		WebElement checkout_confirm_continue_btn = waitForElement(object.getElementByXpath("cart_checkoutpage/checkout_confirm_continue_btn"));
 		Assert.assertTrue(isElementDisplayed(checkout_confirm_continue_btn));
 		Assert.assertEquals(showAttribute(checkout_confirm_continue_btn, LABEL_ATTRIBUTE), data.get("TestData_7"));
-		
+		takeScreenshot();
 		logger.log(LogStatus.PASS, "Expected : " + data.get("TestData_7")+" | Actual : "+ showText(checkout_confirm_continue_btn));
 		WebElement checkout_confirm_succes_message = waitForElement(object.getElementByXpath("cart_checkoutpage/checkout_confirm_succes_message"));
 		Assert.assertTrue(isElementDisplayed(checkout_confirm_succes_message));

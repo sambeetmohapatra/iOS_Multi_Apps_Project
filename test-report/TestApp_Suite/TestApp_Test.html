@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>TestNG:  TestApp_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestApp_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 12 00:00:41 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>77 seconds (77222 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='iOS.TestApp.scripts.Test_01_Compute_Sum.test_01_Compute_Sum()'><b>test_01_Compute_Sum</b><br>Test class: iOS.TestApp.scripts.Test_01_Compute_Sum<br>Parameters: {Script_name=Test_01_Compute_Sum, TestData_2=100, TestData_1=200, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=300, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
+<a href="#Output-692998280" onClick='toggleBox("Output-692998280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-692998280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-692998280">
+08_12_2017_12_01_03_626 -  Started Test : test_01_Compute_Sum<br/>
+08_12_2017_12_01_04_329 -  Waiting For Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_12_2017_12_01_04_524 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_12_2017_12_01_04_724 -  Waiting For Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_12_2017_12_01_04_908 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_12_2017_12_01_06_436 -  Waiting For Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]<br/>
+08_12_2017_12_01_06_626 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]<br/>
+08_12_2017_12_01_07_524 -  Waiting For Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]<br/>
+08_12_2017_12_01_07_704 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]<br/>
+08_12_2017_12_01_08_627 -  Waiting For Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]<br/>
+08_12_2017_12_01_10_685 -  Send Keys :  [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeTextField[@name='IntegerA']]<br/>
+08_12_2017_12_01_12_553 -  Waiting For Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]<br/>
+08_12_2017_12_01_14_777 -  Send Keys :  [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeTextField[@name='IntegerB']]<br/>
+08_12_2017_12_01_14_777 -  Waiting for : 1 second(s)<br/>
+08_12_2017_12_01_15_850 -  Capturing Screenshot and Adding to Extent Reports<br/>
+08_12_2017_12_01_18_693 -  Single Tap On Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_12_2017_12_01_18_693 -  Waiting for : 1 second(s)<br/>
+08_12_2017_12_01_21_442 -  Waiting For Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]<br/>
+08_12_2017_12_01_21_725 -  Waiting For Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]<br/>
+08_12_2017_12_01_22_043 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (44a43f84-1810-466d-9187-848389d62c93)] -> xpath: //XCUIElementTypeStaticText[@name='Answer']]<br/>
+08_12_2017_12_01_22_357 -  Waiting for : 1 second(s)<br/>
+08_12_2017_12_01_23_421 -  Capturing Screenshot and Adding to Extent Reports<br/>
+08_12_2017_12_01_25_430 -  Test Passed :  test_01_Compute_Sum<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>iOS.TestApp.scripts.Test_01_Compute_Sum@2752f6e2</td></tr>
+<tr>
+<td title='iOS.TestApp.scripts.Test_02_Alerts_TestApp.test_02_Alerts_TestApp()'><b>test_02_Alerts_TestApp</b><br>Test class: iOS.TestApp.scripts.Test_02_Alerts_TestApp<br>Parameters: {Script_name=Test_02_Alerts_TestApp, TestData_2=Calendar Authorization Status, TestData_1=Cool title, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=50%, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}<br/>
+<a href="#Output-746280996" onClick='toggleBox("Output-746280996", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-746280996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-746280996">
+08_12_2017_12_01_38_283 -  Started Test : test_02_Alerts_TestApp<br/>
+08_12_2017_12_01_38_974 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_12_2017_12_01_39_175 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_12_2017_12_01_39_375 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_12_2017_12_01_39_555 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='Compute Sum']]<br/>
+08_12_2017_12_01_40_439 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='show alert']]<br/>
+08_12_2017_12_01_40_625 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='show alert']]<br/>
+08_12_2017_12_01_43_437 -  Single Tap On Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='show alert']]<br/>
+08_12_2017_12_01_43_437 -  Waiting For alert to be displayed <br/>
+08_12_2017_12_01_45_281 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]<br/>
+08_12_2017_12_01_45_408 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]<br/>
+08_12_2017_12_01_45_543 -  Fetching the text : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Cool title']]<br/>
+08_12_2017_12_01_45_677 -  Waiting for : 1 second(s)<br/>
+08_12_2017_12_01_46_752 -  Capturing Screenshot and Adding to Extent Reports<br/>
+08_12_2017_12_01_48_144 -  Dismissed Alert<br/>
+08_12_2017_12_01_49_074 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]<br/>
+08_12_2017_12_01_49_275 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]<br/>
+08_12_2017_12_01_52_154 -  Single Tap On Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeButton[@label='Check calendar authorized']]<br/>
+08_12_2017_12_01_52_154 -  Waiting For alert to be displayed <br/>
+08_12_2017_12_01_53_976 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]<br/>
+08_12_2017_12_01_54_137 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]<br/>
+08_12_2017_12_01_54_281 -  Fetching the text : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='Calendar Authorization Status']]<br/>
+08_12_2017_12_01_54_409 -  Waiting for : 1 second(s)<br/>
+08_12_2017_12_01_55_481 -  Capturing Screenshot and Adding to Extent Reports<br/>
+08_12_2017_12_01_57_082 -  Dismissed Alert<br/>
+08_12_2017_12_01_57_981 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]<br/>
+08_12_2017_12_01_58_225 -  Waiting For Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]<br/>
+08_12_2017_12_01_58_432 -  Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (f48b9aee-c924-40e0-ac64-928412830caf)] -> xpath: //XCUIElementTypeSlider[@label='AppElem']]<br/>
+08_12_2017_12_01_58_629 -  Test Passed :  test_02_Alerts_TestApp<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>iOS.TestApp.scripts.Test_02_Alerts_TestApp@e580929</td></tr>
+</table><p>
+</body>
+</html>

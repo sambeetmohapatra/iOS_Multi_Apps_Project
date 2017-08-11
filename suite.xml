@@ -4,7 +4,7 @@
 
 <suite-files >
 
-<suite-file path="./Suites/Scripts_UI_Catalog.xml" />
+<suite-file path="./Suites/Scripts_UI_Catalog.xml" /> 
 <suite-file path="./Suites/Scripts_TestApp.xml" />
 <suite-file path="./Suites/Scripts_Bhubaneswar.xml" />
 <suite-file path="./Suites/Scripts_ShoppingCart.xml" />

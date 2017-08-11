@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestApp_Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.807">
+  <properties />
+  
+  
+            <testcase name="test_01_Compute_Sum" time="21.807" classname="iOS.TestApp.scripts.Test_01_Compute_Sum" />
+      
+</testsuite>
