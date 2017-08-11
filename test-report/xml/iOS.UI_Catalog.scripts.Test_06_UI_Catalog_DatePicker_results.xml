@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="22.750">
+           time="22.790">
   <properties />
   
   
-            <testcase name="test_06_UI_Catalog_DatePicker" time="22.750" classname="iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker" />
+            <testcase name="test_06_UI_Catalog_DatePicker" time="22.790" classname="iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker" />
       
 </testsuite>
