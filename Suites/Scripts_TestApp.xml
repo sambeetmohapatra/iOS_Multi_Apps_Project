@@ -17,7 +17,5 @@
 	      <package name="iOS.TestApp.scripts"/>
 	    </packages>  
 
-    </classes> 
-    
   </test>   
 </suite> 

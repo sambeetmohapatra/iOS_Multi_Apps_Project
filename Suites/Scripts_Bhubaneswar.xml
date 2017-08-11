@@ -11,11 +11,6 @@
 	<parameter name="PageObjects_File" value="/App_Data_Objects/BbsrApp/PageObjects.xml"/>
 
 	  <test name="BbsrApp_Test">
-	  	
-	   <!-- <packages>
-	      <package name="iOS.Bbsr.scripts"/>
-	    </packages>  -->
-	    
 	    
 	<classes>
 	  <class name="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage"/>
