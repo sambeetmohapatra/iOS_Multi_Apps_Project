@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="53.536">
+           time="68.646">
   <properties />
   
   
-            <testcase name="test_02_Validate_PlaceOrder_Add_Items" time="53.536" classname="iOS.ShoppingCart.scripts.Test_02_Validate_PlaceOrder_Add_Items" />
+            <testcase name="test_02_Validate_PlaceOrder_Add_Items" time="68.646" classname="iOS.ShoppingCart.scripts.Test_02_Validate_PlaceOrder_Add_Items" />
       
 </testsuite>

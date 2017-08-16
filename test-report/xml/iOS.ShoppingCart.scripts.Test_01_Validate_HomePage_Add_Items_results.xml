@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="73.940">
+           time="76.257">
   <properties />
   
   
-            <testcase name="test_01_Validate_HomePage_Add_Items" time="73.940" classname="iOS.ShoppingCart.scripts.Test_01_Validate_HomePage_Add_Items" />
+            <testcase name="test_01_Validate_HomePage_Add_Items" time="76.257" classname="iOS.ShoppingCart.scripts.Test_01_Validate_HomePage_Add_Items" />
       
 </testsuite>

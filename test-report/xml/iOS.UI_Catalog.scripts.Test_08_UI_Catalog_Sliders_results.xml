@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="15.804">
+           time="15.122">
   <properties />
   
   
-            <testcase name="test_08_UI_Catalog_Sliders" time="15.804" classname="iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders" />
+            <testcase name="test_08_UI_Catalog_Sliders" time="15.122" classname="iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders" />
       
 </testsuite>
