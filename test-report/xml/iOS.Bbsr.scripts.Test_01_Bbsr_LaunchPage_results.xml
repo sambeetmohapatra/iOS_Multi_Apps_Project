@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="18.396">
+           time="17.327">
   <properties />
   
   
-            <testcase name="test_01_Bbsr_LaunchPage" time="18.396" classname="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage" />
+            <testcase name="test_01_Bbsr_LaunchPage" time="17.327" classname="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage" />
       
 </testsuite>
