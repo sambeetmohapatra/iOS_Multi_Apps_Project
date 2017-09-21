@@ -4,21 +4,18 @@
   <parameter name="TestData_Sheet" value="/App_Data_Objects/HomeSafetyApp/TestData.xls"/>
   <parameter name="bundleId" value="edu.unm.emed.homesafetytools"/>
   <parameter name="PageObjects_File" value="/App_Data_Objects/HomeSafetyApp/PageObjects.xml"/>
-  <listeners>
-    <listener class-name="iOS.Listeners.RetryListener"/>
-  </listeners>
   <test name="HomeSafetyApp_Test(failed)">
     <classes>
-      <class name="iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage">
+      <class name="iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom">
         <methods>
           <include name="before_Suite"/>
           <include name="after_Method"/>
           <include name="before_Method"/>
           <include name="after_Suite"/>
-          <include name="test_01_HomeSafety_LaunchPage" invocation-numbers="0 0"/>
+          <include name="test_02_HomeSafety_Bedroom" invocation-numbers="0"/>
           <include name="before_Class"/>
         </methods>
-      </class> <!-- iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage -->
+      </class> <!-- iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom -->
     </classes>
   </test> <!-- HomeSafetyApp_Test(failed) -->
 </suite> <!-- Failed suite [HomeSafetyApp_Suite] -->

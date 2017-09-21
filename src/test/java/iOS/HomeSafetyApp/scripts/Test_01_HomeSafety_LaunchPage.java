@@ -45,7 +45,7 @@ public class Test_01_HomeSafety_LaunchPage extends Base_Class {
 		
 //Step 2 : Validate the Elements displayed in HomeSafety Header Page
 		logger.log(LogStatus.INFO,"Step 2 : Validate the Elements displayed in HomeSafety Header Page");
-		String str[] = {"upstairsliving_btn","backyard_btn","laundryroom_btn","livingroom_btn","kitchen_btn","bathroom_btn","frontyard_btn",
+		String str[] = {"bedroom_btn","upstairsliving_btn","backyard_btn","laundryroom_btn","livingroom_btn","kitchen_btn","bathroom_btn","frontyard_btn",
 				"nursery_btn","backToStart_btn"};
 		takeScreenshot();
 		for(int loopvar =0; loopvar<str.length;loopvar++) {

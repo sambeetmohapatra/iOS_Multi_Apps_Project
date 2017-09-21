@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
     <line>
       <![CDATA[Worksheet for TestData :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/HomeSafetyApp/TestData.xls]]>
@@ -8,228 +8,824 @@
       <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/HomeSafetyApp/PageObjects.xml]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_19_274    ****** Suite Execution Started ****** ]]>
+      <![CDATA[09_21_2017_11_07_47_727    ****** Suite Execution Started ****** ]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_19_661 -  Waiting for : 10 second(s)]]>
+      <![CDATA[09_21_2017_11_07_48_096 -  Waiting for : 10 second(s)]]>
     </line>
     <line>
       <![CDATA[Bundle Id for the Application :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/HomeSafetyApp/PageObjects.xml]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_29_678 -  Setting Desired Capabilities - iOS on : iPhone]]>
+      <![CDATA[09_21_2017_11_07_58_118 -  Setting Desired Capabilities - iOS on : iPhone]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_29_681 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=edu.unm.emed.homesafetytools, platformName=iOS, deviceName=iPhone 7}]]]>
+      <![CDATA[09_21_2017_11_07_58_121 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=edu.unm.emed.homesafetytools, platformName=iOS, deviceName=iPhone 7}]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_46_354    ***************** Execution Started : IOS.HOMESAFETYAPP.SCRIPTS.TEST_01_HOMESAFETY_LAUNCHPAGE *********************]]>
+      <![CDATA[09_21_2017_11_08_24_314    ***************** Execution Started : IOS.HOMESAFETYAPP.SCRIPTS.TEST_01_HOMESAFETY_LAUNCHPAGE *********************]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_46_406 -  Started Test : test_01_HomeSafety_LaunchPage]]>
+      <![CDATA[09_21_2017_11_08_24_381 -  Started Test : test_01_HomeSafety_LaunchPage]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_47_016 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+      <![CDATA[09_21_2017_11_08_25_027 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_47_202 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+      <![CDATA[09_21_2017_11_08_25_227 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_47_933 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+      <![CDATA[09_21_2017_11_08_26_014 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_48_101 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+      <![CDATA[09_21_2017_11_08_26_202 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_48_308 -  Waiting for : 1 second(s)]]>
+      <![CDATA[09_21_2017_11_08_26_392 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_49_313 -  Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[09_21_2017_11_08_27_394 -  Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_50_483 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+      <![CDATA[09_21_2017_11_08_28_746 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_51_232 -  Clicked :  [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+      <![CDATA[09_21_2017_11_08_29_699 -  Clicked :  [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_52_196 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+      <![CDATA[09_21_2017_11_08_30_827 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_52_426 -  Validating Element by Displayed [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+      <![CDATA[09_21_2017_11_08_31_093 -  Validating Element by Displayed [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_52_426 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+      <![CDATA[09_21_2017_11_08_31_093 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_52_673 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+      <![CDATA[09_21_2017_11_08_31_351 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_52_897 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+      <![CDATA[09_21_2017_11_08_31_607 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_53_093 -  Waiting for : 1 second(s)]]>
+      <![CDATA[09_21_2017_11_08_31_893 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_54_096 -  Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[09_21_2017_11_08_32_897 -  Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_55_253 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
+      <![CDATA[09_21_2017_11_08_34_194 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_55_469 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
+      <![CDATA[09_21_2017_11_08_34_543 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_55_743 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
+      <![CDATA[09_21_2017_11_08_34_842 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_55_996 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
+      <![CDATA[09_21_2017_11_08_35_092 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_56_945 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
+      <![CDATA[09_21_2017_11_08_36_349 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_57_158 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
+      <![CDATA[09_21_2017_11_08_37_202 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_57_413 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
+      <![CDATA[09_21_2017_11_08_37_462 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_57_656 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
+      <![CDATA[09_21_2017_11_08_37_716 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_58_599 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
+      <![CDATA[09_21_2017_11_08_38_753 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_58_811 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
+      <![CDATA[09_21_2017_11_08_38_993 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_59_079 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
+      <![CDATA[09_21_2017_11_08_39_245 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_03_59_349 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
+      <![CDATA[09_21_2017_11_08_39_505 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_00_406 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
+      <![CDATA[09_21_2017_11_08_40_610 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_00_684 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
+      <![CDATA[09_21_2017_11_08_40_852 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_00_915 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
+      <![CDATA[09_21_2017_11_08_41_099 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_01_193 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
+      <![CDATA[09_21_2017_11_08_41_366 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_02_326 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
+      <![CDATA[09_21_2017_11_08_42_359 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_02_597 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
+      <![CDATA[09_21_2017_11_08_42_600 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_02_819 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
+      <![CDATA[09_21_2017_11_08_42_862 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_03_093 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
+      <![CDATA[09_21_2017_11_08_43_101 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_04_116 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
+      <![CDATA[09_21_2017_11_08_44_144 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_04_348 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
+      <![CDATA[09_21_2017_11_08_44_395 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_04_573 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
+      <![CDATA[09_21_2017_11_08_44_655 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_04_825 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
+      <![CDATA[09_21_2017_11_08_44_893 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_05_805 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
+      <![CDATA[09_21_2017_11_08_45_944 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_06_025 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
+      <![CDATA[09_21_2017_11_08_46_197 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_06_268 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
+      <![CDATA[09_21_2017_11_08_46_443 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_06_509 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
+      <![CDATA[09_21_2017_11_08_46_693 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_07_490 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
+      <![CDATA[09_21_2017_11_08_47_743 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_07_704 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
+      <![CDATA[09_21_2017_11_08_47_994 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_07_964 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
+      <![CDATA[09_21_2017_11_08_48_227 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_08_221 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
+      <![CDATA[09_21_2017_11_08_48_474 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_09_190 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+      <![CDATA[09_21_2017_11_08_49_512 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_09_399 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+      <![CDATA[09_21_2017_11_08_49_744 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_09_646 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+      <![CDATA[09_21_2017_11_08_49_994 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_09_890 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+      <![CDATA[09_21_2017_11_08_50_243 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_13_385 -  Single Tap On Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+      <![CDATA[09_21_2017_11_08_51_263 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_13_979 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+      <![CDATA[09_21_2017_11_08_51_494 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_14_159 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+      <![CDATA[09_21_2017_11_08_51_725 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_17_417 -  Single Tap On Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+      <![CDATA[09_21_2017_11_08_51_993 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_17_418 -  Waiting for : 1 second(s)]]>
+      <![CDATA[09_21_2017_11_08_55_616 -  Single Tap On Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_18_421 -  Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[09_21_2017_11_08_56_243 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_19_225 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeImage[@name='aboutpage']]]]>
+      <![CDATA[09_21_2017_11_08_56_410 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_19_407 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeImage[@name='aboutpage']]]]>
+      <![CDATA[09_21_2017_11_08_59_670 -  Single Tap On Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_20_148 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[@label='version 1.1']]]]>
+      <![CDATA[09_21_2017_11_08_59_670 -  Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_20_300 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[@label='version 1.1']]]]>
+      <![CDATA[09_21_2017_11_09_00_672 -  Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_20_532 -  Test Passed :  test_01_HomeSafety_LaunchPage]]>
+      <![CDATA[09_21_2017_11_09_01_446 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeImage[@name='aboutpage']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_20_535    ***************** Execution Complete : TEST_01_HOMESAFETY_LAUNCHPAGE ******************]]>
+      <![CDATA[09_21_2017_11_09_01_645 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeImage[@name='aboutpage']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_21_304 - App Closed ]]>
+      <![CDATA[09_21_2017_11_09_02_420 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[@label='version 1.1']]]]>
     </line>
     <line>
-      <![CDATA[09_20_2017_09_04_21_734  *** iPhone |  ***** Suite Execution Completed *****]]>
+      <![CDATA[09_21_2017_11_09_02_612 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[@label='version 1.1']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_02_818 -  Test Passed :  test_01_HomeSafety_LaunchPage]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_02_820    ***************** Execution Complete : TEST_01_HOMESAFETY_LAUNCHPAGE ******************]]>
+    </line>
+    <line>
+      <![CDATA[Bundle Id for the Application :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/HomeSafetyApp/PageObjects.xml]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_02_824 -  Setting Desired Capabilities - iOS on : iPhone]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_02_826 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=edu.unm.emed.homesafetytools, platformName=iOS, deviceName=iPhone 7}]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_17_676    ***************** Execution Started : IOS.HOMESAFETYAPP.SCRIPTS.TEST_02_HOMESAFETY_BEDROOM *********************]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_17_677 -  Started Test : test_02_HomeSafety_Bedroom]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_18_306 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_18_496 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_18_672 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_19_676 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_20_717 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_21_411 -  Clicked :  [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_22_509 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_22_763 -  Validating Element by Displayed [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_22_764 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_23_021 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_23_265 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_24_266 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_24_525 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_24_797 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_25_046 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_26_027 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_26_898 -  Clicked :  [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_27_759 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_27_971 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_28_196 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_28_406 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_29_348 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_29_572 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_29_797 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_30_015 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_30_949 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_31_175 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_31_421 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_31_657 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_32_599 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_32_821 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_33_049 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_33_271 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_34_254 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_34_471 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_34_697 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_34_919 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_35_880 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_36_123 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_36_364 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_36_596 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_38_111 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_38_351 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_38_598 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_38_820 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_39_749 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_40_798 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_41_048 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_41_948 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_42_181 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_43_110 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_45_823 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_45_823 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_46_828 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_50_228 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_51_115 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_53_881 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_53_881 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_54_886 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_58_375 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_09_59_226 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_02_024 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_02_024 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_03_027 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_06_523 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_07_414 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_10_220 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_10_220 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_11_224 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_14_823 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_15_607 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_18_425 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_18_425 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_19_430 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_23_252 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_24_123 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_27_076 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_27_076 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_28_081 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_31_763 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_32_611 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_35_455 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_35_455 -  Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_36_456 -  Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_40_928 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_40_928 -  Test Passed :  test_02_HomeSafety_Bedroom]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_40_930    ***************** Execution Complete : TEST_02_HOMESAFETY_BEDROOM ******************]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_41_861 - App Closed ]]>
+    </line>
+    <line>
+      <![CDATA[09_21_2017_11_10_42_385  *** iPhone |  ***** Suite Execution Completed *****]]>
     </line>
   </reporter-output>
-  <suite name="HomeSafetyApp_Suite" duration-ms="50872" started-at="2017-09-20T15:33:29Z" finished-at="2017-09-20T15:34:20Z">
+  <suite name="HomeSafetyApp_Suite" duration-ms="162827" started-at="2017-09-21T17:37:58Z" finished-at="2017-09-21T17:40:40Z">
     <groups>
     </groups>
-    <test name="HomeSafetyApp_Test" duration-ms="50872" started-at="2017-09-20T15:33:29Z" finished-at="2017-09-20T15:34:20Z">
+    <test name="HomeSafetyApp_Test" duration-ms="162827" started-at="2017-09-21T17:37:58Z" finished-at="2017-09-21T17:40:40Z">
+      <class name="iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom">
+        <test-method status="PASS" signature="before_Class()[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom@dc24521]" name="before_Class" is-config="true" duration-ms="14845" started-at="2017-09-21T23:09:02Z" finished-at="2017-09-21T23:09:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Bundle Id for the Application :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/HomeSafetyApp/PageObjects.xml]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_02_824 -  Setting Desired Capabilities - iOS on : iPhone]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_02_826 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=edu.unm.emed.homesafetytools, platformName=iOS, deviceName=iPhone 7}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before_Class -->
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom@dc24521]" name="before_Method" is-config="true" duration-ms="0" started-at="2017-09-21T23:09:17Z" finished-at="2017-09-21T23:09:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[09_21_2017_11_09_17_676    ***************** Execution Started : IOS.HOMESAFETYAPP.SCRIPTS.TEST_02_HOMESAFETY_BEDROOM *********************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method status="PASS" signature="test_02_HomeSafety_Bedroom(java.util.Map)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom@dc24521]" name="test_02_HomeSafety_Bedroom" duration-ms="83252" started-at="2017-09-21T23:09:17Z" data-provider="dp_Test_02_HomeSafety_Bedroom" finished-at="2017-09-21T23:10:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Script_name=Test_02_HomeSafety_Bedroom, TestData_2=Click on a hazard sign to view a safety tip to keep children safe in this room., TestData_1=Choose a room or area to learn about common hazards in these locations and how to make them safe for children., TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=, TestData_3=, TestData_6=, TestData_5=, TestData_8=, TestData_7=, TestData_9=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[09_21_2017_11_09_17_677 -  Started Test : test_02_HomeSafety_Bedroom]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_18_306 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_18_496 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_18_672 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_19_676 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_20_717 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_21_411 -  Clicked :  [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_22_509 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_22_763 -  Validating Element by Displayed [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_22_764 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_23_021 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_23_265 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_24_266 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_24_525 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_24_797 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_25_046 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_26_027 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_26_898 -  Clicked :  [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_27_759 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_27_971 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_28_196 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_28_406 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_29_348 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_29_572 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_29_797 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_30_015 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_30_949 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_31_175 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_31_421 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_31_657 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_32_599 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_32_821 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_33_049 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_33_271 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_34_254 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_34_471 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_34_697 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_34_919 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_35_880 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_36_123 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_36_364 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_36_596 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_38_111 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_38_351 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_38_598 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_38_820 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_39_749 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_40_798 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_41_048 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_41_948 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_42_181 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_43_110 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_45_823 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip1']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_45_823 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_46_828 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_50_228 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_51_115 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_53_881 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip2']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_53_881 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_54_886 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_58_375 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_59_226 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_02_024 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip3']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_02_024 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_03_027 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_06_523 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_07_414 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_10_220 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip4']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_10_220 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_11_224 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_14_823 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_15_607 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_18_425 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip5']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_18_425 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_19_430 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_23_252 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_24_123 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_27_076 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip6']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_27_076 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_28_081 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_31_763 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_32_611 -  Waiting For Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_35_455 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[@label='tip7']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_35_455 -  Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_36_456 -  Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_40_928 -  Single Tap On Element : [[IOSDriver:  on MAC (b921d75f-697c-4a6e-bdd5-35bc8e05b5d2)] -> xpath: //XCUIElementTypeButton[contains(@label,'BEDROOM')]]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_10_40_928 -  Test Passed :  test_02_HomeSafety_Bedroom]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_02_HomeSafety_Bedroom -->
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom@dc24521]" name="after_Method" is-config="true" duration-ms="1" started-at="2017-09-21T23:10:40Z" finished-at="2017-09-21T23:10:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_02_HomeSafety_Bedroom status=SUCCESS method=Test_02_HomeSafety_Bedroom.test_02_HomeSafety_Bedroom(java.util.Map)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom@dc24521] output=09_21_2017_11_09_17_677 -  Started Test : test_02_HomeSafety_Bedroom]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[09_21_2017_11_10_40_930    ***************** Execution Complete : TEST_02_HOMESAFETY_BEDROOM ******************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+      </class> <!-- iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom -->
       <class name="iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage">
-        <test-method status="PASS" signature="before_Suite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@55d56113]" name="before_Suite" is-config="true" duration-ms="10406" started-at="2017-09-20T21:03:19Z" finished-at="2017-09-20T21:03:29Z">
+        <test-method status="PASS" signature="before_Suite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@148080bb]" name="before_Suite" is-config="true" duration-ms="10388" started-at="2017-09-21T23:07:47Z" finished-at="2017-09-21T23:07:58Z">
           <params>
             <param index="0">
               <value>
@@ -255,34 +851,34 @@
               <![CDATA[Page Objects for Test :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/HomeSafetyApp/PageObjects.xml]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_19_274    ****** Suite Execution Started ****** ]]>
+              <![CDATA[09_21_2017_11_07_47_727    ****** Suite Execution Started ****** ]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_19_661 -  Waiting for : 10 second(s)]]>
+              <![CDATA[09_21_2017_11_07_48_096 -  Waiting for : 10 second(s)]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Suite -->
-        <test-method status="PASS" signature="before_Class()[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@55d56113]" name="before_Class" is-config="true" duration-ms="16456" started-at="2017-09-20T21:03:29Z" finished-at="2017-09-20T21:03:46Z">
+        <test-method status="PASS" signature="before_Class()[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@148080bb]" name="before_Class" is-config="true" duration-ms="25946" started-at="2017-09-21T23:07:58Z" finished-at="2017-09-21T23:08:24Z">
           <reporter-output>
             <line>
               <![CDATA[Bundle Id for the Application :  /Users/sambeetmohapatra/Downloads/GIT/iOS_Multi_Apps_Project/App_Data_Objects/HomeSafetyApp/PageObjects.xml]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_29_678 -  Setting Desired Capabilities - iOS on : iPhone]]>
+              <![CDATA[09_21_2017_11_07_58_118 -  Setting Desired Capabilities - iOS on : iPhone]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_29_681 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=edu.unm.emed.homesafetytools, platformName=iOS, deviceName=iPhone 7}]]]>
+              <![CDATA[09_21_2017_11_07_58_121 -  Launching iOSDriver with Capabilities : Capabilities [{noReset=true, platformVersion=10.3, bundleId=edu.unm.emed.homesafetytools, platformName=iOS, deviceName=iPhone 7}]]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Class -->
-        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@55d56113]" name="before_Method" is-config="true" duration-ms="5" started-at="2017-09-20T21:03:46Z" finished-at="2017-09-20T21:03:46Z">
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@148080bb]" name="before_Method" is-config="true" duration-ms="4" started-at="2017-09-21T23:08:24Z" finished-at="2017-09-21T23:08:24Z">
           <reporter-output>
             <line>
-              <![CDATA[09_20_2017_09_03_46_354    ***************** Execution Started : IOS.HOMESAFETYAPP.SCRIPTS.TEST_01_HOMESAFETY_LAUNCHPAGE *********************]]>
+              <![CDATA[09_21_2017_11_08_24_314    ***************** Execution Started : IOS.HOMESAFETYAPP.SCRIPTS.TEST_01_HOMESAFETY_LAUNCHPAGE *********************]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method status="PASS" signature="test_01_HomeSafety_LaunchPage(java.util.Map)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@55d56113]" name="test_01_HomeSafety_LaunchPage" duration-ms="34177" started-at="2017-09-20T21:03:46Z" data-provider="dp_Test_01_HomeSafety_LaunchPage" finished-at="2017-09-20T21:04:20Z">
+        <test-method status="PASS" signature="test_01_HomeSafety_LaunchPage(java.util.Map)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@148080bb]" name="test_01_HomeSafety_LaunchPage" duration-ms="38503" started-at="2017-09-21T23:08:24Z" data-provider="dp_Test_01_HomeSafety_LaunchPage" finished-at="2017-09-21T23:09:02Z">
           <params>
             <param index="0">
               <value>
@@ -292,217 +888,229 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[09_20_2017_09_03_46_406 -  Started Test : test_01_HomeSafety_LaunchPage]]>
+              <![CDATA[09_21_2017_11_08_24_381 -  Started Test : test_01_HomeSafety_LaunchPage]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_47_016 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+              <![CDATA[09_21_2017_11_08_25_027 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_47_202 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+              <![CDATA[09_21_2017_11_08_25_227 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_47_933 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+              <![CDATA[09_21_2017_11_08_26_014 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_48_101 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+              <![CDATA[09_21_2017_11_08_26_202 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_48_308 -  Waiting for : 1 second(s)]]>
+              <![CDATA[09_21_2017_11_08_26_392 -  Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_49_313 -  Capturing Screenshot and Adding to Extent Reports]]>
+              <![CDATA[09_21_2017_11_08_27_394 -  Capturing Screenshot and Adding to Extent Reports]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_50_483 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+              <![CDATA[09_21_2017_11_08_28_746 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_51_232 -  Clicked :  [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
+              <![CDATA[09_21_2017_11_08_29_699 -  Clicked :  [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='start']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_52_196 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+              <![CDATA[09_21_2017_11_08_30_827 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_52_426 -  Validating Element by Displayed [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+              <![CDATA[09_21_2017_11_08_31_093 -  Validating Element by Displayed [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_52_426 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+              <![CDATA[09_21_2017_11_08_31_093 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_52_673 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+              <![CDATA[09_21_2017_11_08_31_351 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_52_897 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
+              <![CDATA[09_21_2017_11_08_31_607 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_53_093 -  Waiting for : 1 second(s)]]>
+              <![CDATA[09_21_2017_11_08_31_893 -  Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_54_096 -  Capturing Screenshot and Adding to Extent Reports]]>
+              <![CDATA[09_21_2017_11_08_32_897 -  Capturing Screenshot and Adding to Extent Reports]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_55_253 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
+              <![CDATA[09_21_2017_11_08_34_194 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_55_469 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
+              <![CDATA[09_21_2017_11_08_34_543 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_55_743 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
+              <![CDATA[09_21_2017_11_08_34_842 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_55_996 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
+              <![CDATA[09_21_2017_11_08_35_092 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbed']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_56_945 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
+              <![CDATA[09_21_2017_11_08_36_349 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_57_158 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
+              <![CDATA[09_21_2017_11_08_37_202 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_57_413 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
+              <![CDATA[09_21_2017_11_08_37_462 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_57_656 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
+              <![CDATA[09_21_2017_11_08_37_716 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnupst']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_58_599 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
+              <![CDATA[09_21_2017_11_08_38_753 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_58_811 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
+              <![CDATA[09_21_2017_11_08_38_993 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_59_079 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
+              <![CDATA[09_21_2017_11_08_39_245 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_03_59_349 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
+              <![CDATA[09_21_2017_11_08_39_505 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnback']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_00_406 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
+              <![CDATA[09_21_2017_11_08_40_610 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_00_684 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
+              <![CDATA[09_21_2017_11_08_40_852 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_00_915 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
+              <![CDATA[09_21_2017_11_08_41_099 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_01_193 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
+              <![CDATA[09_21_2017_11_08_41_366 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnlaund']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_02_326 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
+              <![CDATA[09_21_2017_11_08_42_359 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_02_597 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
+              <![CDATA[09_21_2017_11_08_42_600 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_02_819 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
+              <![CDATA[09_21_2017_11_08_42_862 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_03_093 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
+              <![CDATA[09_21_2017_11_08_43_101 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnliving']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_04_116 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
+              <![CDATA[09_21_2017_11_08_44_144 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_04_348 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
+              <![CDATA[09_21_2017_11_08_44_395 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_04_573 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
+              <![CDATA[09_21_2017_11_08_44_655 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_04_825 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
+              <![CDATA[09_21_2017_11_08_44_893 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnkitchen']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_05_805 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
+              <![CDATA[09_21_2017_11_08_45_944 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_06_025 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
+              <![CDATA[09_21_2017_11_08_46_197 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_06_268 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
+              <![CDATA[09_21_2017_11_08_46_443 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_06_509 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
+              <![CDATA[09_21_2017_11_08_46_693 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnbath']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_07_490 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
+              <![CDATA[09_21_2017_11_08_47_743 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_07_704 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
+              <![CDATA[09_21_2017_11_08_47_994 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_07_964 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
+              <![CDATA[09_21_2017_11_08_48_227 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_08_221 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
+              <![CDATA[09_21_2017_11_08_48_474 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnfront']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_09_190 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+              <![CDATA[09_21_2017_11_08_49_512 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_09_399 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+              <![CDATA[09_21_2017_11_08_49_744 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_09_646 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+              <![CDATA[09_21_2017_11_08_49_994 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_09_890 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+              <![CDATA[09_21_2017_11_08_50_243 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='btnnurs']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_13_385 -  Single Tap On Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
+              <![CDATA[09_21_2017_11_08_51_263 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_13_979 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+              <![CDATA[09_21_2017_11_08_51_494 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_14_159 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+              <![CDATA[09_21_2017_11_08_51_725 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_17_417 -  Single Tap On Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
+              <![CDATA[09_21_2017_11_08_51_993 -  Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_17_418 -  Waiting for : 1 second(s)]]>
+              <![CDATA[09_21_2017_11_08_55_616 -  Single Tap On Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[contains(@label,'BACK TO START')]]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_18_421 -  Capturing Screenshot and Adding to Extent Reports]]>
+              <![CDATA[09_21_2017_11_08_56_243 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_19_225 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeImage[@name='aboutpage']]]]>
+              <![CDATA[09_21_2017_11_08_56_410 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_19_407 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeImage[@name='aboutpage']]]]>
+              <![CDATA[09_21_2017_11_08_59_670 -  Single Tap On Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeButton[@label='About']]]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_20_148 -  Waiting For Element : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[@label='version 1.1']]]]>
+              <![CDATA[09_21_2017_11_08_59_670 -  Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_20_300 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (fff889e9-bb01-42c1-b1bb-ba4451359056)] -> xpath: //XCUIElementTypeStaticText[@label='version 1.1']]]]>
+              <![CDATA[09_21_2017_11_09_00_672 -  Capturing Screenshot and Adding to Extent Reports]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_20_532 -  Test Passed :  test_01_HomeSafety_LaunchPage]]>
+              <![CDATA[09_21_2017_11_09_01_446 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeImage[@name='aboutpage']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_01_645 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeImage[@name='aboutpage']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_02_420 -  Waiting For Element : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[@label='version 1.1']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_02_612 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (08a4e416-d435-4a03-b9a4-a4f52dc7abfb)] -> xpath: //XCUIElementTypeStaticText[@label='version 1.1']]]]>
+            </line>
+            <line>
+              <![CDATA[09_21_2017_11_09_02_818 -  Test Passed :  test_01_HomeSafety_LaunchPage]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_01_HomeSafety_LaunchPage -->
-        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@55d56113]" name="after_Method" is-config="true" duration-ms="3" started-at="2017-09-20T21:04:20Z" finished-at="2017-09-20T21:04:20Z">
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@148080bb]" name="after_Method" is-config="true" duration-ms="3" started-at="2017-09-21T23:09:02Z" finished-at="2017-09-21T23:09:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_01_HomeSafety_LaunchPage status=SUCCESS method=Test_01_HomeSafety_LaunchPage.test_01_HomeSafety_LaunchPage(java.util.Map)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@55d56113] output=09_20_2017_09_03_46_406 -  Started Test : test_01_HomeSafety_LaunchPage]]]>
+                <![CDATA[[TestResult name=test_01_HomeSafety_LaunchPage status=SUCCESS method=Test_01_HomeSafety_LaunchPage.test_01_HomeSafety_LaunchPage(java.util.Map)[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@148080bb] output=09_21_2017_11_08_24_381 -  Started Test : test_01_HomeSafety_LaunchPage]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[09_20_2017_09_04_20_535    ***************** Execution Complete : TEST_01_HOMESAFETY_LAUNCHPAGE ******************]]>
+              <![CDATA[09_21_2017_11_09_02_820    ***************** Execution Complete : TEST_01_HOMESAFETY_LAUNCHPAGE ******************]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method status="PASS" signature="after_Suite()[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@55d56113]" name="after_Suite" is-config="true" duration-ms="960" started-at="2017-09-20T21:04:20Z" finished-at="2017-09-20T21:04:21Z">
+        <test-method status="PASS" signature="after_Suite()[pri:0, instance:iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage@148080bb]" name="after_Suite" is-config="true" duration-ms="1233" started-at="2017-09-21T23:10:41Z" finished-at="2017-09-21T23:10:42Z">
           <reporter-output>
             <line>
-              <![CDATA[09_20_2017_09_04_21_304 - App Closed ]]>
+              <![CDATA[09_21_2017_11_10_41_861 - App Closed ]]>
             </line>
             <line>
-              <![CDATA[09_20_2017_09_04_21_734  *** iPhone |  ***** Suite Execution Completed *****]]>
+              <![CDATA[09_21_2017_11_10_42_385  *** iPhone |  ***** Suite Execution Completed *****]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Suite -->
