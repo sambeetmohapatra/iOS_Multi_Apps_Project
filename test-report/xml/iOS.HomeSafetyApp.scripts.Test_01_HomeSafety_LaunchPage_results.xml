@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomeSafetyApp_Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="34.494">
+  <properties />
+  
+  
+            <testcase name="test_01_HomeSafety_LaunchPage" time="34.494" classname="iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage" />
+      
+</testsuite>

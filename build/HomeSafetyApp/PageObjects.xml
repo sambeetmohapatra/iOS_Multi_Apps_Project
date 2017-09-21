@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+
+<homesafety_mainPage name = "homesafety_mainPage">
+	<homesafety_start type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='start']</homesafety_start>
+	<homesafety_about type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='About']</homesafety_about>
+  	<homesafety_header  type ="xpath" platform="iOS">//XCUIElementTypeStaticText[contains(@label,'Choose a room or area to learn')]</homesafety_header>
+</homesafety_mainPage>
+
+<homesafety_selectionPage name = "homesafety_selectionPage">
+	<homesafety_bedroom_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='btnbed']</homesafety_bedroom_btn>
+	<homesafety_upstairsliving_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='btnupst']</homesafety_upstairsliving_btn>
+	<homesafety_backyard_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='btnback']</homesafety_backyard_btn>
+	<homesafety_laundryroom_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='btnlaund']</homesafety_laundryroom_btn>
+	<homesafety_livingroom_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='btnliving']</homesafety_livingroom_btn>
+	<homesafety_kitchen_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='btnkitchen']</homesafety_kitchen_btn>
+	<homesafety_bathroom_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='btnbath']</homesafety_bathroom_btn>
+	<homesafety_frontyard_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='btnfront']</homesafety_frontyard_btn>
+	<homesafety_nursery_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='btnnurs']</homesafety_nursery_btn>
+	<homesafety_backToStart_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[contains(@label,'BACK TO START')]</homesafety_backToStart_btn>
+</homesafety_selectionPage>
+
+<homesafety_aboutPage name = "homesafety_mainPage">
+	<homesafety_about_header type ="xpath" platform="iOS">//XCUIElementTypeImage[@name='aboutpage']</homesafety_about_header>
+	<homesafety_about_version type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='version 1.1']</homesafety_about_version>
+</homesafety_aboutPage>
+</class>
+
