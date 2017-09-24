@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <class>
+<homesafety_common name ="homesafety_common">
+
+<homesafety_message type ="xpath" platform="iOS">//XCUIElementTypeStaticText[contains(@label,'Click on a hazard sign to view a safety')]</homesafety_message>
+<homesafety_floorplan_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[contains(@label,'FLOOR PLAN')]</homesafety_floorplan_btn>
+</homesafety_common>
+
 
 <homesafety_mainPage name = "homesafety_mainPage">
 	<homesafety_start type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='start']</homesafety_start>
@@ -25,5 +31,20 @@
 	<homesafety_about_header type ="xpath" platform="iOS">//XCUIElementTypeImage[@name='aboutpage']</homesafety_about_header>
 	<homesafety_about_version type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='version 1.1']</homesafety_about_version>
 </homesafety_aboutPage>
+
+<homesafety_bedroom name = "homesafety_bedroom">
+
+<homesafety_bedroom_1 type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='tip1']</homesafety_bedroom_1>
+<homesafety_bedroom_2 type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='tip2']</homesafety_bedroom_2>
+<homesafety_bedroom_3 type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='tip3']</homesafety_bedroom_3>
+<homesafety_bedroom_4 type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='tip4']</homesafety_bedroom_4>
+<homesafety_bedroom_5 type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='tip5']</homesafety_bedroom_5>
+<homesafety_bedroom_6 type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='tip6']</homesafety_bedroom_6>
+<homesafety_bedroom_7 type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='tip7']</homesafety_bedroom_7>
+
+<homesafety_bedroom_back_btn type ="xpath" platform="iOS">//XCUIElementTypeButton[contains(@label,'BEDROOM')]</homesafety_bedroom_back_btn>
+
+</homesafety_bedroom>
+
 </class>
 

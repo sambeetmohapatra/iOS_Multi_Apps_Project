@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="21.125">
+           time="21.000">
   <properties />
   
   
-            <testcase name="test_01_Compute_Sum" time="21.125" classname="iOS.TestApp.scripts.Test_01_Compute_Sum" />
+            <testcase name="test_01_Compute_Sum" time="21.000" classname="iOS.TestApp.scripts.Test_01_Compute_Sum" />
       
 </testsuite>

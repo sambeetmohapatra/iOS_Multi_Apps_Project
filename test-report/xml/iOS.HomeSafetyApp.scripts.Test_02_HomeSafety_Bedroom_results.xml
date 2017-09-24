@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="84.257">
+           time="83.699">
   <properties />
   
   
-            <testcase name="test_02_HomeSafety_Bedroom" time="84.257" classname="iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom" />
+            <testcase name="test_02_HomeSafety_Bedroom" time="83.699" classname="iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom" />
       
 </testsuite>

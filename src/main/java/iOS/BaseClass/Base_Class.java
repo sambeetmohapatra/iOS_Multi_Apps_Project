@@ -42,7 +42,7 @@ public class Base_Class extends Launch_Apps {
 		
 		report = new ExtentReports(REPORT_PATH+getFormatedDateTime()+".html");
 		report.loadConfig(new File(EXTENT_CONFIG_FILE));
-		startServer();
+		//startServer();
 	}
 	@BeforeClass
 	public void before_Class() {
@@ -88,7 +88,7 @@ public class Base_Class extends Launch_Apps {
 		driver.quit(); // Closes the App
 		Reporter.log(getFormatedDateTime()+" - App Closed ",true);
 		
-		stopServer();
+		//stopServer();
 		
 		// Add to the Extent Reports
 		report.flush();

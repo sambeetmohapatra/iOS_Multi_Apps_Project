@@ -13,8 +13,8 @@
 	  <test name="HomeSafetyApp_Test">
 	<classes>
  	       <class name="iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage"/>
-           <class name="iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom"/>
-      
+<!--            <class name="iOS.HomeSafetyApp.scripts.Test_02_HomeSafety_Bedroom"/>
+ -->      
     </classes>
     
   </test>   
