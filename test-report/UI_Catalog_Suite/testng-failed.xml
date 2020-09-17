@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [UI_Catalog_Suite]">
+  <parameter name="TestData_Sheet" value="/App_Data_Objects/UI_Catalog/TestData.xls"/>
+  <parameter name="bundleId" value="com.example.apple-samplecode.UICatalog"/>
+  <parameter name="PageObjects_File" value="/App_Data_Objects/UI_Catalog/UI_Catalog_PageObjects.json"/>
+  <listeners>
+    <listener class-name="iOS.Listeners.RetryListener"/>
+  </listeners>
+  <test name="UI_Catalog_Test(failed)">
+    <classes>
+      <class name="iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="test_07_UI_Catalog_SegmentedControls" invocation-numbers="0"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_07_UI_Catalog_SegmentedControls -->
+      <class name="iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators -->
+      <class name="iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_04_UI_Catalog_AlertViews -->
+      <class name="iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers">
+        <methods>
+          <include name="test_09_UI_Catalog_Steppers" invocation-numbers="0"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_09_UI_Catalog_Steppers -->
+      <class name="iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="test_06_UI_Catalog_DatePicker"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_06_UI_Catalog_DatePicker -->
+      <class name="iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="test_13_UI_Catalog_TextView" invocation-numbers="0"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_13_UI_Catalog_SearchBars -->
+      <class name="iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage">
+        <methods>
+          <include name="before_Suite"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="after_Suite"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_01_Launch_UI_Catalog_HomePage -->
+      <class name="iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView">
+        <methods>
+          <include name="test_15_UI_Catalog_WebView" invocation-numbers="0"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_15_UI_Catalog_WebView -->
+      <class name="iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="test_11_UI_Catalog_TextFields" invocation-numbers="0"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_11_UI_Catalog_TextFields -->
+      <class name="iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView">
+        <methods>
+          <include name="test_12_UI_Catalog_TextView"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_12_UI_Catalog_TextView -->
+      <class name="iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars">
+        <methods>
+          <include name="test_14_UI_Catalog_ToolBars"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_14_UI_Catalog_ToolBars -->
+      <class name="iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons -->
+      <class name="iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="test_10_UI_Catalog_Switches" invocation-numbers="0"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_10_UI_Catalog_Switches -->
+      <class name="iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_02_UI_Catalog_ActionSheets -->
+      <class name="iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders">
+        <methods>
+          <include name="test_08_UI_Catalog_Sliders"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.UI_Catalog.scripts.Test_08_UI_Catalog_Sliders -->
+    </classes>
+  </test> <!-- UI_Catalog_Test(failed) -->
+</suite> <!-- Failed suite [UI_Catalog_Suite] -->

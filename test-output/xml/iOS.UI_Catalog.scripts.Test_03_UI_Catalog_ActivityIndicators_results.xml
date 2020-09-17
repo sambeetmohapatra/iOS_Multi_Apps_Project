@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test2"
+<testsuite name="UI_Catalog_Test"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="11.485">
+           time="14.002">
   <properties />
   
   
-            <testcase name="test_03_UI_Catalog_ActivityIndicators" time="11.485" classname="iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators" />
+            <testcase name="test_03_UI_Catalog_ActivityIndicators" time="14.002" classname="iOS.UI_Catalog.scripts.Test_03_UI_Catalog_ActivityIndicators" />
       
 </testsuite>

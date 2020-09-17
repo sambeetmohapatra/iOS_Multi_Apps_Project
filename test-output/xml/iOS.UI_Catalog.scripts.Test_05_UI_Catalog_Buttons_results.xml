@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test"
-           tests="3"
+<testsuite name="UI_Catalog_Test"
+           tests="1"
            failures="0"
            errors="0"
-           skipped="3"
-           time="0.000">
+           skipped="0"
+           time="23.875">
   <properties />
   
-            <testcase name="after_Method" time="0.0" classname="iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons">
-          <skipped />
-    </testcase>
-            <testcase name="before_Method" time="0.0" classname="iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons">
-          <skipped />
-    </testcase>
-            <testcase name="test_05_UI_Catalog_Buttons" time="0.0" classname="iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons">
-          <skipped />
-    </testcase>
   
-  
+            <testcase name="test_05_UI_Catalog_Buttons" time="23.875" classname="iOS.UI_Catalog.scripts.Test_05_UI_Catalog_Buttons" />
+      
 </testsuite>

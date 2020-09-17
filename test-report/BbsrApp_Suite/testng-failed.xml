@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [BbsrApp_Suite]">
+  <parameter name="TestData_Sheet" value="/App_Data_Objects/BbsrApp/TestData.xls"/>
+  <parameter name="bundleId" value="com.sam.Bhubaneswar"/>
+  <parameter name="PageObjects_File" value="/App_Data_Objects/BbsrApp/PageObjects.xml"/>
+  <listeners>
+    <listener class-name="iOS.Listeners.RetryListener"/>
+  </listeners>
+  <test name="BbsrApp_Test(failed)">
+    <classes>
+      <class name="iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage">
+        <methods>
+          <include name="test_02_Bbsr_SupportPage" invocation-numbers="0"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="beforeTest_Config"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.Bbsr.scripts.Test_02_Bbsr_SupportPage -->
+      <class name="iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage">
+        <methods>
+          <include name="before_Suite"/>
+          <include name="after_Method"/>
+          <include name="test_01_Bbsr_LaunchPage" invocation-numbers="0"/>
+          <include name="before_Method"/>
+          <include name="after_Suite"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.Bbsr.scripts.Test_01_Bbsr_LaunchPage -->
+    </classes>
+  </test> <!-- BbsrApp_Test(failed) -->
+</suite> <!-- Failed suite [BbsrApp_Suite] -->

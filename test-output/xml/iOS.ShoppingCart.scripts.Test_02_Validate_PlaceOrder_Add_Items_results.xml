@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ShoppingCart_Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="57.899">
+  <properties />
+  
+  
+            <testcase name="test_02_Validate_PlaceOrder_Add_Items" time="57.899" classname="iOS.ShoppingCart.scripts.Test_02_Validate_PlaceOrder_Add_Items" />
+      
+</testsuite>

@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [ShoppingCart_Suite]">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [ShoppingCart_Suite]">
   <parameter name="TestData_Sheet" value="/App_Data_Objects/ShoppingCart/TestData.xls"/>
   <parameter name="bundleId" value="Test.shoppingCartIOS"/>
   <parameter name="PageObjects_File" value="/App_Data_Objects/ShoppingCart/PageObjects.xml"/>
+  <listeners>
+    <listener class-name="iOS.Listeners.RetryListener"/>
+  </listeners>
   <test name="ShoppingCart_Test(failed)">
     <classes>
-      <class name="iOS.ShoppingCart.Test_03_Validate_Purchase_Items_ContinueShopping">
+      <class name="iOS.ShoppingCart.scripts.Test_03_Validate_Purchase_Items_ContinueShopping">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="test_03_Validate_Purchase_Items_ContinueShopping" invocation-numbers="0"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.ShoppingCart.scripts.Test_03_Validate_Purchase_Items_ContinueShopping -->
+      <class name="iOS.ShoppingCart.scripts.Test_02_Validate_PlaceOrder_Add_Items">
         <methods>
           <include name="before_Suite"/>
           <include name="after_Method"/>
           <include name="before_Method"/>
-          <include name="test_03_Validate_Purchase_Items_ContinueShopping" invocation-numbers="0"/>
           <include name="after_Suite"/>
           <include name="before_Class"/>
         </methods>
-      </class> <!-- iOS.ShoppingCart.Test_03_Validate_Purchase_Items_ContinueShopping -->
+      </class> <!-- iOS.ShoppingCart.scripts.Test_02_Validate_PlaceOrder_Add_Items -->
+      <class name="iOS.ShoppingCart.scripts.Test_01_Validate_HomePage_Add_Items">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.ShoppingCart.scripts.Test_01_Validate_HomePage_Add_Items -->
     </classes>
   </test> <!-- ShoppingCart_Test(failed) -->
 </suite> <!-- Failed suite [ShoppingCart_Suite] -->

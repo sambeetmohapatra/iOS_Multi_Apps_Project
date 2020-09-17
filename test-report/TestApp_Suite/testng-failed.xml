@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [TestApp_Suite]">
+  <parameter name="TestData_Sheet" value="/App_Data_Objects/TestApp/TestData.xls"/>
+  <parameter name="bundleId" value="io.appium.TestApp"/>
+  <parameter name="PageObjects_File" value="/App_Data_Objects/TestApp/PageObjects.xml"/>
+  <listeners>
+    <listener class-name="iOS.Listeners.RetryListener"/>
+  </listeners>
+  <test name="TestApp_Test(failed)">
+    <classes>
+      <class name="iOS.TestApp.scripts.Test_01_Compute_Sum">
+        <methods>
+          <include name="before_Suite"/>
+          <include name="test_01_Compute_Sum" invocation-numbers="0"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="after_Suite"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.TestApp.scripts.Test_01_Compute_Sum -->
+      <class name="iOS.TestApp.scripts.Test_02_Alerts_TestApp">
+        <methods>
+          <include name="test_02_Alerts_TestApp" invocation-numbers="0"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.TestApp.scripts.Test_02_Alerts_TestApp -->
+    </classes>
+  </test> <!-- TestApp_Test(failed) -->
+</suite> <!-- Failed suite [TestApp_Suite] -->

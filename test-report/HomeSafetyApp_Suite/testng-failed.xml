@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [HomeSafetyApp_Suite]">
+  <parameter name="TestData_Sheet" value="/App_Data_Objects/HomeSafetyApp/TestData.xls"/>
+  <parameter name="bundleId" value="edu.unm.emed.homesafetytools"/>
+  <parameter name="PageObjects_File" value="/App_Data_Objects/HomeSafetyApp/PageObjects.xml"/>
+  <test name="HomeSafetyApp_Test(failed)">
+    <classes>
+      <class name="iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage">
+        <methods>
+          <include name="before_Suite"/>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="after_Suite"/>
+          <include name="test_01_HomeSafety_LaunchPage" invocation-numbers="0"/>
+          <include name="before_Class"/>
+        </methods>
+      </class> <!-- iOS.HomeSafetyApp.scripts.Test_01_HomeSafety_LaunchPage -->
+    </classes>
+  </test> <!-- HomeSafetyApp_Test(failed) -->
+</suite> <!-- Failed suite [HomeSafetyApp_Suite] -->
